@@ -1,0 +1,79 @@
+@use 'sass:map';
+@use 'variables';
+
+// Responsive media query mixin
+@mixin respond($breakpoint) {
+  $bp: map.get(variables.$breakpoints, $breakpoint);
+  @if $bp {
+    @if map.has-key($bp, min) and map.has-key($bp, max) {
+      @media screen and (min-width: map.get($bp, min)) and (max-width: map.get($bp, max)) {
+        @content;
+      }
+    } @else if map.has-key($bp, max) {
+      @media screen and (max-width: map.get($bp, max)) {
+        @content;
+      }
+    } @else if map.has-key($bp, min) {
+      @media screen and (min-width: map.get($bp, min)) {
+        @content;
+      }
+    }
+  }
+}
+
+// Text shortening for [data-short]
+@mixin data-short {
+  &[data-short] {
+    text-indent: -9999px;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    &::before {
+      content: attr(data-short);
+      position: absolute;
+      left: 0;
+      top: 0;
+      text-indent: 0;
+      white-space: normal;
+    }
+  }
+}
+
+// Uppercase title styling
+@mixin uppercase-title {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+// Flex layout
+@mixin flex($direction: row, $align: center, $justify: flex-start) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+// Flex list pattern
+@mixin flex-list($padding: variables.$spacing-unit, $icon-color: variables.$colors) {
+  ul {
+    padding-top: variables.spacing(2);
+    li {
+      padding: variables.spacing(0.4) 0;
+      @include flex(row, center);
+      color: map.get(variables.$colors, text-muted);
+      i {
+        padding-right: $padding;
+        font-size: map.get(variables.$font-sizes, sm);
+        color: map.get($icon-color, accent);
+      }
+    }
+  }
+}
+
+// Section title
+@mixin section-title($color: map.get(variables.$colors, text-light), $size: map.get(variables.$font-sizes, lg)) {
+  font-size: $size;
+  @include uppercase-title;
+  color: $color;
+  padding-top: variables.spacing(3);
+}

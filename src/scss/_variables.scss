@@ -1,0 +1,74 @@
+// Core color palette
+$colors: (
+  primary: #94D9EA,
+  dark: #00324A,
+  light: #f7f7f7,
+  border: #002333,
+  accent: #2D9CDB,
+  progress-bg: rgba(47, 129, 237, 0.36),
+  text-light: #f7f7f7,
+  text-muted: #718096,
+  text-dark: #002333,
+  title: #2F80ED,
+  secondary: #ccc
+);
+
+// Typography
+$font-family: 'Nunito', sans-serif;
+$font-sizes: (
+  base: 1rem,
+  lg: 1.8rem,
+  md: 1.3rem,
+  sm: 1.2rem
+);
+
+// Spacing
+$spacing-unit: 1rem;
+$padding-base: $spacing-unit * 2;
+$margin-base: $spacing-unit * 2;
+
+// Spacing function
+@function spacing($multiplier: 1) {
+  @return $spacing-unit * $multiplier;
+}
+
+// Breakpoints
+$breakpoints: (
+  xl: (max: 1610px, min: 1201px),
+  lg: (max: 1200px),
+  md-lg: (max: 1200px, min: 600px),
+  md: (max: 990px, min: 781px),
+  sm-md: (max: 823px),
+  sm: (max: 681px),
+  sm-timeline: (max: 780px),
+  xsm: (max: 700px),
+  tiny: (max: 660px),
+  xs-form: (min: 440px, max: 599px),
+  xxs: (max: 530px),
+  xxs-skill: (max: 475px),
+  xxxs: (max: 390px),
+  xxxxsm: (max: 375px),
+  nano: (max: 355px)
+);
+
+// Progress bar widths
+$progress-widths: (
+  html_css: 90%,
+  js_ts: 85%,
+  ang2: 90%,
+  bs: 90%,
+  tail: 90%,
+  scss_less: 80%,
+  node: 70%,
+  rest: 70%,
+  az_jen: 60%,
+  be: 50%
+);
+
+// Right title after widths
+$right-title-after-widths: (
+  sm-md: 40%,
+  sm: 30%,
+  xxxxsm: 25%,
+  nano: 15%
+);

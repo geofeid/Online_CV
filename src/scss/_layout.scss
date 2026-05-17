@@ -1,0 +1,32 @@
+@use 'sass:map';
+@use 'variables';
+@use 'mixins';
+
+.main-content {
+  min-height: 100vh;
+  width: 95%;
+  margin: variables.$margin-base auto;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  @include mixins.respond(lg) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.left-section {
+  grid-column: span 2;
+  height: 100%;
+  background-color: map.get(variables.$colors, dark);
+  @include mixins.respond(sm-timeline) {
+    grid-column: span 3;
+  }
+}
+
+.right-section {
+  grid-column: span 5;
+  background-color: map.get(variables.$colors, light);
+  height: 100%;
+  @include mixins.respond(sm-timeline) {
+    grid-column: span 4;
+  }
+}

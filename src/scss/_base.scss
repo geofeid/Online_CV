@@ -1,0 +1,16 @@
+@use 'sass:map';
+@use 'variables';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: variables.$font-family;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: map.get(variables.$colors, primary);
+}

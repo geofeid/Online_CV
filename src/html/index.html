@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{PAGE_TITLE}}</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  />
+  <link rel="icon" type="image/ico" href="{{FAVICON_URL}}" />
+</head>
+<body>
+  <main class="main-content">
+    <section class="left-section">
+      <div class="left-content">
+        <div class="profile">
+          <div class="image">
+            <img src="{{IMG_URL}}" alt="{{IMG_ALT}}" />
+          </div>
+          <h2 class="name">{{NAME}}</h2>
+          <p class="career">{{TITLE}}</p>
+          <p class="company">{{COMPANY}}</p>
+        </div>
+
+        <div class="contact-info" id="contactBlock">
+          <h3 class="main-title">{{CONTACT_TITLE}}</h3>
+          <ul>
+            <li class="phone">
+              <i class="fa-solid fa-phone"></i>
+              {{PHONE}}
+            </li>
+            <li>
+              <i class="fa-regular fa-envelope"></i>
+              <a href="mailto:{{EMAIL}}" class="link">{{EMAIL}}</a>
+            </li>
+            <li class="linkedin">
+              <i class="fa-brands fa-linkedin"></i>
+              <a href="{{LINKEDIN_URL}}" class="link" target="_blank" data-short="{{LINKEDIN_DISPLAY_SHORT}}">
+                {{LINKEDIN_DISPLAY}}
+              </a>
+            </li>
+            <li>
+              <i class="fa-brands fa-github"></i>
+              <a href="{{GITHUB_URL}}" class="link" target="_blank" data-short="{{GITHUB_DISPLAY}}">
+                {{GITHUB_DISPLAY}}
+              </a>
+            </li>
+            <li>
+              <i class="fa-solid fa-globe"></i>
+              <a href="{{PORTFOLIO_URL}}" class="link" target="_blank" data-short="{{PORTFOLIO_DISPLAY}}">
+                {{PORTFOLIO_DISPLAY}}
+              </a>
+            </li>
+            <li class="cv">
+              <i class="fa-solid fa-file"></i>
+              <a
+                href="{{CV_FILENAME}}"
+                download="{{CV_DOWNLOAD_NAME}}"
+                class="link"
+                target="_blank"
+              >
+                Download CV
+              </a>
+            </li>
+            <li class="location">
+              <i class="fa-solid fa-location-dot"></i>
+              {{LOCATION}}
+            </li>
+          </ul>
+        </div>
+
+        <div class="tech-skills-section" id="technicalBlock">
+          <h3 class="main-title">{{TECH_SKILLS_TITLE}}</h3>
+          <ul>
+            <li><p class="skill-title">{{SKILL1}}</p> <div class="progress-bar">
+              <div class="progress html_css-progress"></div>
+            </div></li>
+            <li><p class="skill-title">{{SKILL2}}</p><div class="progress-bar">
+              <div class="progress js_ts-progress"></div>
+            </div></li>
+            <li><p class="skill-title">{{SKILL3}}</p><div class="progress-bar">
+              <div class="progress ang2-progress"></div>
+            </div></li>
+            <li><p class="skill-title">{{SKILL4}}</p><div class="progress-bar">
+              <div class="progress bs-progress"></div>
+            </div></li>
+            <li><p class="skill-title">{{SKILL5}}</p> <div class="progress-bar">
+              <div class="progress tail-progress"></div>
+            </div></li>
+            <li><p class="skill-title">{{SKILL6}}</p> <div class="progress-bar">
+              <div class="progress scss_less-progress"></div>
+            </div></li>
+            <li><p class="skill-title" data-short="{{SKILL7_SHORT}}">{{SKILL7}}</p><div class="progress-bar">
+              <div class="progress node-progress"></div>
+            </div></li>
+            <li><p class="skill-title">{{SKILL8}}</p> <div class="progress-bar">
+              <div class="progress rest-progress"></div>
+            </div></li>
+            <li><p class="skill-title" data-short="{{SKILL9_SHORT}}" >{{SKILL9}}</p> <div class="progress-bar">
+              <div class="progress az_jen-progress"></div>
+            </div></li>
+            <li><p class="skill-title">{{SKILL10}}</p><div class="progress-bar">
+              <div class="progress be-progress"></div>
+            </div></li>
+          </ul>
+        </div>
+
+        <div class="soft-skills-section" id="softBlock">
+          <h3 class="main-title">{{SOFT_SKILLS_TITLE}}</h3>
+          <ul>
+            <li><p class="skill-title">{{SOFT1}}</p></li>
+            <li><p class="skill-title">{{SOFT2}}</p></li>
+            <li><p class="skill-title">{{SOFT3}}</p></li>
+            <li><p class="skill-title">{{SOFT4}}</p></li>
+            <li><p class="skill-title">{{SOFT5}}</p></li>
+            <li><p class="skill-title">{{SOFT6}}</p></li>
+            <li><p class="skill-title">{{SOFT7}}</p></li>
+            <li><p class="skill-title">{{SOFT8}}</p></li>
+          </ul>
+        </div>
+
+        <div class="languages-section" id="languagesBlock">
+          <h3 class="main-title">{{LANG_TITLE}}</h3>
+          <ul>
+            <li><p class="skill-title">{{LANG1}}</p></li>
+            <li><p class="skill-title">{{LANG2}}</p></li>
+          </ul>
+        </div>
+
+        <div class="hobbies-section" id="hobbiesBlock">
+          <h3 class="main-title">{{HOBBY_TITLE}}</h3>
+          <ul>
+            <li><i class="fa-solid {{HOBBY1_ICON}}"></i><p class="skill-title">{{HOBBY1}}</p></li>
+            <li><i class="fa-solid {{HOBBY2_ICON}}"></i><p class="skill-title">{{HOBBY2}}</p></li>
+            <li><i class="fa-solid {{HOBBY3_ICON}}"></i><p class="skill-title">{{HOBBY3}}</p></li>
+            <li><i class="fa-solid {{HOBBY4_ICON}}"></i><p class="skill-title">{{HOBBY4}}</p></li>
+            <li><i class="fa-solid {{HOBBY5_ICON}}"></i><p class="skill-title">{{HOBBY5}}</p></li>
+            <li><i class="fa-solid {{HOBBY6_ICON}}"></i><p class="skill-title">{{HOBBY6}}</p></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="right-section">
+        <div class="right-main-content">
+  
+          <section class="about">
+            <h2 class="right-title">{{ABOUT_TITLE}}</h2>
+            <input type="checkbox" id="readAbout" class="read-more-toggle" />
+            <div class="read-more-content">
+              <p class="para">{{ABOUT_PARAGRAPH}}</p>
+            </div>
+            <label for="readAbout" class="read-more-label"></label>
+          </section>
+  
+          <section class="experience">
+            <h2 class="right-title">{{EXP_SECTION_TITLE}}</h2>
+            <!-- EXPERIENCE_ITEMS_START -->
+            <div class="timeline">
+              <div class="left-tl-content">
+                <h5 class="tl-title" data-short="{{EXP2_COMPANY_SHORT}}">{{EXP2_COMPANY}}</h5>
+                <p class="para">{{EXP2_DATES}}</p>
+              </div>
+              <div class="right-tl-content">
+                <div class="tl-content">
+                  <h5 class="tl-title-2 header-space" data-short="{{EXP2_ROLE_SHORT}}">
+                    {{EXP2_ROLE}}
+                  </h5>
+                  <input type="checkbox" id="readJob1" class="read-more-toggle" />
+                  <div class="read-more-content">
+                    <p class="para exp">{{EXP2_DESC1}}</p>
+                    <p class="para exp">{{EXP2_DESC2}}</p>
+                    <p class="para exp">{{EXP2_DESC3}}</p>
+                    <p class="para exp">{{EXP2_DESC4}}</p>
+                    <p class="para exp">{{EXP2_DESC5}}</p>
+                    <p class="para">{{EXP2_DESC6}}</p>
+                  </div>
+                  <label for="readJob1" class="read-more-label"></label>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline">
+              <div class="left-tl-content">
+                <h5 class="tl-title" data-short="{{EXP1_COMPANY_SHORT}}">{{EXP1_COMPANY}}</h5>
+                <p class="para">{{EXP1_DATES}}</p>
+              </div>
+              <div class="right-tl-content">
+                <div class="tl-content">
+                  <h5 class="tl-title-2 header-space" data-short="{{EXP1_ROLE_SHORT}}">
+                    {{EXP1_ROLE}}
+                  </h5>
+                  <input type="checkbox" id="readJob2" class="read-more-toggle" />
+                  <div class="read-more-content">
+                    <p class="para exp">{{EXP1_DESC1}}</p>
+                    <p class="para exp">{{EXP1_DESC2}}</p>
+                    <p class="para exp">{{EXP1_DESC3}}</p>
+                    <p class="para exp">{{EXP1_DESC4}}</p>
+                    <p class="para">{{EXP1_DESC5}}</p>
+                  </div>
+                  <label for="readJob2" class="read-more-label"></label>
+                </div>
+              </div>
+            </div>
+            <!-- EXPERIENCE_ITEMS_END -->
+          </section>
+  
+          <section class="education">
+            <h2 class="right-title">{{EDU_SECTION_TITLE}}</h2>
+            <div class="timeline">
+              <div class="left-tl-content">
+                <h5 class="tl-title" data-short="{{EDU_SCHOOL_SHORT}}">{{EDU_SCHOOL}}</h5>
+                <p class="para">{{EDU_DATES}}</p>
+              </div>
+              <div class="right-tl-content">
+                <div class="tl-content">
+                  <h5 class="tl-title-2 header-space">{{EDU_TITLE}}</h5>
+                  <p class="para exp">{{EDU_THESIS}}"</p>
+                  <p class="para exp">
+                    Link:
+                    <a href="{{EDU_THESIS_LINK}}" target="_blank" class="link">
+                      {{EDU_THESIS_TEXT}}
+                    </a>
+                  </p>
+                  <p class="para exp">
+                   {{EDU_INTERSHIP}}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+  
+          <section class="certifications">
+            <h2 class="right-title" data-short="{{CERT_SECTION_TITLE_SHORT}}">{{CERT_SECTION_TITLE}}</h2>
+          
+            <div class="timeline">
+              <div class="left-tl-content">
+                <h5 class="tl-title" data-short="{{CERT1_PROVIDER_SHORT}}">{{CERT1_PROVIDER}}</h5>
+                <p class="para">{{CERT1_DATES}}</p>
+              </div>
+              <div class="right-tl-content">
+                <div class="tl-content">
+                  <h5 class="tl-title-2 header-space">{{CERT1_TITLE1}}</h5>
+                  <p class="para">{{CERT1_DESC1}}</p><br />
+                  <h5 class="tl-title-2 header-space">{{CERT1_TITLE2}}</h5>
+                  <p class="para">{{CERT1_DESC2}}</p><br />
+                  <h5 class="tl-title-2 header-space">{{CERT1_TITLE3}}</h5>
+                  <p class="para">{{CERT1_DESC3}}</p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="timeline">
+              <div class="left-tl-content">
+                <h5 class="tl-title" data-short="{{CERT2_PROVIDER_SHORT}}">{{CERT2_PROVIDER}}</h5>
+                <p class="para">{{CERT2_DATES}}</p>
+              </div>
+              <div class="right-tl-content">
+                <div class="tl-content">
+                  <h5 class="tl-title-2 header-space">{{CERT2_TITLE1}}</h5>
+                  <p class="para">{{CERT2_DESC1}}</p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="timeline">
+              <div class="left-tl-content">
+                <h5 class="tl-title" data-short="{{CERT3_PROVIDER_SHORT}}">{{CERT3_PROVIDER}}</h5>
+                <p class="para">{{CERT3_DATES}}</p>
+              </div>
+              <div class="right-tl-content">
+                <div class="tl-content">
+                  <h5 class="tl-title-2 header-space">{{CERT3_TITLE1}}</h5>
+                  <p class="para">{{CERT3_DESC1}}</p><br />
+                  <h5 class="tl-title-2 header-space">{{CERT3_TITLE2}}</h5>
+                  <p class="para">{{CERT3_DESC2}}</p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="timeline">
+              <div class="left-tl-content">
+                <h5 class="tl-title" data-short="{{CERT4_PROVIDER_SHORT}}">{{CERT4_PROVIDER}}</h5>
+                <p class="para">{{CERT4_DATES}}</p>
+              </div>
+              <div class="right-tl-content">
+                <div class="tl-content">
+                  <h5 class="tl-title-2 header-space">{{CERT4_TITLE1}}</h5>
+                  <p class="para">{{CERT4_DESC1}}</p>
+                  <p class="para">{{CERT4_DESC2}}</p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="timeline">
+              <div class="left-tl-content">
+                <h5 class="tl-title" data-short="{{CERT5_PROVIDER_SHORT}}">{{CERT5_PROVIDER}}</h5>
+                <p class="para">{{CERT5_DATES}}</p>
+              </div>
+              <div class="right-tl-content">
+                <div class="tl-content">
+                  <h5 class="tl-title-2 header-space">{{CERT5_TITLE1}}</h5>
+                  <p class="para">{{CERT5_DESC1}}</p>
+                  <p class="para">{{CERT5_DESC2}}</p>
+                </div>
+              </div>
+            </div>
+          </section>
+    </main>
+  </body>
+  </html>
+  
