@@ -1,0 +1,424 @@
+@use 'sass:map';
+@use 'variables';
+
+// Shared A4 print layout. Used two ways:
+// - print.scss includes it at top level (print.html: A4 preview on screen + print)
+// - main.scss includes it inside @media print (Ctrl+P on the online page)
+//
+// Design reference is the original 950px print sheet; A4 at 96dpi is 794px wide,
+// so the rem base is scaled by 794/950 (16px -> 13.4px) and all rem values keep
+// their original meaning at true 210mm width. No browser shrink-to-fit involved.
+
+$sidebar-width: 70mm;
+
+@mixin layout {
+  html {
+    font-size: 13.4px;
+  }
+
+  body {
+    font-size: 0.75rem;
+    line-height: 1.4rem;
+  }
+
+  .main-content {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: $sidebar-width 1fr;
+    background-color: map.get(variables.$colors, light);
+    box-shadow: none;
+  }
+
+  .left-section {
+    grid-column: 1;
+    background-color: map.get(variables.$colors, dark);
+    padding: 0.965rem 1.165rem;
+    height: auto;
+  }
+
+  .right-section {
+    grid-column: 2;
+    background-color: map.get(variables.$colors, light);
+    padding: 0.965rem 1.165rem;
+    height: auto;
+  }
+
+  .left-content,
+  .right-main-content {
+    padding: 0;
+    display: block;
+  }
+
+  .profile {
+    text-align: center;
+    margin-bottom: 1.2rem;
+    border-bottom: none;
+  }
+
+  .image img {
+    width: 40%;
+    border-radius: 50%;
+    border: 3px solid map.get(variables.$colors, border);
+    margin-bottom: 0.3rem;
+  }
+
+  .name {
+    font-size: 1.3rem;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .career,
+  .company {
+    font-size: 0.85rem;
+    color: map.get(variables.$colors, primary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .career {
+    margin-top: 0.2rem;
+  }
+
+  .contact-info,
+  .tech-skills-section,
+  .soft-skills-section,
+  .languages-section,
+  .hobbies-section {
+    margin-bottom: 0.8rem;
+  }
+
+  .main-title {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #f7f7f7ec;
+    margin-bottom: 0.605rem;
+    padding-top: 0;
+  }
+
+  .contact-info ul,
+  .soft-skills-section ul,
+  .languages-section ul,
+  .hobbies-section ul,
+  .tech-skills-section ul {
+    padding-top: 0;
+  }
+
+  .contact-info ul li,
+  .soft-skills-section ul li,
+  .languages-section ul li,
+  .hobbies-section ul li {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: map.get(variables.$colors, text-muted);
+    font-size: 0.9rem;
+    margin-bottom: 0.305rem;
+    padding: 0;
+  }
+
+  .contact-info ul li i,
+  .soft-skills-section ul li i,
+  .languages-section ul li i,
+  .hobbies-section ul li i {
+    font-size: 0.9rem;
+    color: map.get(variables.$colors, accent);
+    padding-right: 0;
+  }
+
+  .tech-skills-section ul li {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 0.3rem;
+    padding: 0;
+  }
+
+  .progress-bar {
+    width: 100%;
+    height: 7px;
+    background-color: map.get(variables.$colors, progress-bg);
+    position: relative;
+    border-radius: 3px;
+    margin-top: 7px;
+  }
+
+  .progress {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: map.get(variables.$colors, accent);
+    border-radius: 3px;
+  }
+
+  @each $key, $width in variables.$progress-widths {
+    .#{$key}-progress {
+      width: $width;
+    }
+  }
+
+  .skill-title {
+    text-transform: uppercase;
+    color: map.get(variables.$colors, text-light);
+    font-size: 0.76rem;
+  }
+
+  .right-title {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: map.get(variables.$colors, title);
+    margin-bottom: 0.6rem;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 62%;
+      height: 0.08rem;
+      background-color: map.get(variables.$colors, secondary);
+      border-radius: 6px;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  .para {
+    margin-bottom: 0.7rem;
+    color: map.get(variables.$colors, text-muted);
+    font-size: 0.75rem;
+    line-height: 1.4rem;
+  }
+
+  .exp {
+    margin-bottom: 0.4rem;
+  }
+
+  .timeline {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .tl-title {
+    font-size: 0.8rem;
+    color: map.get(variables.$colors, text-dark);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+  }
+
+  .tl-title-2 {
+    font-size: 0.8rem;
+    color: map.get(variables.$colors, accent);
+    text-transform: uppercase;
+    margin-bottom: 0.2rem;
+    position: relative;
+    font-family: variables.$font-family;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 0.7rem;
+      height: 0.7rem;
+      background-color: map.get(variables.$colors, accent);
+      border-radius: 50%;
+      transform: translateX(-50%);
+      left: -0.8rem;
+      top: auto;
+    }
+  }
+
+  .tl-content {
+    border-left: 2px solid map.get(variables.$colors, secondary);
+    padding-left: 0.75rem;
+    position: relative;
+    padding-bottom: 1.3rem;
+
+    p {
+      font-size: 0.75rem;
+      color: map.get(variables.$colors, text-muted);
+      line-height: 1.4rem;
+      margin-bottom: 0.4rem;
+    }
+  }
+
+  .link {
+    text-decoration: underline;
+    color: inherit;
+  }
+
+  // icon pixel nudges (ported from the original print sheet)
+  .phone { margin-left: -2px; }
+  .linkedin { margin-left: 1px; }
+  .cv, .location { margin-left: 2px; }
+  .linkedin > i, .cv > i, .location > i { margin-right: 1px; }
+
+  .hobbies-section > ul > li:nth-child(1) { margin-left: 5px; }
+  .hobbies-section > ul > li:nth-child(1) > p.skill-title { margin-left: 5px; }
+  .hobbies-section > ul > li:nth-child(2) { margin-left: 2px; }
+  .hobbies-section > ul > li:nth-child(3) > p.skill-title { margin-left: 5px; }
+  .hobbies-section > ul > li:nth-child(4) > p.skill-title { margin-left: 1px; }
+  .hobbies-section > ul > li:nth-child(5) > i { margin-left: 2px; }
+  .hobbies-section > ul > li:nth-child(5) > p.skill-title { margin-left: 3px; }
+
+  // read-more expanders make no sense on paper: hide controls, show all content
+  .read-more-toggle,
+  .read-more-label {
+    display: none !important;
+  }
+
+  .read-more-toggle + .read-more-content {
+    max-height: none !important;
+    overflow: visible !important;
+  }
+}
+
+// Specificity boost for the ONLINE page's @media print block only: the screen
+// stylesheet uses deeply nested selectors (.left-content .profile .name, ...)
+// that outrank the flat print rules above. print.html has no screen styles to
+// fight, so print.scss must NOT include this.
+@mixin screen-overrides {
+  .left-content,
+  .right-main-content {
+    padding: 0 !important;
+    display: block !important;
+  }
+
+  .profile {
+    border-bottom: none !important;
+
+    .image img {
+      width: 40% !important;
+      margin-bottom: 0.3rem !important;
+    }
+  }
+
+  .name {
+    font-size: 1.3rem !important;
+  }
+
+  .career,
+  .company {
+    font-size: 0.85rem !important;
+  }
+
+  .main-title {
+    font-size: 1rem !important;
+    padding-top: 0 !important;
+    margin-bottom: 0.605rem !important;
+  }
+
+  .left-content ul {
+    padding-top: 0 !important;
+
+    li {
+      padding: 0 !important;
+      margin-bottom: 0.305rem !important;
+      font-size: 0.9rem !important;
+
+      i {
+        font-size: 0.9rem !important;
+        padding-right: 0.4rem !important;
+      }
+    }
+  }
+
+  .skill-title {
+    font-size: 0.76rem !important;
+  }
+
+  .right-title {
+    font-size: 1rem !important;
+    margin-bottom: 0.6rem !important;
+
+    &::after {
+      height: 0.08rem !important;
+    }
+  }
+
+  .timeline {
+    grid-template-columns: 1fr 2fr !important;
+  }
+
+  .tl-title {
+    font-size: 0.8rem !important;
+  }
+
+  .tl-title-2 {
+    font-size: 0.8rem !important;
+
+    &::before {
+      width: 0.7rem !important;
+      height: 0.7rem !important;
+      left: -0.8rem !important;
+      top: 0.2rem !important;
+    }
+  }
+
+  .tl-content {
+    border-left: 2px solid map.get(variables.$colors, secondary) !important;
+    padding-left: 0.75rem !important;
+    padding-bottom: 1.3rem !important;
+
+    p {
+      font-size: 0.75rem !important;
+      line-height: 1.4rem !important;
+      margin-bottom: 0.4rem !important;
+    }
+  }
+
+  .para {
+    font-size: 0.75rem !important;
+    line-height: 1.4rem !important;
+  }
+}
+
+// Page box + pagination rules. Wrap in @media print at the call site
+// (print.scss does it once; main.scss's whole include already sits in @media print).
+@mixin page-setup {
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: map.get(variables.$colors, light) !important;
+  }
+
+  // Dark sidebar band repeated on every printed page (position: fixed prints per page),
+  // seamless with .left-section's own background.
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: $sidebar-width;
+    height: 100%;
+    background-color: map.get(variables.$colors, dark);
+    z-index: -1;
+  }
+
+  .main-content {
+    margin: 0;
+  }
+
+  .timeline {
+    break-inside: avoid;
+  }
+
+  .right-title,
+  .tl-title-2 {
+    break-after: avoid;
+  }
+
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}

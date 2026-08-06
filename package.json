@@ -1,0 +1,17 @@
+{
+  "name": "online-cv",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Static CV site generator: content.env + template -> dist (online, print, PDF)",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:pdf": "node scripts/build.mjs --pdf",
+    "watch": "node scripts/build.mjs --watch",
+    "serve": "python3 -m http.server 5500 -d dist",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "devDependencies": {
+    "sass": "^1.80.0"
+  }
+}
