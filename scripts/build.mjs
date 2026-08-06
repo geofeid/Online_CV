@@ -243,6 +243,9 @@ export function generatePdf(onlineValues) {
     [
       "--headless",
       "--disable-gpu",
+      // CI runners have no usable Chrome sandbox; harmless locally.
+      "--no-sandbox",
+      "--disable-dev-shm-usage",
       "--no-pdf-header-footer",
       `--print-to-pdf=${pdfPath}`,
       `file://${printPage}`,
