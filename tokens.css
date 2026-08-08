@@ -2,7 +2,7 @@
    Owner: Online_CV repo. Published at /OnlineCV/tokens.css and /Online_CV/tokens.css.
    The portfolio links this file and inherits any change without redeploying. */
 
-:root {
+html:root {
   --color-primary: #191d2b;
   --color-secondary: #8827ae;
   --color-white: #ffffff;
@@ -19,7 +19,7 @@
   --font-family: "Poppins", sans-serif;
 }
 
-.light-mode {
+html body.light-mode {
   --color-primary: #ffffff;
   --color-secondary: #f56692;
   --color-white: #454e56;
