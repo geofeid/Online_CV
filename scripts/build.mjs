@@ -316,6 +316,13 @@ export async function build({ pdf = false } = {}) {
     }
   }
 
+  // Ecosystem outputs: shared design tokens + superset content consumed by the portfolio app.
+  console.log("Writing content.json + tokens.css...");
+  fs.copyFileSync(path.join(root, "tokens.css"), path.join(dist, "tokens.css"));
+  const portfolio = JSON.parse(fs.readFileSync(path.join(root, "content.portfolio.json"), "utf8"));
+  const contentJson = { cv: Object.fromEntries(onlineValues), portfolio };
+  fs.writeFileSync(path.join(dist, "content.json"), JSON.stringify(contentJson, null, 2));
+
   if (pdf) {
     console.log("Generating PDF...");
     generatePdf(onlineValues);

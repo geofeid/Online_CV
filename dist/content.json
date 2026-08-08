@@ -1,0 +1,501 @@
+{
+  "cv": {
+    "PAGE_TITLE": "Georgios Feidakis Online CV",
+    "FAVICON_URL": "geofeid-favicon.ico",
+    "IMG_URL": "geofeid.jpg",
+    "IMG_ALT": "Georgios Feidakis Profile Image",
+    "NAME": "Georgios Feidakis",
+    "TITLE": "Senior Software Engineer",
+    "COMPANY": "1DataGroup Technologies",
+    "CONTACT_TITLE": "Contact Info",
+    "PHONE": "+306987106768",
+    "EMAIL": "gfeidakis@outlook.com",
+    "LINKEDIN_URL": "https://www.linkedin.com/in/gfeidakis",
+    "LINKEDIN_DISPLAY": "linkedin.com/in/gfeidakis",
+    "LINKEDIN_DISPLAY_SHORT": "linkedin/gfeidakis",
+    "GITHUB_URL": "https://github.com/geofeid",
+    "GITHUB_DISPLAY": "github.com/geofeid",
+    "PORTFOLIO_URL": "https://geofeid.github.io/portfolio/",
+    "PORTFOLIO_DISPLAY": "portfolio",
+    "CV_FILENAME": "Georgios Feidakis CV.pdf",
+    "CV_DOWNLOAD_NAME": "Georgios_Feidakis_CV.pdf",
+    "CV_LABEL": "Download CV",
+    "LOCATION": "Alimos Attica 17456",
+    "TECH_SKILLS_TITLE": "Technical Skills",
+    "SKILL1": "Html / css",
+    "SKILL2": "Js / Ts",
+    "SKILL3": "Angular 2+",
+    "SKILL4": "Bootstrap",
+    "SKILL5": "Tailwind",
+    "SKILL6": "SCSS / LESS",
+    "SKILL7": "Node js / express",
+    "SKILL7_SHORT": "Node",
+    "SKILL8": "Rest API",
+    "SKILL9": "Azure / Jenkins",
+    "SKILL9_SHORT": "AZ / JENKINS",
+    "SKILL10": "C# / SQL",
+    "SOFT_SKILLS_TITLE": "Soft Skills",
+    "SOFT1": "CREATIVE AND TEAM WORKER / PLAYER",
+    "SOFT2": "COMMUNICATION / EMPATHY",
+    "SOFT3": "SELF-MOTIVATED / Problem solver",
+    "SOFT4": "FLEXIBILITY / ADAPTABILITY",
+    "SOFT5": "HIGHLY ORGANIZED AND RESULTS DRIVEN",
+    "SOFT6": "Time / Emotion Management",
+    "SOFT7": "Attention to detail / Team leader",
+    "SOFT8": "Interpersonal skills / work ethic",
+    "LANG_TITLE": "Languages",
+    "LANG1": "Greek (Native)",
+    "LANG2": "English (C2)",
+    "HOBBY_TITLE": "Hobbies",
+    "HOBBY1": "Exercising",
+    "HOBBY1_ICON": "fa-person-walking",
+    "HOBBY2": "Travelling",
+    "HOBBY2_ICON": "fa-plane",
+    "HOBBY3": "Exploring",
+    "HOBBY3_ICON": "fa-magnifying-glass",
+    "HOBBY4": "Meditating",
+    "HOBBY4_ICON": "fa-hands-praying",
+    "HOBBY5": "Reading",
+    "HOBBY5_ICON": "fa-book-open-reader",
+    "HOBBY6": "Helping Others",
+    "HOBBY6_ICON": "fa-handshake",
+    "ABOUT_TITLE": "About Me",
+    "ABOUT_PARAGRAPH": " I’m a passionate Software Engineer with strong expertise in Angular, TypeScript, React / Next JS and modern front-end technologies like Tailwind, Prime NG, Material, Bootstrap, and responsive design. I have hands-on experience building scalable web applications, integrating RESTful APIs, and contributing to full-stack projects with C#, Node.js, and SQL. In addition to development, I’ve worked on DevOps pipelines using Azure Dev ops, Jenkins and Docker, helping streamline deployments and improve delivery efficiency. I’m driven by clean code, continuous learning, and being part of collaborative teams that build purposeful tech.",
+    "EXP_SECTION_TITLE": "Experience",
+    "EXP1_COMPANY": "Cognity A.E",
+    "EXP1_COMPANY_SHORT": "Cognity",
+    "EXP1_ROLE": "Angular Developer / Team Leader",
+    "EXP1_ROLE_SHORT": "Angular Team Leader",
+    "EXP1_DATES": "Feb 2022 - Apr 2023",
+    "EXP1_DESC1": "Refactored a legacy ASPX-based banking system into a modern Angular UI, improving maintainability, usability, and frontend architecture.",
+    "EXP1_DESC2": "Led development and maintenance of an Angular-based insurance sales platform, supporting secure operations, deployments, and stable production delivery.",
+    "EXP1_DESC3": "Collaborated with stakeholders and backend teams to capture requirements, align implementation details, and ensure seamless system integration.",
+    "EXP1_DESC4": "Conducted code reviews, enforced frontend best practices, maintained code quality, and mentored junior developers within the team.",
+    "EXP2_COMPANY": "Singular Logic S.A",
+    "EXP2_COMPANY_SHORT": "Singular Logic",
+    "EXP2_ROLE": "Angular Developer / DevOps Engineer",
+    "EXP2_ROLE_SHORT": "Angular / DevOps",
+    "EXP2_DATES": "Apr 2023 - Oct 2025",
+    "EXP2_DESC1": "Developed scalable Angular applications across travel authorization, ticketing, eCommerce, government, ERP, and fuel management platforms, addressing diverse business and user needs.",
+    "EXP2_DESC2": "Built reusable, templated frontend solutions using custom Angular components and integrated APIs to support dynamic data, user interactions, and platform-specific workflows.",
+    "EXP2_DESC3": "Led the refactoring and upgrade of the EuroElections 2024 voting system from Angular 7 to 18 using Angular Signals, improving performance and maintainability.",
+    "EXP2_DESC4": "Refactored ERP and fuel station systems using NgRx, responsive design, Jenkins, Docker, and CI/CD practices.",
+    "EXP3_COMPANY": "1DataGroup Technologies",
+    "EXP3_COMPANY_SHORT": "1DataGroup",
+    "EXP3_ROLE": "Angular Developer / Full Stack",
+    "EXP3_ROLE_SHORT": "Angular / Full Stack",
+    "EXP3_DATES": "Oct 2025 - Now",
+    "EXP3_DESC1": "Contributed to the redesign and modernization of a large-scale eBanking platform, migrating legacy AngularJS functionality to the latest Angular ecosystem.",
+    "EXP3_DESC2": "Implemented complex banking workflows across payments, transfers, approvals, and multi-step transactional journeys, ensuring accuracy, usability, and reliable business logic.",
+    "EXP3_DESC3": "Translated Figma designs into responsive, production-ready Angular interfaces, supporting rebranding, design consistency, and seamless user experience across devices.",
+    "EXP3_DESC4": "Worked on .NET BFF implementations, unit testing, Azure DevOps pipelines, release processes, debugging, refactoring, and maintainable enterprise delivery.",
+    "EDU_SECTION_TITLE": "Education",
+    "EDU_SCHOOL": "Uni of West Attica",
+    "EDU_SCHOOL_SHORT": "Uniwa",
+    "EDU_DATES": "Oct 2015 - Apr 2021",
+    "EDU_TITLE": "Integrated MSc, Department of Electrical and Electronics Engineering",
+    "EDU_TITLE_SHORT": "MSc Electrical and Electronics Engineering (eqf 7)",
+    "EDU_THESIS": "Diploma Thesis: \"Develop a web app for online project management\".",
+    "EDU_THESIS_LINK": "https://polynoe.lib.uniwa.gr/xmlui/handle/11400/740",
+    "EDU_THESIS_TEXT": "polynoe.lib.uniwa.gr/11400/740",
+    "EDU_INTERSHIP": "Internship: Calibrator Assistant at Yphd (Haf) - During Military Service.",
+    "CERT_SECTION_TITLE": "Certifications",
+    "CERT_SECTION_TITLE_SHORT": "Certificates",
+    "CERT1_PROVIDER": "Udemy",
+    "CERT1_PROVIDER_SHORT": "Udemy",
+    "CERT1_DATES": "Dec 2024 - Mar 2025",
+    "CERT1_TITLE1": "GitHub Actions - The Complete Guide",
+    "CERT1_DESC1": "Automation · Custom GitHub Actions · Pipeline Development and Security.",
+    "CERT1_TITLE2": "Jenkins, From Zero To Hero",
+    "CERT1_DESC2": "Jenkins · CI/CD Pipelines · DevOps · Docker · Ansible · Maven.",
+    "CERT1_TITLE3": "Docker & Kubernetes: The Practical Guide",
+    "CERT1_DESC3": "Docker (images, compose, networking), Containerization, Kubernetes.",
+    "CERT2_PROVIDER": "Bitdegree",
+    "CERT2_DATES": "Oct 2021 - Jun 2022",
+    "CERT2_TITLE1": "Front-End Academy (960 hrs)",
+    "CERT2_DESC1": "Figma, HTML/CSS, responsive design, JavaScript (ES6), popular frameworks and libraries, SQL/NoSQL.",
+    "CERT3_PROVIDER": "Freecodecamp",
+    "CERT3_DATES": "Jan 2022 - May 2022",
+    "CERT3_TITLE1": "JavaScript Algorithms and Data Structures",
+    "CERT3_DESC1": "ES6, OOP, Functional Programming.",
+    "CERT3_TITLE2": "Responsive Web Design",
+    "CERT3_DESC2": "HTML/CSS, Flexbox, Grid, Accessibility.",
+    "CERT4_PROVIDER": "Regeneration",
+    "CERT4_DATES": "Oct 2021 - Dec 2021",
+    "CERT4_TITLE1": "Academy on Cloud Tools & Technology (240 HRS)",
+    "CERT4_DESC1": "Backend C# and Rest API fundamentals.",
+    "CERT4_DESC2": "Azure and Cloud tools fundamentals.",
+    "CERT5_PROVIDER": "Code + Create (GFOSS)",
+    "CERT5_PROVIDER_SHORT": "Code + Create",
+    "CERT5_DATES": "Mar 2020 - May 2020",
+    "CERT5_TITLE1": "Web Dev Course (104 hrs)",
+    "CERT5_DESC1": "HTML, CSS, JavaScript, Bootstrap and Angular.",
+    "CERT5_DESC2": "Awarded as Most <b>Helpful</b>, <b>Committed</b>, and <b>Driven</b>."
+  },
+  "portfolio": {
+    "home": {
+      "greeting": "Hi, I'm",
+      "name": "Georgios Feidakis",
+      "title": "A Senior Software Engineer.",
+      "intro": "I am a software engineer with a passion for web development. I have always been drawn to the front-end side of things, even though I have some understanding in the back-end side of things too. For the past several years, I have focused my learning and practice on Angular, a powerful JavaScript framework for building dynamic, responsive, and scalable web applications."
+    },
+    "about": {
+      "heading": "About me",
+      "infoTitle": "Information About me",
+      "paragraphs": [
+        "I am a software engineer who is passionate about creating elegant, efficient, and user-friendly web applications. With over 4 years of experience in the industry, I have developed a strong foundation in various programming languages, frameworks, and tools, including HTML / CSS, JS / TS, Angular etc.",
+        "I've always loved computers and tinkering with them, which led me to discover my passion for programming and coding. Despite studying Electrical and Electronic Engineering, I never lost sight of this passion and decided to pursue a career in software engineering to combine my academic background with my creative and technical interests.",
+        "When I'm not coding, you'll likely find me out on a run or hitting the gym. I believe that regular exercise is not only essential for physical health, but also for mental clarity, stress relief, and overall well-being."
+      ],
+      "stats": [
+        {
+          "value": "50+",
+          "label": "Projects completed"
+        },
+        {
+          "value": "4+",
+          "label": "Years of experience"
+        },
+        {
+          "value": "8",
+          "label": "Enterprise Projects"
+        },
+        {
+          "value": "3",
+          "label": "Awards Earned"
+        }
+      ]
+    },
+    "skills": [
+      {
+        "name": "html 5",
+        "percent": "90%"
+      },
+      {
+        "name": "css 3",
+        "percent": "90%"
+      },
+      {
+        "name": "javascript",
+        "percent": "85%"
+      },
+      {
+        "name": "Typescript",
+        "percent": "85%"
+      },
+      {
+        "name": "Angular 2+",
+        "percent": "90%"
+      },
+      {
+        "name": "Bootstrap",
+        "percent": "90%"
+      },
+      {
+        "name": "Tailwind",
+        "percent": "90%"
+      },
+      {
+        "name": "SCSS",
+        "percent": "80%"
+      },
+      {
+        "name": "LESS",
+        "percent": "80%"
+      },
+      {
+        "name": "Git",
+        "percent": "85%"
+      },
+      {
+        "name": "Node.JS",
+        "percent": "70%"
+      },
+      {
+        "name": "NPM / NVM",
+        "percent": "60%"
+      },
+      {
+        "name": "Rest Apis",
+        "percent": "70%"
+      },
+      {
+        "name": "Azure / Jenkins",
+        "percent": "60%"
+      },
+      {
+        "name": "C#",
+        "percent": "50%"
+      },
+      {
+        "name": "SQL",
+        "percent": "65%"
+      },
+      {
+        "name": "React JS",
+        "percent": "30%"
+      },
+      {
+        "name": "PHP",
+        "percent": "35%"
+      },
+      {
+        "name": "Kentico",
+        "percent": "50%"
+      },
+      {
+        "name": "MVC / Factory",
+        "percent": "40%"
+      },
+      {
+        "name": "MS Office",
+        "percent": "80%"
+      },
+      {
+        "name": "Figma",
+        "percent": "40%"
+      }
+    ],
+    "timeline": [
+      {
+        "type": "job",
+        "date": "10/2025 - present",
+        "title": "Angular Developer / Full Stack",
+        "org": "1DataGroup Technologies",
+        "body": "Project: REDESIGN & MODERNIZATION OF A LARGE-SCALE EBANKING PLATFORM\n\nKey responsibilities:\n1) Contributed to the redesign and modernization of a large-scale eBanking platform, migrating legacy AngularJS functionality to the latest Angular ecosystem.\n2) Implemented complex banking workflows across payments, transfers, approvals, and multi-step transactional journeys, ensuring accuracy, usability, and reliable business logic.\n3) Translated Figma designs into responsive, production-ready Angular interfaces, supporting rebranding, design consistency, and seamless user experience across devices.\n4) Worked on .NET BFF implementations, unit testing, Azure DevOps pipelines, release processes, debugging, refactoring, and maintainable enterprise delivery."
+      },
+      {
+        "type": "job",
+        "date": "04/2023 - 10/2025",
+        "title": "Angular Developer / DevOps Engineer",
+        "org": "Singular_Logic A.E",
+        "body": "Project 1: UPGRADING FUEL STATION INTERNAL SYSTEM\n\nKey responsibilities:\n1) Implemented NgRx Store Management and Component Store for enhanced state management in an Angular project, ensuring a predictable data flow between components.\n2) Designed and implemented a responsive user interface for mobiles and tablets, utilizing Angular's responsive design features.\n3) Led rebranding efforts by incorporating a new color palette, maintaining brand consistency across all components and pages.\n4) Conducted thorough code reviews to uphold coding standards, best practices, and ensure maintainable code.\n5) Utilized Jenkins for automating CI/CD pipelines, streamlining builds across all environments.\n\nProject 2: REFACTORING OLD FUEL STATION INTERNAL SYSTEM\n\nKey responsibilities:\n1) Refactor the ASPX form CRM system into a new Angular-based UI from scratch, incorporating NgRx Store Management and Component Store for enhanced state management, in combination with the PrimeNG library for UI components.\n2) Ensuring that the new Angular UI replicates key features and maintains user workflow.\n3) Collaborated with backend developers to ensure seamless integration of the new UI.\n4) Implemented E2E testing strategies to validate the correctness of the refactored system.\n5) Utilized Jenkins for automating CI/CD pipelines, streamlining builds across all environments."
+      },
+      {
+        "type": "job",
+        "date": "02/2022 - 04/2023",
+        "title": "Angular Developer",
+        "org": "Cognity A.E",
+        "body": "Project 1: MAINTAINING INSURANCE SALES WEB APP\n\nKey responsibilities:\n1) Served as lead developer on a team responsible for maintaining and enhancing an online insurance sales project developed using 3 separate Angular apps.\n2) Conducted code reviews of external partners and trained new team members to ensure consistency and maintain high code quality.\n3) Implemented user-friendly interfaces that allowed customers to compare insurance policies and purchase them easily and securely.\n4) Managed deployments using Azure Dev Ops and provided general support to ensure the apps run smoothly and securely.\n\nProject 2: REFACTORING OLD BANK INTERNAL SYSTEM\n\nKey responsibilities:\n1) Refactor an outdated ASPX form system from scratch using Angular in combination with the material library as a front-end leader, following the recommendations of the Architect.\n2) Worked closely with stakeholders to understand their requirements and translate them into a modern and responsive UI design.\n3) Collaborated with backend developers to ensure seamless integration of the new UI with the bank's existing systems and databases.\n4) Took on the role of the frontend leader, overseeing the work of other frontend developers to ensure high-quality code and adherence to project timelines."
+      },
+      {
+        "type": "cert",
+        "date": "10/2021 - 06/2022",
+        "title": "Front-end Academy | 960 hours",
+        "org": "Bitdegree",
+        "body": "Sprint 1-2: Web Design Courses\nSprint 3: Html Course\nSprint 4-5: Basic CSS flexbox + grid\nSprint 6-7: Animations / Sass / Bootstrap\nSprint 8-10: Basic Javascript Course\nSprint 11-12: Api / Canvas Course\nSprint 13-16: Typescript / Node.js / NPM\nSprint 17-21: Angular / React / MVC method\nSprint 22-23: Databases SQL / NoSql"
+      },
+      {
+        "type": "cert",
+        "date": "03/2022 - 05/2022",
+        "title": "Responsive Web Design Bootcamp (New + Legacy)",
+        "org": "Freecodecamp",
+        "body": "Course 1: Basic HTML and HTML5.\nCourse 2: Basic CSS.\nCourse 3: Applied Visual Design.\nCourse 4: Applied Accessibility\nCourse 5: Responsive Web Design Principles.\nCourse 6: CSS Flexbox.\nCourse 7: CSS Grid.\nCourse 8: CSS Animation.\nCourse 9: CSS Transform."
+      },
+      {
+        "type": "cert",
+        "date": "01/2022 - 03/2022",
+        "title": "JavaScript algorithms and data structures Bootcamp",
+        "org": "Freecodecamp",
+        "body": "Course 1: Basic JavaScript.\nCourse 2: ES6.\nCourse 3: Regular Expressions.\nCourse 4: Debugging.\nCourse 5: Basic Data Structures.\nCourse 6: Basic Algorithm Scripting.\nCourse 7: Object Oriented Programming.\nCourse 8: Functional Programming.\nCourse 9: Intermediate Algorithm Scripting."
+      },
+      {
+        "type": "cert",
+        "date": "12/2021 - 01/2022",
+        "title": "The ReGeneration Initiative: Upskilling Greek Youth for the Digital Era powered by Microsoft | 32 Hours training Path",
+        "org": "Code.hub",
+        "body": "Part 1: ICT Tools & Professional Skills in the Digital Age\nPart 2: Business Administration & Tech Projects Management\nPart 3: Digital Literacy for an Interconnected World\nPart 4: Digital Transformation Tools & Processes"
+      },
+      {
+        "type": "cert",
+        "date": "11/2021 - 12/2021",
+        "title": "Regeneration ACADEMY ON CLOUD TOOLS & TECHNOLOGY POWERED BY MICROSOFT | 240 HOURS HANDS-ON TRAINING",
+        "org": "code Hub",
+        "body": "1) Preparatory Training: 80 hours of Self-learning.\n2) Academy: 80 hours of live online instructor-led training.\n3) Post-training Specialization: 80 hours of Self-learning."
+      },
+      {
+        "type": "cert",
+        "date": "10/2021 - 12/2021",
+        "title": "SOFT SKILLS LEARNING PATH | 15 HOURS LINKEDIN LEARNING",
+        "org": "Regeneration",
+        "body": "Top skills covered:\nDesign Thinking, Personal Development, Presentation Skills, Pitching Ideas, Intrapersonal Skills, Teamwork."
+      },
+      {
+        "type": "internship",
+        "date": "11/2020 - 11/2021",
+        "title": "Internship as a calibrator technician Assistant",
+        "org": "Yphd (Haf)",
+        "body": "During my military service in the HAF, I served at Yphd (Calibration Service), where due to my studies, I was stationed as a Calibrator Assistant."
+      },
+      {
+        "type": "education",
+        "date": "10/2015 - 04/2021",
+        "title": "Integrated MSc in Electrical and Electronic Engineering",
+        "org": "University of West Attica",
+        "body": "Diploma Thesis: \"Develop a web application for online project management\".\nLink: https://polynoe.lib.uniwa.gr/xmlui/handle/11400/740"
+      },
+      {
+        "type": "cert",
+        "date": "01/2020 - 04/2022",
+        "title": "WEB DEVELOPMENT COURSE | 104 HOURS HANDS-ON TRAINING",
+        "org": "Ellak Code+Create",
+        "body": "Organised by GFOSS as part of the Code + Create workshops. The workshop entailed 72 hours of instruction in English and optional 32 hours of free experimenting."
+      }
+    ],
+    "projects": [
+      {
+        "name": "ChocoApp Angular",
+        "image": "chocoApp.jpg",
+        "description": null,
+        "github": "https://github.com/geofeid/ChocoApp",
+        "live": null,
+        "youtube": null
+      },
+      {
+        "name": "KIKCIO CROWDFUNDING",
+        "image": "crowdfunding.jpg",
+        "description": null,
+        "github": "https://github.com/geofeid/CrowdFunding",
+        "live": null,
+        "youtube": null
+      },
+      {
+        "name": "WEEBLY'S BAKERY",
+        "image": "bakery.jpg",
+        "description": null,
+        "github": "https://github.com/geofeid/Weeblys-Bakery",
+        "live": "https://geofeid.github.io/Weeblys-Bakery/",
+        "youtube": null
+      },
+      {
+        "name": "We-Learn",
+        "image": "welearn.jpg",
+        "description": null,
+        "github": "https://github.com/geofeid/We-Learn",
+        "live": "https://geofeid.github.io/We-Learn/",
+        "youtube": null
+      },
+      {
+        "name": "Le chocolat",
+        "image": "le chocolat.jpg",
+        "description": null,
+        "github": "https://github.com/geofeid/leChocolat-",
+        "live": "https://geofeid.github.io/LeChocolatDeployed/",
+        "youtube": null
+      },
+      {
+        "name": "Angular Tic Tac Toe game",
+        "image": "tictactoe.jpg",
+        "description": null,
+        "github": "https://github.com/geofeid/Sprint-19/tree/main/8.2%20Sprint%2019%20Project/Tic_Tac_Toe_game",
+        "live": null,
+        "youtube": null
+      },
+      {
+        "name": "Authentication with Redux",
+        "image": "authentication.jpg",
+        "description": null,
+        "github": "https://github.com/geofeid/Sprint-18/tree/main/5.1%20Project%201%20Authentication%20with%20Redux%20and%20Redux-Saga/Redux%20Authentication",
+        "live": null,
+        "youtube": null
+      },
+      {
+        "name": "News Feed UI React",
+        "image": "newsfeed.jpg",
+        "description": null,
+        "github": "https://github.com/geofeid/Sprint-18/tree/main/6.1%20Project%202%20Newsfeed%20UI/Newsfeed%20UI%20React",
+        "live": null,
+        "youtube": null
+      },
+      {
+        "name": "Netflix Clone app",
+        "image": "netflix.jpg",
+        "description": null,
+        "github": "https://github.com/geofeid/Sprint-21/tree/main/Netflix%20clone%20App",
+        "live": null,
+        "youtube": null
+      }
+    ],
+    "blogs": [
+      {
+        "title": "My Fitness Transformation Story",
+        "image": "Transformation for portofolio2.jpg",
+        "link": "https://www.linkedin.com/posts/gfeidakis_gym-fitness-transformation-activity-7035209976381849600-8xJq?utm_source=share&utm_medium=member_desktop",
+        "description": "I used to believe that losing weight wasn't possible for me, but in 2017, I decided to challenge that belief and started running every day. After losing 25 kilograms in a year, I joined a gym and began lifting weights. It wasn't easy, but I never gave up. Even during the COVID lockdowns, I found ways to stay active and stay on track. Now, my fitness journey is a part of my lifestyle, and I'm proud of the person I've become."
+      },
+      {
+        "title": "My University Graduation journey",
+        "image": "graduationPortofolio.jpg",
+        "link": "https://www.linkedin.com/posts/gfeidakis_graduation-intergrated-msc-activity-6958345208518316032-d5xN?utm_source=share&utm_medium=member_desktop",
+        "description": "I am proud to have fulfilled my goal of getting my degree in electrical and electronic engineering from the University of West Attica. The memories and experiences of my five-year journey will always be cherished, and I am grateful for the people I have met and still keep in touch with. I want to thank everyone who supported me during these years, especially those who attended my graduation ceremony."
+      }
+    ],
+    "contact": {
+      "heading": "Contact Me",
+      "intro": "If you have any inquiries, collaboration proposals or simply want to say hello, feel free to get in touch with me. You can contact me through the form or via email / phone.\nAlternatively, you can also add me straight to your contacts for future reference.\nThank you for taking the time to visit my portfolio!",
+      "items": [
+        {
+          "icon": "fas fa-map-marker-alt",
+          "label": "Location",
+          "value": "Athens, Greece",
+          "href": null
+        },
+        {
+          "icon": "fas fa-envelope",
+          "label": "Email",
+          "value": "gfeidakis@outlook.com",
+          "href": "mailto:gfeidakis@outlook.com"
+        },
+        {
+          "icon": "fas fa-user-graduate",
+          "label": "Education",
+          "value": "University of West Attica",
+          "href": null
+        },
+        {
+          "icon": "fas fa-mobile-alt",
+          "label": "Mobile Number",
+          "value": "+306987106768",
+          "href": "tel:+306987106768"
+        },
+        {
+          "icon": "fas fa-globe-africa",
+          "label": "Languages",
+          "value": "Greek, English",
+          "href": null
+        }
+      ],
+      "socials": [
+        {
+          "icon": "fas fa-envelope",
+          "href": "mailto:gfeidakis@outlook.com"
+        },
+        {
+          "icon": "fas fa-mobile-alt",
+          "href": "tel:+306987106768"
+        },
+        {
+          "icon": "fab fa-linkedin",
+          "href": "https://www.linkedin.com/in/gfeidakis/"
+        },
+        {
+          "icon": "fab fa-github",
+          "href": "https://github.com/geofeid"
+        }
+      ],
+      "formAction": "https://formsubmit.co/465aea2b0797d1f72e6f3b5995f245eb",
+      "formRedirect": "https://geofeid.github.io/portfolio/",
+      "vcard": {
+        "name": "Georgios Feidakis",
+        "phone": "+306987106768",
+        "email": "gfeidakis@outlook.com",
+        "org": "1DataGroup Technologies",
+        "title": "Senior Software Engineer",
+        "bday": "29/12/1997",
+        "url": "https://geofeid.github.io/portfolio/",
+        "linkedin": "www.linkedin.com/in/gfeidakis"
+      },
+      "qrImage": "Georgios_FeidakisQR.png"
+    }
+  }
+}
