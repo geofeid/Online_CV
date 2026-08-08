@@ -18,6 +18,7 @@ fi
 
 rsync -av --delete \
   --exclude='.git' \
+  --exclude='.github' \
   --exclude='.gitignore' \
   --exclude='.remember' \
   --exclude='.claude' \
