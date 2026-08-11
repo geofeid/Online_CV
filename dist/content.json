@@ -258,6 +258,15 @@
     ],
     "timeline": [
       {
+        "type": "cert",
+        "start": "2026-03",
+        "date": "03/2026",
+        "title": "AI Training Crash Course",
+        "org": "AI the Academy",
+        "summary": "A crash course on AI fundamentals and the practical use of AI tooling in day-to-day software engineering work.",
+        "sections": []
+      },
+      {
         "type": "job",
         "date": "10/2025 - present",
         "title": "Angular Developer / Full Stack",
@@ -275,6 +284,40 @@
           }
         ],
         "start": "2025-10"
+      },
+      {
+        "type": "cert",
+        "start": "2025-02",
+        "date": "02/2025",
+        "title": "DevOps Toolchain: Docker & Kubernetes, Jenkins, GitHub Actions",
+        "org": "Udemy",
+        "summary": "Three hands-on DevOps courses: containerization with Docker and Kubernetes, CI/CD pipelines with Jenkins and its integrations, and workflow automation with GitHub Actions.",
+        "sections": [
+          {
+            "title": "Docker & Kubernetes: The Practical Guide [2025 Edition]",
+            "items": [
+              "Docker images, Compose and container networking.",
+              "Containerization workflows from local development to deployment.",
+              "Container orchestration with Kubernetes."
+            ]
+          },
+          {
+            "title": "Jenkins, From Zero To Hero",
+            "items": [
+              "Building and automating CI/CD pipelines with Jenkins.",
+              "Integrations with Docker, Ansible, AWS, Git and Maven.",
+              "DevOps practices for repeatable builds across environments."
+            ]
+          },
+          {
+            "title": "GitHub Actions - The Complete Guide",
+            "items": [
+              "Workflow automation and pipeline development.",
+              "Building custom GitHub Actions.",
+              "Pipeline security."
+            ]
+          }
+        ]
       },
       {
         "type": "job",
