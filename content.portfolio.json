@@ -128,84 +128,252 @@
       "date": "10/2025 - present",
       "title": "Angular Developer / Full Stack",
       "org": "1DataGroup Technologies",
-      "body": "Project: REDESIGN & MODERNIZATION OF A LARGE-SCALE EBANKING PLATFORM\n\nKey responsibilities:\n1) Contributed to the redesign and modernization of a large-scale eBanking platform, migrating legacy AngularJS functionality to the latest Angular ecosystem.\n2) Implemented complex banking workflows across payments, transfers, approvals, and multi-step transactional journeys, ensuring accuracy, usability, and reliable business logic.\n3) Translated Figma designs into responsive, production-ready Angular interfaces, supporting rebranding, design consistency, and seamless user experience across devices.\n4) Worked on .NET BFF implementations, unit testing, Azure DevOps pipelines, release processes, debugging, refactoring, and maintainable enterprise delivery."
+      "summary": "Redesigning and modernizing a large-scale eBanking platform: migrating legacy AngularJS to the latest Angular, implementing complex banking workflows, and shipping through Azure DevOps pipelines.",
+      "sections": [
+        {
+          "title": "REDESIGN & MODERNIZATION OF A LARGE-SCALE EBANKING PLATFORM",
+          "items": [
+            "Contributed to the redesign and modernization of a large-scale eBanking platform, migrating legacy AngularJS functionality to the latest Angular ecosystem.",
+            "Implemented complex banking workflows across payments, transfers, approvals, and multi-step transactional journeys, ensuring accuracy, usability, and reliable business logic.",
+            "Translated Figma designs into responsive, production-ready Angular interfaces, supporting rebranding, design consistency, and seamless user experience across devices.",
+            "Worked on .NET BFF implementations, unit testing, Azure DevOps pipelines, release processes, debugging, refactoring, and maintainable enterprise delivery."
+          ]
+        }
+      ]
     },
     {
       "type": "job",
       "date": "04/2023 - 10/2025",
       "title": "Angular Developer / DevOps Engineer",
       "org": "Singular_Logic A.E",
-      "body": "Project 1: UPGRADING FUEL STATION INTERNAL SYSTEM\n\nKey responsibilities:\n1) Implemented NgRx Store Management and Component Store for enhanced state management in an Angular project, ensuring a predictable data flow between components.\n2) Designed and implemented a responsive user interface for mobiles and tablets, utilizing Angular's responsive design features.\n3) Led rebranding efforts by incorporating a new color palette, maintaining brand consistency across all components and pages.\n4) Conducted thorough code reviews to uphold coding standards, best practices, and ensure maintainable code.\n5) Utilized Jenkins for automating CI/CD pipelines, streamlining builds across all environments.\n\nProject 2: REFACTORING OLD FUEL STATION INTERNAL SYSTEM\n\nKey responsibilities:\n1) Refactor the ASPX form CRM system into a new Angular-based UI from scratch, incorporating NgRx Store Management and Component Store for enhanced state management, in combination with the PrimeNG library for UI components.\n2) Ensuring that the new Angular UI replicates key features and maintains user workflow.\n3) Collaborated with backend developers to ensure seamless integration of the new UI.\n4) Implemented E2E testing strategies to validate the correctness of the refactored system.\n5) Utilized Jenkins for automating CI/CD pipelines, streamlining builds across all environments.\n\nProject 3: UPGRADING THE EUROELECTIONS 2024 VOTING SYSTEM\n\nKey responsibilities:\n1) Led the refactoring and upgrade of the EuroElections 2024 voting count system from Angular 7 to Angular 18, modernizing a legacy production codebase.\n2) Migrated legacy patterns to standalone components and modern Angular APIs across the application.\n3) Adopted Angular Signals for state management and data flow, improving performance and change detection efficiency.\n4) Preserved feature parity through incremental migration steps and thorough regression checks.\n5) Aligned project structure and tooling with current Angular standards, improving long-term maintainability.\n\nProject 4: TEMPLATED ECOMMERCE PLATFORM FRONTEND\n\nKey responsibilities:\n1) Built a reusable, templated frontend for eCommerce platforms using custom Angular components.\n2) Designed the templating so multiple storefronts could be served from the same codebase while keeping brand consistency per platform.\n3) Integrated REST APIs to support dynamic data, user interactions, and platform-specific workflows.\n4) Implemented fully responsive layouts for desktop, tablet, and mobile.\n5) Collaborated with backend developers to ensure seamless integration and stable releases.\n\nProject 5: TICKETING SYSTEM CONTRIBUTIONS\n\nKey responsibilities:\n1) Contributed features and improvements to the codebase of a large-scale ticketing system.\n2) Implemented Angular components and flows consistent with the established architecture of the system.\n3) Fixed defects and improved existing functionality without disrupting established user workflows.\n4) Participated in code reviews and collaborated with the core team for smooth integration and stable releases.\n\nProject 6: GOVERNMENT TRAVEL AUTHORIZATION PLATFORM\n\nKey responsibilities:\n1) Developed and maintained Angular application features for a government-sector travel authorization platform.\n2) Built form-driven flows with robust validation to support authorization requests.\n3) Implemented responsive, accessible interfaces backed by integrated APIs.\n4) Utilized Jenkins and Docker CI/CD pipelines for reliable builds and releases."
+      "summary": "Angular development and DevOps across six platforms — fuel management, CRM, elections, eCommerce, ticketing and government travel authorization — including the EuroElections 2024 upgrade from Angular 7 to 18.",
+      "sections": [
+        {
+          "title": "UPGRADING FUEL STATION INTERNAL SYSTEM",
+          "items": [
+            "Implemented NgRx Store Management and Component Store for enhanced state management in an Angular project, ensuring a predictable data flow between components.",
+            "Designed and implemented a responsive user interface for mobiles and tablets, utilizing Angular's responsive design features.",
+            "Led rebranding efforts by incorporating a new color palette, maintaining brand consistency across all components and pages.",
+            "Conducted thorough code reviews to uphold coding standards, best practices, and ensure maintainable code.",
+            "Utilized Jenkins for automating CI/CD pipelines, streamlining builds across all environments."
+          ]
+        },
+        {
+          "title": "REFACTORING OLD FUEL STATION INTERNAL SYSTEM",
+          "items": [
+            "Refactor the ASPX form CRM system into a new Angular-based UI from scratch, incorporating NgRx Store Management and Component Store for enhanced state management, in combination with the PrimeNG library for UI components.",
+            "Ensuring that the new Angular UI replicates key features and maintains user workflow.",
+            "Collaborated with backend developers to ensure seamless integration of the new UI.",
+            "Implemented E2E testing strategies to validate the correctness of the refactored system.",
+            "Utilized Jenkins for automating CI/CD pipelines, streamlining builds across all environments."
+          ]
+        },
+        {
+          "title": "UPGRADING THE EUROELECTIONS 2024 VOTING SYSTEM",
+          "items": [
+            "Led the refactoring and upgrade of the EuroElections 2024 voting count system from Angular 7 to Angular 18, modernizing a legacy production codebase.",
+            "Migrated legacy patterns to standalone components and modern Angular APIs across the application.",
+            "Adopted Angular Signals for state management and data flow, improving performance and change detection efficiency.",
+            "Preserved feature parity through incremental migration steps and thorough regression checks.",
+            "Aligned project structure and tooling with current Angular standards, improving long-term maintainability."
+          ]
+        },
+        {
+          "title": "TEMPLATED ECOMMERCE PLATFORM FRONTEND",
+          "items": [
+            "Built a reusable, templated frontend for eCommerce platforms using custom Angular components.",
+            "Designed the templating so multiple storefronts could be served from the same codebase while keeping brand consistency per platform.",
+            "Integrated REST APIs to support dynamic data, user interactions, and platform-specific workflows.",
+            "Implemented fully responsive layouts for desktop, tablet, and mobile.",
+            "Collaborated with backend developers to ensure seamless integration and stable releases."
+          ]
+        },
+        {
+          "title": "TICKETING SYSTEM CONTRIBUTIONS",
+          "items": [
+            "Contributed features and improvements to the codebase of a large-scale ticketing system.",
+            "Implemented Angular components and flows consistent with the established architecture of the system.",
+            "Fixed defects and improved existing functionality without disrupting established user workflows.",
+            "Participated in code reviews and collaborated with the core team for smooth integration and stable releases."
+          ]
+        },
+        {
+          "title": "GOVERNMENT TRAVEL AUTHORIZATION PLATFORM",
+          "items": [
+            "Developed and maintained Angular application features for a government-sector travel authorization platform.",
+            "Built form-driven flows with robust validation to support authorization requests.",
+            "Implemented responsive, accessible interfaces backed by integrated APIs.",
+            "Utilized Jenkins and Docker CI/CD pipelines for reliable builds and releases."
+          ]
+        }
+      ]
     },
     {
       "type": "job",
       "date": "02/2022 - 04/2023",
       "title": "Angular Developer",
       "org": "Cognity A.E",
-      "body": "Project 1: MAINTAINING INSURANCE SALES WEB APP\n\nKey responsibilities:\n1) Served as lead developer on a team responsible for maintaining and enhancing an online insurance sales project developed using 3 separate Angular apps.\n2) Conducted code reviews of external partners and trained new team members to ensure consistency and maintain high code quality.\n3) Implemented user-friendly interfaces that allowed customers to compare insurance policies and purchase them easily and securely.\n4) Managed deployments using Azure Dev Ops and provided general support to ensure the apps run smoothly and securely.\n\nProject 2: REFACTORING OLD BANK INTERNAL SYSTEM\n\nKey responsibilities:\n1) Refactor an outdated ASPX form system from scratch using Angular in combination with the material library as a front-end leader, following the recommendations of the Architect.\n2) Worked closely with stakeholders to understand their requirements and translate them into a modern and responsive UI design.\n3) Collaborated with backend developers to ensure seamless integration of the new UI with the bank's existing systems and databases.\n4) Took on the role of the frontend leader, overseeing the work of other frontend developers to ensure high-quality code and adherence to project timelines."
+      "summary": "Lead developer on an online insurance sales platform built from three Angular apps, and frontend leader on the refactor of a legacy ASPX banking system into a modern Angular UI.",
+      "sections": [
+        {
+          "title": "MAINTAINING INSURANCE SALES WEB APP",
+          "items": [
+            "Served as lead developer on a team responsible for maintaining and enhancing an online insurance sales project developed using 3 separate Angular apps.",
+            "Conducted code reviews of external partners and trained new team members to ensure consistency and maintain high code quality.",
+            "Implemented user-friendly interfaces that allowed customers to compare insurance policies and purchase them easily and securely.",
+            "Managed deployments using Azure Dev Ops and provided general support to ensure the apps run smoothly and securely."
+          ]
+        },
+        {
+          "title": "REFACTORING OLD BANK INTERNAL SYSTEM",
+          "items": [
+            "Refactor an outdated ASPX form system from scratch using Angular in combination with the material library as a front-end leader, following the recommendations of the Architect.",
+            "Worked closely with stakeholders to understand their requirements and translate them into a modern and responsive UI design.",
+            "Collaborated with backend developers to ensure seamless integration of the new UI with the bank's existing systems and databases.",
+            "Took on the role of the frontend leader, overseeing the work of other frontend developers to ensure high-quality code and adherence to project timelines."
+          ]
+        }
+      ]
     },
     {
       "type": "cert",
       "date": "10/2021 - 06/2022",
       "title": "Front-end Academy | 960 hours",
       "org": "Bitdegree",
-      "body": "Sprint 1-2: Web Design Courses\nSprint 3: Html Course\nSprint 4-5: Basic CSS flexbox + grid\nSprint 6-7: Animations / Sass / Bootstrap\nSprint 8-10: Basic Javascript Course\nSprint 11-12: Api / Canvas Course\nSprint 13-16: Typescript / Node.js / NPM\nSprint 17-21: Angular / React / MVC method\nSprint 22-23: Databases SQL / NoSql"
+      "summary": "A 960-hour front-end academy spanning web design, HTML/CSS, JavaScript, TypeScript, Node.js, Angular, React and databases across 23 sprints.",
+      "sections": [
+        {
+          "title": "What it covered",
+          "items": [
+            "Sprint 1-2: Web Design Courses",
+            "Sprint 3: Html Course",
+            "Sprint 4-5: Basic CSS flexbox + grid",
+            "Sprint 6-7: Animations / Sass / Bootstrap",
+            "Sprint 8-10: Basic Javascript Course",
+            "Sprint 11-12: Api / Canvas Course",
+            "Sprint 13-16: Typescript / Node.js / NPM",
+            "Sprint 17-21: Angular / React / MVC method",
+            "Sprint 22-23: Databases SQL / NoSql"
+          ]
+        }
+      ]
     },
     {
       "type": "cert",
       "date": "03/2022 - 05/2022",
       "title": "Responsive Web Design Bootcamp (New + Legacy)",
       "org": "Freecodecamp",
-      "body": "Course 1: Basic HTML and HTML5.\nCourse 2: Basic CSS.\nCourse 3: Applied Visual Design.\nCourse 4: Applied Accessibility\nCourse 5: Responsive Web Design Principles.\nCourse 6: CSS Flexbox.\nCourse 7: CSS Grid.\nCourse 8: CSS Animation.\nCourse 9: CSS Transform."
+      "summary": "Responsive Web Design certification covering HTML5, CSS, flexbox, grid, animation, transforms and accessibility.",
+      "sections": [
+        {
+          "title": "What it covered",
+          "items": [
+            "Course 1: Basic HTML and HTML5.",
+            "Course 2: Basic CSS.",
+            "Course 3: Applied Visual Design.",
+            "Course 4: Applied Accessibility",
+            "Course 5: Responsive Web Design Principles.",
+            "Course 6: CSS Flexbox.",
+            "Course 7: CSS Grid.",
+            "Course 8: CSS Animation.",
+            "Course 9: CSS Transform."
+          ]
+        }
+      ]
     },
     {
       "type": "cert",
       "date": "01/2022 - 03/2022",
       "title": "JavaScript algorithms and data structures Bootcamp",
       "org": "Freecodecamp",
-      "body": "Course 1: Basic JavaScript.\nCourse 2: ES6.\nCourse 3: Regular Expressions.\nCourse 4: Debugging.\nCourse 5: Basic Data Structures.\nCourse 6: Basic Algorithm Scripting.\nCourse 7: Object Oriented Programming.\nCourse 8: Functional Programming.\nCourse 9: Intermediate Algorithm Scripting."
+      "summary": "JavaScript Algorithms and Data Structures certification covering ES6, regular expressions, data structures, OOP, functional programming and algorithm scripting.",
+      "sections": [
+        {
+          "title": "What it covered",
+          "items": [
+            "Course 1: Basic JavaScript.",
+            "Course 2: ES6.",
+            "Course 3: Regular Expressions.",
+            "Course 4: Debugging.",
+            "Course 5: Basic Data Structures.",
+            "Course 6: Basic Algorithm Scripting.",
+            "Course 7: Object Oriented Programming.",
+            "Course 8: Functional Programming.",
+            "Course 9: Intermediate Algorithm Scripting."
+          ]
+        }
+      ]
     },
     {
       "type": "cert",
       "date": "12/2021 - 01/2022",
       "title": "The ReGeneration Initiative: Upskilling Greek Youth for the Digital Era powered by Microsoft | 32 Hours training Path",
       "org": "Code.hub",
-      "body": "Part 1: ICT Tools & Professional Skills in the Digital Age\nPart 2: Business Administration & Tech Projects Management\nPart 3: Digital Literacy for an Interconnected World\nPart 4: Digital Transformation Tools & Processes"
+      "summary": "A 32-hour Microsoft-powered upskilling path on ICT tools, business administration, digital literacy and digital transformation.",
+      "sections": [
+        {
+          "title": "What it covered",
+          "items": [
+            "Part 1: ICT Tools & Professional Skills in the Digital Age",
+            "Part 2: Business Administration & Tech Projects Management",
+            "Part 3: Digital Literacy for an Interconnected World",
+            "Part 4: Digital Transformation Tools & Processes"
+          ]
+        }
+      ]
     },
     {
       "type": "cert",
       "date": "11/2021 - 12/2021",
       "title": "Regeneration ACADEMY ON CLOUD TOOLS & TECHNOLOGY POWERED BY MICROSOFT | 240 HOURS HANDS-ON TRAINING",
       "org": "code Hub",
-      "body": "1) Preparatory Training: 80 hours of Self-learning.\n2) Academy: 80 hours of live online instructor-led training.\n3) Post-training Specialization: 80 hours of Self-learning."
+      "summary": "A 240-hour hands-on academy on cloud tools and technology powered by Microsoft, combining self-learning with live instructor-led training.",
+      "sections": [
+        {
+          "title": "What it covered",
+          "items": [
+            "Preparatory Training: 80 hours of Self-learning.",
+            "Academy: 80 hours of live online instructor-led training.",
+            "Post-training Specialization: 80 hours of Self-learning."
+          ]
+        }
+      ]
     },
     {
       "type": "cert",
       "date": "10/2021 - 12/2021",
       "title": "SOFT SKILLS LEARNING PATH | 15 HOURS LINKEDIN LEARNING",
       "org": "Regeneration",
-      "body": "Top skills covered:\nDesign Thinking, Personal Development, Presentation Skills, Pitching Ideas, Intrapersonal Skills, Teamwork."
+      "summary": "A 15-hour LinkedIn Learning path covering design thinking, personal development, presentation skills, pitching ideas, intrapersonal skills and teamwork.",
+      "sections": []
     },
     {
       "type": "internship",
       "date": "11/2020 - 11/2021",
       "title": "Internship as a calibrator technician Assistant",
       "org": "Yphd (Haf)",
-      "body": "During my military service in the HAF, I served at Yphd (Calibration Service), where due to my studies, I was stationed as a Calibrator Assistant."
+      "summary": "During my military service in the HAF I served at Yphd (Calibration Service), stationed as a Calibrator Assistant thanks to my engineering studies.",
+      "sections": []
     },
     {
       "type": "education",
       "date": "10/2015 - 04/2021",
       "title": "Integrated MSc in Electrical and Electronic Engineering",
       "org": "University of West Attica",
-      "body": "Diploma Thesis: \"Develop a web application for online project management\".\nLink: https://polynoe.lib.uniwa.gr/xmlui/handle/11400/740"
+      "link": {
+        "label": "View the thesis",
+        "url": "https://polynoe.lib.uniwa.gr/xmlui/handle/11400/740"
+      },
+      "summary": "Five-year integrated MSc in Electrical and Electronic Engineering, concluded with a diploma thesis on building a web application for online project management.",
+      "sections": []
     },
     {
       "type": "cert",
       "date": "01/2020 - 04/2022",
       "title": "WEB DEVELOPMENT COURSE | 104 HOURS HANDS-ON TRAINING",
       "org": "Ellak Code+Create",
-      "body": "Organised by GFOSS as part of the Code + Create workshops. The workshop entailed 72 hours of instruction in English and optional 32 hours of free experimenting."
+      "summary": "A 104-hour hands-on web development workshop organised by GFOSS: 72 hours of instruction in English plus 32 optional hours of free experimenting.",
+      "sections": []
     }
   ],
   "projects": [

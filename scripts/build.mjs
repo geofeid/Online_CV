@@ -83,6 +83,31 @@ export function validateContent(content, limits) {
   return failures;
 }
 
+// ---------- portfolio content guardrails ----------
+
+// Timeline cards only stay visually even if every summary is about the same size.
+export const TIMELINE_SUMMARY_MAX = 240;
+
+export function validatePortfolio(portfolio) {
+  const failures = [];
+  for (const entry of portfolio.timeline ?? []) {
+    const label = `${entry.org} / ${entry.title}`;
+    if (!entry.summary) {
+      failures.push(`${label}: missing summary`);
+      continue;
+    }
+    const length = visibleTextLength(entry.summary);
+    if (length > TIMELINE_SUMMARY_MAX) {
+      failures.push(`${label}: summary is ${length} chars; max is ${TIMELINE_SUMMARY_MAX}`);
+    }
+  }
+  if (failures.length > 0) {
+    console.error("Portfolio content validation failed:");
+    for (const failure of failures) console.error(`  - ${failure}`);
+    throw new Error("portfolio content validation failed");
+  }
+}
+
 // ---------- experience rendering ----------
 
 function numberedPrefixes(values, prefix, requiredSuffix) {
@@ -320,6 +345,7 @@ export async function build({ pdf = false } = {}) {
   console.log("Writing content.json + tokens.css...");
   fs.copyFileSync(path.join(root, "tokens.css"), path.join(dist, "tokens.css"));
   const portfolio = JSON.parse(fs.readFileSync(path.join(root, "content.portfolio.json"), "utf8"));
+  validatePortfolio(portfolio);
   const contentJson = { cv: Object.fromEntries(onlineValues), portfolio };
   fs.writeFileSync(path.join(dist, "content.json"), JSON.stringify(contentJson, null, 2));
 
