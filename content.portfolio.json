@@ -127,10 +127,22 @@
       "type": "cert",
       "start": "2026-03",
       "date": "03/2026",
-      "title": "AI Training Crash Course",
-      "org": "AI the Academy",
-      "summary": "A crash course on AI fundamentals and the practical use of AI tooling in day-to-day software engineering work.",
-      "sections": []
+      "title": "Crash Course: AI for Advanced Marketers",
+      "org": "Hellenic American Union & AI The Academy",
+      "summary": "A three-hour crash course on using AI as a system rather than a one-off prompt: agentic processes, building without code, and verifying AI output.",
+      "sections": [
+        {
+          "title": "What it covered",
+          "items": [
+            "Advanced competitive analysis.",
+            "Programming for non-programmers.",
+            "Content Management System 2.0.",
+            "Fact checking in the age of AI.",
+            "Agentic processes.",
+            "Voice whispering."
+          ]
+        }
+      ]
     },
     {
       "type": "job",
