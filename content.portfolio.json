@@ -139,7 +139,8 @@
             "Worked on .NET BFF implementations, unit testing, Azure DevOps pipelines, release processes, debugging, refactoring, and maintainable enterprise delivery."
           ]
         }
-      ]
+      ],
+      "start": "2025-10"
     },
     {
       "type": "job",
@@ -206,7 +207,32 @@
             "Utilized Jenkins and Docker CI/CD pipelines for reliable builds and releases."
           ]
         }
-      ]
+      ],
+      "start": "2023-04"
+    },
+    {
+      "type": "cert",
+      "date": "03/2022 - 05/2022",
+      "title": "Responsive Web Design Bootcamp (New + Legacy)",
+      "org": "Freecodecamp",
+      "summary": "Responsive Web Design certification covering HTML5, CSS, flexbox, grid, animation, transforms and accessibility.",
+      "sections": [
+        {
+          "title": "What it covered",
+          "items": [
+            "Course 1: Basic HTML and HTML5.",
+            "Course 2: Basic CSS.",
+            "Course 3: Applied Visual Design.",
+            "Course 4: Applied Accessibility",
+            "Course 5: Responsive Web Design Principles.",
+            "Course 6: CSS Flexbox.",
+            "Course 7: CSS Grid.",
+            "Course 8: CSS Animation.",
+            "Course 9: CSS Transform."
+          ]
+        }
+      ],
+      "start": "2022-03"
     },
     {
       "type": "job",
@@ -233,53 +259,8 @@
             "Took on the role of the frontend leader, overseeing the work of other frontend developers to ensure high-quality code and adherence to project timelines."
           ]
         }
-      ]
-    },
-    {
-      "type": "cert",
-      "date": "10/2021 - 06/2022",
-      "title": "Front-end Academy | 960 hours",
-      "org": "Bitdegree",
-      "summary": "A 960-hour front-end academy spanning web design, HTML/CSS, JavaScript, TypeScript, Node.js, Angular, React and databases across 23 sprints.",
-      "sections": [
-        {
-          "title": "What it covered",
-          "items": [
-            "Sprint 1-2: Web Design Courses",
-            "Sprint 3: Html Course",
-            "Sprint 4-5: Basic CSS flexbox + grid",
-            "Sprint 6-7: Animations / Sass / Bootstrap",
-            "Sprint 8-10: Basic Javascript Course",
-            "Sprint 11-12: Api / Canvas Course",
-            "Sprint 13-16: Typescript / Node.js / NPM",
-            "Sprint 17-21: Angular / React / MVC method",
-            "Sprint 22-23: Databases SQL / NoSql"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "cert",
-      "date": "03/2022 - 05/2022",
-      "title": "Responsive Web Design Bootcamp (New + Legacy)",
-      "org": "Freecodecamp",
-      "summary": "Responsive Web Design certification covering HTML5, CSS, flexbox, grid, animation, transforms and accessibility.",
-      "sections": [
-        {
-          "title": "What it covered",
-          "items": [
-            "Course 1: Basic HTML and HTML5.",
-            "Course 2: Basic CSS.",
-            "Course 3: Applied Visual Design.",
-            "Course 4: Applied Accessibility",
-            "Course 5: Responsive Web Design Principles.",
-            "Course 6: CSS Flexbox.",
-            "Course 7: CSS Grid.",
-            "Course 8: CSS Animation.",
-            "Course 9: CSS Transform."
-          ]
-        }
-      ]
+      ],
+      "start": "2022-02"
     },
     {
       "type": "cert",
@@ -302,7 +283,8 @@
             "Course 9: Intermediate Algorithm Scripting."
           ]
         }
-      ]
+      ],
+      "start": "2022-01"
     },
     {
       "type": "cert",
@@ -320,7 +302,8 @@
             "Part 4: Digital Transformation Tools & Processes"
           ]
         }
-      ]
+      ],
+      "start": "2021-12"
     },
     {
       "type": "cert",
@@ -337,7 +320,32 @@
             "Post-training Specialization: 80 hours of Self-learning."
           ]
         }
-      ]
+      ],
+      "start": "2021-11"
+    },
+    {
+      "type": "cert",
+      "date": "10/2021 - 06/2022",
+      "title": "Front-end Academy | 960 hours",
+      "org": "Bitdegree",
+      "summary": "A 960-hour front-end academy spanning web design, HTML/CSS, JavaScript, TypeScript, Node.js, Angular, React and databases across 23 sprints.",
+      "sections": [
+        {
+          "title": "What it covered",
+          "items": [
+            "Sprint 1-2: Web Design Courses",
+            "Sprint 3: Html Course",
+            "Sprint 4-5: Basic CSS flexbox + grid",
+            "Sprint 6-7: Animations / Sass / Bootstrap",
+            "Sprint 8-10: Basic Javascript Course",
+            "Sprint 11-12: Api / Canvas Course",
+            "Sprint 13-16: Typescript / Node.js / NPM",
+            "Sprint 17-21: Angular / React / MVC method",
+            "Sprint 22-23: Databases SQL / NoSql"
+          ]
+        }
+      ],
+      "start": "2021-10"
     },
     {
       "type": "cert",
@@ -345,7 +353,8 @@
       "title": "SOFT SKILLS LEARNING PATH | 15 HOURS LINKEDIN LEARNING",
       "org": "Regeneration",
       "summary": "A 15-hour LinkedIn Learning path covering design thinking, personal development, presentation skills, pitching ideas, intrapersonal skills and teamwork.",
-      "sections": []
+      "sections": [],
+      "start": "2021-10"
     },
     {
       "type": "internship",
@@ -353,7 +362,17 @@
       "title": "Internship as a calibrator technician Assistant",
       "org": "Yphd (Haf)",
       "summary": "During my military service in the HAF I served at Yphd (Calibration Service), stationed as a Calibrator Assistant thanks to my engineering studies.",
-      "sections": []
+      "sections": [],
+      "start": "2020-11"
+    },
+    {
+      "type": "cert",
+      "date": "01/2020 - 04/2022",
+      "title": "WEB DEVELOPMENT COURSE | 104 HOURS HANDS-ON TRAINING",
+      "org": "Ellak Code+Create",
+      "summary": "A 104-hour hands-on web development workshop organised by GFOSS: 72 hours of instruction in English plus 32 optional hours of free experimenting.",
+      "sections": [],
+      "start": "2020-01"
     },
     {
       "type": "education",
@@ -365,15 +384,8 @@
         "url": "https://polynoe.lib.uniwa.gr/xmlui/handle/11400/740"
       },
       "summary": "Five-year integrated MSc in Electrical and Electronic Engineering, concluded with a diploma thesis on building a web application for online project management.",
-      "sections": []
-    },
-    {
-      "type": "cert",
-      "date": "01/2020 - 04/2022",
-      "title": "WEB DEVELOPMENT COURSE | 104 HOURS HANDS-ON TRAINING",
-      "org": "Ellak Code+Create",
-      "summary": "A 104-hour hands-on web development workshop organised by GFOSS: 72 hours of instruction in English plus 32 optional hours of free experimenting.",
-      "sections": []
+      "sections": [],
+      "start": "2015-10"
     }
   ],
   "projects": [
