@@ -35,91 +35,113 @@
   "skills": [
     {
       "name": "html 5",
-      "percent": "90%"
+      "percent": "90%",
+      "category": "frontend"
     },
     {
       "name": "css 3",
-      "percent": "90%"
-    },
-    {
-      "name": "javascript",
-      "percent": "85%"
-    },
-    {
-      "name": "Typescript",
-      "percent": "85%"
+      "percent": "90%",
+      "category": "frontend"
     },
     {
       "name": "Angular 2+",
-      "percent": "90%"
+      "percent": "90%",
+      "category": "frontend"
     },
     {
       "name": "Bootstrap",
-      "percent": "90%"
+      "percent": "90%",
+      "category": "frontend"
     },
     {
       "name": "Tailwind",
-      "percent": "90%"
+      "percent": "90%",
+      "category": "frontend"
     },
     {
-      "name": "SCSS",
-      "percent": "80%"
+      "name": "javascript",
+      "percent": "85%",
+      "category": "frontend"
     },
     {
-      "name": "LESS",
-      "percent": "80%"
+      "name": "Typescript",
+      "percent": "85%",
+      "category": "frontend"
     },
     {
       "name": "Git",
-      "percent": "85%"
+      "percent": "85%",
+      "category": "devops"
     },
     {
-      "name": "Node.JS",
-      "percent": "70%"
+      "name": "SCSS",
+      "percent": "80%",
+      "category": "frontend"
     },
     {
-      "name": "NPM / NVM",
-      "percent": "60%"
-    },
-    {
-      "name": "Rest Apis",
-      "percent": "70%"
-    },
-    {
-      "name": "Azure / Jenkins",
-      "percent": "60%"
-    },
-    {
-      "name": "C#",
-      "percent": "50%"
-    },
-    {
-      "name": "SQL",
-      "percent": "65%"
-    },
-    {
-      "name": "React JS",
-      "percent": "30%"
-    },
-    {
-      "name": "PHP",
-      "percent": "35%"
-    },
-    {
-      "name": "Kentico",
-      "percent": "50%"
-    },
-    {
-      "name": "MVC / Factory",
-      "percent": "40%"
+      "name": "LESS",
+      "percent": "80%",
+      "category": "frontend"
     },
     {
       "name": "MS Office",
-      "percent": "80%"
+      "percent": "80%",
+      "category": "other"
+    },
+    {
+      "name": "Node.JS",
+      "percent": "70%",
+      "category": "backend"
+    },
+    {
+      "name": "Rest Apis",
+      "percent": "70%",
+      "category": "backend"
+    },
+    {
+      "name": "SQL",
+      "percent": "65%",
+      "category": "backend"
+    },
+    {
+      "name": "NPM / NVM",
+      "percent": "60%",
+      "category": "devops"
+    },
+    {
+      "name": "Azure / Jenkins",
+      "percent": "60%",
+      "category": "devops"
+    },
+    {
+      "name": "C#",
+      "percent": "50%",
+      "category": "backend"
+    },
+    {
+      "name": "Kentico",
+      "percent": "50%",
+      "category": "other"
+    },
+    {
+      "name": "MVC / Factory",
+      "percent": "40%",
+      "category": "backend"
     },
     {
       "name": "Figma",
-      "percent": "40%"
+      "percent": "40%",
+      "category": "other"
+    },
+    {
+      "name": "PHP",
+      "percent": "35%",
+      "category": "backend"
+    },
+    {
+      "name": "React JS",
+      "percent": "30%",
+      "category": "frontend"
     }
   ],
   "timeline": [
