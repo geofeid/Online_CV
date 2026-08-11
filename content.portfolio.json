@@ -89,6 +89,11 @@
       "category": "other"
     },
     {
+      "name": "Docker",
+      "percent": "75%",
+      "category": "devops"
+    },
+    {
       "name": "Node.JS",
       "percent": "70%",
       "category": "backend"
@@ -99,9 +104,29 @@
       "category": "backend"
     },
     {
+      "name": "Jenkins",
+      "percent": "70%",
+      "category": "devops"
+    },
+    {
+      "name": "CI/CD Pipelines",
+      "percent": "70%",
+      "category": "devops"
+    },
+    {
       "name": "SQL",
       "percent": "65%",
       "category": "backend"
+    },
+    {
+      "name": "Azure DevOps",
+      "percent": "65%",
+      "category": "devops"
+    },
+    {
+      "name": "Docker Compose",
+      "percent": "65%",
+      "category": "devops"
     },
     {
       "name": "NPM / NVM",
@@ -109,7 +134,12 @@
       "category": "devops"
     },
     {
-      "name": "Azure / Jenkins",
+      "name": "GitHub Actions",
+      "percent": "60%",
+      "category": "devops"
+    },
+    {
+      "name": "Bash / Shell",
       "percent": "60%",
       "category": "devops"
     },
@@ -122,6 +152,11 @@
       "name": "Kentico",
       "percent": "50%",
       "category": "other"
+    },
+    {
+      "name": "Kubernetes",
+      "percent": "45%",
+      "category": "devops"
     },
     {
       "name": "MVC / Factory",
