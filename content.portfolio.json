@@ -167,32 +167,53 @@
       "type": "cert",
       "start": "2025-02",
       "date": "02/2025",
-      "title": "DevOps Toolchain: Docker & Kubernetes, Jenkins, GitHub Actions",
       "org": "Udemy",
-      "summary": "Three hands-on DevOps courses: containerization with Docker and Kubernetes, CI/CD pipelines with Jenkins and its integrations, and workflow automation with GitHub Actions.",
+      "title": "Docker & Kubernetes: The Practical Guide [2025 Edition]",
+      "summary": "Hands-on course on containerizing applications with Docker and running them at scale with Kubernetes.",
       "sections": [
         {
-          "title": "Docker & Kubernetes: The Practical Guide [2025 Edition]",
+          "title": "What it covered",
           "items": [
-            "Docker images, Compose and container networking.",
+            "Docker images, containers and volumes.",
+            "Container networking and multi-container setups with Docker Compose.",
             "Containerization workflows from local development to deployment.",
             "Container orchestration with Kubernetes."
           ]
-        },
+        }
+      ]
+    },
+    {
+      "type": "cert",
+      "start": "2025-02",
+      "date": "02/2025",
+      "org": "Udemy",
+      "title": "Jenkins, From Zero To Hero",
+      "summary": "Becoming a DevOps master with Jenkins: building CI/CD pipelines end to end and wiring them into the wider toolchain.",
+      "sections": [
         {
-          "title": "Jenkins, From Zero To Hero",
+          "title": "What it covered",
           "items": [
-            "Building and automating CI/CD pipelines with Jenkins.",
-            "Integrations with Docker, Ansible, AWS, Git and Maven.",
-            "DevOps practices for repeatable builds across environments."
+            "Jenkins jobs and pipeline development.",
+            "CI/CD pipelines streamlining builds across environments.",
+            "Integrations with Docker, Ansible, AWS, Git and Maven."
           ]
-        },
+        }
+      ]
+    },
+    {
+      "type": "cert",
+      "start": "2025-02",
+      "date": "02/2025",
+      "org": "Udemy",
+      "title": "GitHub Actions - The Complete Guide",
+      "summary": "Automating build, test and deployment workflows with GitHub Actions, including custom actions and pipeline security.",
+      "sections": [
         {
-          "title": "GitHub Actions - The Complete Guide",
+          "title": "What it covered",
           "items": [
-            "Workflow automation and pipeline development.",
+            "Workflow automation with GitHub Actions.",
             "Building custom GitHub Actions.",
-            "Pipeline security."
+            "Pipeline development and security."
           ]
         }
       ]
