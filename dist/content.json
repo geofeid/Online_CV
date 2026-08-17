@@ -691,7 +691,11 @@
             "A wording change is an edit to one content file; the portfolio picks it up on the next page load, with no frontend release.",
             "Design tokens are published alongside the content, so both sites share one palette by construction.",
             "Every push deploys through GitHub Actions; there is no manual release step."
-          ]
+          ],
+          "facts": {
+            "team": "Solo",
+            "status": "Live and maintained"
+          }
         }
       },
       {
@@ -729,7 +733,11 @@
             "The site, the print page and the PDF are generated from the same content, so the download always matches what is published.",
             "Copy that would overflow the layout fails the build instead of shipping, thanks to per-field length limits.",
             "The print stylesheet targets real 210mm A4, so the PDF is a proper document rather than a scaled-down screen layout."
-          ]
+          ],
+          "facts": {
+            "team": "Solo",
+            "status": "Live and maintained"
+          }
         }
       },
       {
@@ -763,7 +771,13 @@
             "Figma designs translated into responsive, production-ready interfaces supporting a rebrand.",
             "Unit testing, release processes and pipeline work alongside feature delivery."
           ],
-          "results": []
+          "results": [
+            "The system runs in production and is in use today."
+          ],
+          "facts": {
+            "team": "25-30 in the delivery group",
+            "status": "In production and in use"
+          }
         }
       },
       {
@@ -798,8 +812,13 @@
           ],
           "results": [
             "Feature parity preserved through incremental migration steps and regression checks.",
-            "Project structure and tooling aligned with current Angular standards, improving long-term maintainability."
-          ]
+            "Project structure and tooling aligned with current Angular standards, improving long-term maintainability.",
+            "The system runs in production and is in use today."
+          ],
+          "facts": {
+            "team": "8-10 people",
+            "status": "In production and in use"
+          }
         }
       },
       {
@@ -837,7 +856,13 @@
             "Implemented E2E testing strategies to validate the correctness of the refactored system.",
             "Utilized Jenkins for automating CI/CD pipelines, streamlining builds across all environments."
           ],
-          "results": []
+          "results": [
+            "The system runs in production and is in use today."
+          ],
+          "facts": {
+            "team": "2-4 people",
+            "status": "In production and in use"
+          }
         }
       },
       {
@@ -874,7 +899,13 @@
             "Conducted thorough code reviews to uphold coding standards, best practices, and ensure maintainable code.",
             "Utilized Jenkins for automating CI/CD pipelines, streamlining builds across all environments."
           ],
-          "results": []
+          "results": [
+            "The system runs in production and is in use today."
+          ],
+          "facts": {
+            "team": "2-4 people",
+            "status": "In production and in use"
+          }
         }
       },
       {
@@ -911,7 +942,13 @@
             "Implemented fully responsive layouts for desktop, tablet, and mobile.",
             "Collaborated with backend developers to ensure seamless integration and stable releases."
           ],
-          "results": []
+          "results": [
+            "The system runs in production and is in use today."
+          ],
+          "facts": {
+            "team": "4-6 people",
+            "status": "In production and in use"
+          }
         }
       },
       {
@@ -944,7 +981,13 @@
             "Fixed defects and improved existing functionality without disrupting established user workflows.",
             "Participated in code reviews and collaborated with the core team for smooth integration and stable releases."
           ],
-          "results": []
+          "results": [
+            "The system runs in production and is in use today."
+          ],
+          "facts": {
+            "team": "10-12 people",
+            "status": "In production and in use"
+          }
         }
       },
       {
@@ -979,7 +1022,13 @@
             "Implemented responsive, accessible interfaces backed by integrated APIs.",
             "Utilized Jenkins and Docker CI/CD pipelines for reliable builds and releases."
           ],
-          "results": []
+          "results": [
+            "The system runs in production and is in use today."
+          ],
+          "facts": {
+            "team": "4-6 people",
+            "status": "In production and in use"
+          }
         }
       },
       {
@@ -1013,7 +1062,13 @@
             "Reviewed external partners' code and onboarded new team members to keep quality consistent.",
             "Managed deployments through Azure DevOps and supported production stability."
           ],
-          "results": []
+          "results": [
+            "The system runs in production and is in use today."
+          ],
+          "facts": {
+            "team": "3-5 people",
+            "status": "In production and in use"
+          }
         }
       },
       {
@@ -1045,7 +1100,13 @@
             "Worked with stakeholders to turn their requirements into a responsive interface.",
             "Coordinated the other frontend developers and integrated with the bank's existing systems."
           ],
-          "results": []
+          "results": [
+            "The system runs in production and is in use today."
+          ],
+          "facts": {
+            "team": "3-5 people",
+            "status": "In production and in use"
+          }
         }
       },
       {
