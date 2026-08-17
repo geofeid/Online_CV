@@ -473,6 +473,14 @@
               "Implemented responsive, accessible interfaces backed by integrated APIs.",
               "Utilized Jenkins and Docker CI/CD pipelines for reliable builds and releases."
             ]
+          },
+          {
+            "title": "AI LOW-CODE PLATFORM (EXTERNAL CLIENT PRODUCT)",
+            "items": [
+              "Worked inside an external client's own codebase on the frontend of their AI-driven low-code platform.",
+              "Built and maintained Angular interfaces styled with LESS, following the conventions already established in the product.",
+              "Delivered alongside the client's own developers as part of the wider team."
+            ]
           }
         ],
         "start": "2023-04"
@@ -1030,6 +1038,45 @@
             "status": "In production and in use"
           }
         }
+      },
+      {
+        "name": "AI low-code platform",
+        "type": "corporate",
+        "year": "2023 - 2025",
+        "org": "Singular Logic",
+        "slug": "ai-low-code-platform",
+        "description": "Frontend work on an external client's AI-driven low-code platform, contributing directly inside their product codebase.",
+        "tech": [
+          "Angular",
+          "TypeScript",
+          "LESS"
+        ],
+        "highlights": [
+          "Worked inside an external client's own codebase on the frontend of their AI-driven low-code platform.",
+          "Built and maintained Angular interfaces styled with LESS, following the conventions already established in the product.",
+          "Delivered alongside the client's own developers as part of the wider team."
+        ],
+        "caseStudy": {
+          "facts": {
+            "team": "6-8 people",
+            "status": "In production and in use"
+          },
+          "headline": "Frontend contributor on an external client's AI-driven low-code platform, working inside their own codebase.",
+          "context": "The client builds an AI low-code platform as their product. The work happened in their repository, next to their own developers, rather than on a system owned by Singular Logic.",
+          "goal": "Add and maintain frontend functionality that fits the product's existing architecture and visual conventions.",
+          "role": "Frontend developer on the client's product team, as Angular Developer / DevOps Engineer at Singular Logic.",
+          "approach": [
+            "Worked inside an external client's own codebase on the frontend of their AI-driven low-code platform.",
+            "Built and maintained Angular interfaces styled with LESS, following the conventions already established in the product.",
+            "Delivered alongside the client's own developers as part of the wider team."
+          ],
+          "results": [
+            "The platform runs in production and is in use today."
+          ]
+        },
+        "image": null,
+        "github": null,
+        "live": null
       },
       {
         "name": "Insurance sales platform",
