@@ -467,10 +467,10 @@
           {
             "title": "GOVERNMENT TRAVEL AUTHORIZATION PLATFORM",
             "items": [
-              "Developed and maintained Angular application features for a government-sector travel authorization platform.",
-              "Built form-driven flows with robust validation to support authorization requests.",
-              "Implemented responsive, accessible interfaces backed by integrated APIs.",
-              "Utilized Jenkins and Docker CI/CD pipelines for reliable builds and releases."
+              "Built a government-sector travel authorization platform from scratch, rather than migrating an existing system.",
+              "Implemented form-driven request flows with the validation rules that decide what can proceed.",
+              "Integrated with the surrounding government services the platform depends on.",
+              "Delivered responsive, accessible interfaces, with Jenkins and Docker pipelines for reliable releases."
             ]
           },
           {
@@ -1038,7 +1038,7 @@
         "type": "corporate",
         "year": "2023 - 2025",
         "org": "Singular Logic",
-        "description": "Developed and maintained a government-sector platform for travel authorization requests, built around form-driven flows with strict validation.",
+        "description": "A government-sector travel authorization platform built from scratch, where request flows depend on validation rules and on integration with government services.",
         "tech": [
           "Angular",
           "TypeScript",
@@ -1046,24 +1046,24 @@
           "Docker"
         ],
         "highlights": [
-          "Developed and maintained Angular application features for a government-sector travel authorization platform.",
-          "Built form-driven flows with robust validation to support authorization requests.",
-          "Implemented responsive, accessible interfaces backed by integrated APIs.",
-          "Utilized Jenkins and Docker CI/CD pipelines for reliable builds and releases."
+          "Built a government-sector travel authorization platform from scratch, rather than migrating an existing system.",
+          "Implemented form-driven request flows with the validation rules that decide what can proceed.",
+          "Integrated with the surrounding government services the platform depends on.",
+          "Delivered responsive, accessible interfaces, with Jenkins and Docker pipelines for reliable releases."
         ],
         "github": null,
         "live": null,
         "slug": "government-travel-authorization",
         "caseStudy": {
-          "headline": "Developed and maintained a government-sector travel authorization platform built around validated form flows.",
-          "context": "Authorization requests are submitted through form-driven flows where validation rules decide what can proceed.",
-          "goal": "Deliver reliable, accessible request flows and keep releases dependable.",
+          "headline": "Built a government travel authorization platform from scratch, around validated request flows and government service integrations.",
+          "context": "A new platform for travel authorization requests in the public sector, started from zero rather than replacing an existing system. Requests move through form-driven flows, and much of what the platform can do depends on the government services it connects to.",
+          "goal": "Deliver request flows that validate correctly and integrate dependably with the services around them.",
           "role": "Angular Developer / DevOps Engineer at Singular Logic.",
           "approach": [
-            "Developed and maintained Angular application features for a government-sector travel authorization platform.",
-            "Built form-driven flows with robust validation to support authorization requests.",
-            "Implemented responsive, accessible interfaces backed by integrated APIs.",
-            "Utilized Jenkins and Docker CI/CD pipelines for reliable builds and releases."
+            "Built a government-sector travel authorization platform from scratch, rather than migrating an existing system.",
+            "Implemented form-driven request flows with the validation rules that decide what can proceed.",
+            "Integrated with the surrounding government services the platform depends on.",
+            "Delivered responsive, accessible interfaces, with Jenkins and Docker pipelines for reliable releases."
           ],
           "results": [
             "The system runs in production and is in use today."
@@ -1071,7 +1071,13 @@
           "facts": {
             "team": "4-6 people",
             "status": "In production and in use"
-          }
+          },
+          "challenges": [
+            "Integrating with government services means working against interfaces you do not own and cannot change: different conventions, different availability, and failure modes that have to be handled rather than assumed away.",
+            "A build from scratch offers no existing behaviour to copy, so the flows and their validation rules had to be pinned down while the platform was still taking shape.",
+            "Authorization is rule-driven: a request that is wrongly accepted or wrongly blocked is a real-world problem, not a UI defect, so validation has to be exact.",
+            "Public-sector delivery brings accessibility and acceptance expectations alongside the functional requirements."
+          ]
         }
       },
       {
