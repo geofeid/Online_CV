@@ -417,23 +417,23 @@
         "summary": "Angular development and DevOps across six platforms — fuel management, CRM, elections, eCommerce, ticketing and government travel authorization — including the EuroElections 2024 upgrade from Angular 7 to 18.",
         "sections": [
           {
-            "title": "UPGRADING FUEL STATION INTERNAL SYSTEM",
+            "title": "FUEL LOYALTY PROGRAMME: UI AND STATE UPGRADE (2 BRANDS)",
             "items": [
-              "Implemented NgRx Store Management and Component Store for enhanced state management in an Angular project, ensuring a predictable data flow between components.",
-              "Designed and implemented a responsive user interface for mobiles and tablets, utilizing Angular's responsive design features.",
-              "Led rebranding efforts by incorporating a new color palette, maintaining brand consistency across all components and pages.",
-              "Conducted thorough code reviews to uphold coding standards, best practices, and ensure maintainable code.",
-              "Utilized Jenkins for automating CI/CD pipelines, streamlining builds across all environments."
+              "Upgraded the two remaining brands of the programme in place: a new UI over the existing system rather than a rebuild.",
+              "Introduced NgRx Store and Component Store so data flows predictably between components.",
+              "Made the interface responsive for mobile and tablet, which the previous UI did not support.",
+              "Carried a new colour palette across every component and page as part of the rebrand.",
+              "Structured the work so future features could be added without another rewrite, with code reviews and Jenkins CI/CD supporting the change."
             ]
           },
           {
-            "title": "REFACTORING OLD FUEL STATION INTERNAL SYSTEM",
+            "title": "FUEL LOYALTY PROGRAMME: ASPX TO ANGULAR (2 BRANDS)",
             "items": [
-              "Refactor the ASPX form CRM system into a new Angular-based UI from scratch, incorporating NgRx Store Management and Component Store for enhanced state management, in combination with the PrimeNG library for UI components.",
-              "Ensuring that the new Angular UI replicates key features and maintains user workflow.",
-              "Collaborated with backend developers to ensure seamless integration of the new UI.",
-              "Implemented E2E testing strategies to validate the correctness of the refactored system.",
-              "Utilized Jenkins for automating CI/CD pipelines, streamlining builds across all environments."
+              "Refactored the ASPX forms system into a new Angular UI, with a BFF layer as middleware between the frontend and the services behind it.",
+              "Delivered two brands from one shared codebase: roughly 90% common functionality with one or two brand-specific features and a distinct UI each.",
+              "Replicated the workflows operators and customers already relied on, so the points programme behaved the same after the rebuild.",
+              "Used NgRx Store and Component Store for predictable state, with PrimeNG for the component layer.",
+              "Implemented E2E testing to validate the refactored system, and Jenkins pipelines to automate builds across environments."
             ]
           },
           {
@@ -459,10 +459,9 @@
           {
             "title": "TICKETING SYSTEM CONTRIBUTIONS",
             "items": [
-              "Contributed features and improvements to the codebase of a large-scale ticketing system.",
-              "Implemented Angular components and flows consistent with the established architecture of the system.",
-              "Fixed defects and improved existing functionality without disrupting established user workflows.",
-              "Participated in code reviews and collaborated with the core team for smooth integration and stable releases."
+              "Built Angular components and flows for the new system as part of a 10-12 person team.",
+              "Worked to conventions agreed across the participating companies so the pieces fit together.",
+              "Took part in code reviews and coordinated with the other teams to keep integration and releases stable."
             ]
           },
           {
@@ -843,39 +842,40 @@
         }
       },
       {
-        "name": "Fuel station CRM: ASPX to Angular",
+        "name": "Fuel loyalty programme: ASPX to Angular",
         "type": "corporate",
         "year": "2023 - 2025",
         "org": "Singular Logic",
-        "description": "Rebuilt an ageing ASPX forms CRM as an Angular application from scratch, replicating the workflows its users depended on daily.",
+        "description": "Rebuilt two brands of a fuel-station points programme from ASPX forms into an Angular UI backed by a BFF, serving both the customers collecting points and the operators managing them.",
         "tech": [
           "Angular",
           "NgRx",
           "PrimeNG",
+          "BFF",
           "Jenkins",
           "Docker"
         ],
         "highlights": [
-          "Refactor the ASPX form CRM system into a new Angular-based UI from scratch, incorporating NgRx Store Management and Component Store for enhanced state management, in combination with the PrimeNG library for UI components.",
-          "Ensuring that the new Angular UI replicates key features and maintains user workflow.",
-          "Collaborated with backend developers to ensure seamless integration of the new UI.",
-          "Implemented E2E testing strategies to validate the correctness of the refactored system.",
-          "Utilized Jenkins for automating CI/CD pipelines, streamlining builds across all environments."
+          "Refactored the ASPX forms system into a new Angular UI, with a BFF layer as middleware between the frontend and the services behind it.",
+          "Delivered two brands from one shared codebase: roughly 90% common functionality with one or two brand-specific features and a distinct UI each.",
+          "Replicated the workflows operators and customers already relied on, so the points programme behaved the same after the rebuild.",
+          "Used NgRx Store and Component Store for predictable state, with PrimeNG for the component layer.",
+          "Implemented E2E testing to validate the refactored system, and Jenkins pipelines to automate builds across environments."
         ],
         "github": null,
         "live": null,
         "slug": "fuel-station-crm-angular",
         "caseStudy": {
-          "headline": "Rebuilt an ASPX forms CRM as a new Angular application, replicating the workflows its users depended on.",
-          "context": "The CRM ran on ageing ASPX forms. The rebuild started from scratch in Angular rather than patching the existing system.",
-          "goal": "Replace the old interface with an Angular one that keeps the users' existing workflows intact.",
+          "headline": "Rebuilt two brands of a fuel-station points programme from ASPX forms into Angular with a BFF.",
+          "context": "The client runs a loyalty points programme across four fuel-station brands, used both by the customers collecting points and by the operators administering them. The brands pair up: two share about 90% of their functionality, differing in one or two features and in their own UI, and the same holds for the other two. Two projects covered all four.",
+          "goal": "Replace the ASPX interface with an Angular one that keeps every workflow intact, and serve both brands from a shared codebase rather than two forks.",
           "role": "Angular Developer / DevOps Engineer at Singular Logic.",
           "approach": [
-            "Refactor the ASPX form CRM system into a new Angular-based UI from scratch, incorporating NgRx Store Management and Component Store for enhanced state management, in combination with the PrimeNG library for UI components.",
-            "Ensuring that the new Angular UI replicates key features and maintains user workflow.",
-            "Collaborated with backend developers to ensure seamless integration of the new UI.",
-            "Implemented E2E testing strategies to validate the correctness of the refactored system.",
-            "Utilized Jenkins for automating CI/CD pipelines, streamlining builds across all environments."
+            "Refactored the ASPX forms system into a new Angular UI, with a BFF layer as middleware between the frontend and the services behind it.",
+            "Delivered two brands from one shared codebase: roughly 90% common functionality with one or two brand-specific features and a distinct UI each.",
+            "Replicated the workflows operators and customers already relied on, so the points programme behaved the same after the rebuild.",
+            "Used NgRx Store and Component Store for predictable state, with PrimeNG for the component layer.",
+            "Implemented E2E testing to validate the refactored system, and Jenkins pipelines to automate builds across environments."
           ],
           "results": [
             "The system runs in production and is in use today."
@@ -883,15 +883,21 @@
           "facts": {
             "team": "2-4 people",
             "status": "In production and in use"
-          }
+          },
+          "challenges": [
+            "Two brands, one codebase: the shared 90% has to stay genuinely shared while the differing features and separate UIs are expressed as configuration rather than as divergent copies.",
+            "The old ASPX forms encoded years of accumulated behaviour that users depended on daily, so the rebuild had to reproduce it rather than improve on it unasked.",
+            "Introducing a BFF layer changes where logic lives: what the old forms did inline has to be split cleanly between frontend and middleware.",
+            "A points programme has two very different audiences in the same product — customers and operators — with different permissions and different expectations of the same data."
+          ]
         }
       },
       {
-        "name": "Fuel station internal system upgrade",
+        "name": "Fuel loyalty programme: UI and state upgrade",
         "type": "corporate",
         "year": "2023 - 2025",
         "org": "Singular Logic",
-        "description": "Modernized the internal system used by fuel station operators: new state management, a responsive interface and a full rebrand, delivered through automated pipelines.",
+        "description": "Upgraded the other two brands of the same points programme with a new interface, proper state management and a responsive layout, without rebuilding the system underneath.",
         "tech": [
           "Angular",
           "NgRx",
@@ -899,26 +905,26 @@
           "Jenkins"
         ],
         "highlights": [
-          "Implemented NgRx Store Management and Component Store for enhanced state management in an Angular project, ensuring a predictable data flow between components.",
-          "Designed and implemented a responsive user interface for mobiles and tablets, utilizing Angular's responsive design features.",
-          "Led rebranding efforts by incorporating a new color palette, maintaining brand consistency across all components and pages.",
-          "Conducted thorough code reviews to uphold coding standards, best practices, and ensure maintainable code.",
-          "Utilized Jenkins for automating CI/CD pipelines, streamlining builds across all environments."
+          "Upgraded the two remaining brands of the programme in place: a new UI over the existing system rather than a rebuild.",
+          "Introduced NgRx Store and Component Store so data flows predictably between components.",
+          "Made the interface responsive for mobile and tablet, which the previous UI did not support.",
+          "Carried a new colour palette across every component and page as part of the rebrand.",
+          "Structured the work so future features could be added without another rewrite, with code reviews and Jenkins CI/CD supporting the change."
         ],
         "github": null,
         "live": null,
         "slug": "fuel-station-system-upgrade",
         "caseStudy": {
-          "headline": "Modernized the internal system used by fuel station operators: state management, responsive UI and a full rebrand.",
-          "context": "Separate from the CRM rebuild, the existing internal system needed a state-management overhaul, a mobile and tablet interface, and a visual rebrand.",
-          "goal": "Make data flow predictable across the application, make it usable on smaller screens, and carry a new brand consistently through every page.",
+          "headline": "Gave the other two brands of the points programme a new interface, predictable state and a responsive layout.",
+          "context": "The client runs a loyalty points programme across four fuel-station brands, used both by the customers collecting points and by the operators administering them. The brands pair up: two share about 90% of their functionality, differing in one or two features and in their own UI, and the same holds for the other two. Two projects covered all four.",
+          "goal": "Modernize the interface and the state layer of a system that had to keep running, and leave it in a shape where new features do not require another rewrite.",
           "role": "Angular Developer / DevOps Engineer at Singular Logic.",
           "approach": [
-            "Implemented NgRx Store Management and Component Store for enhanced state management in an Angular project, ensuring a predictable data flow between components.",
-            "Designed and implemented a responsive user interface for mobiles and tablets, utilizing Angular's responsive design features.",
-            "Led rebranding efforts by incorporating a new color palette, maintaining brand consistency across all components and pages.",
-            "Conducted thorough code reviews to uphold coding standards, best practices, and ensure maintainable code.",
-            "Utilized Jenkins for automating CI/CD pipelines, streamlining builds across all environments."
+            "Upgraded the two remaining brands of the programme in place: a new UI over the existing system rather than a rebuild.",
+            "Introduced NgRx Store and Component Store so data flows predictably between components.",
+            "Made the interface responsive for mobile and tablet, which the previous UI did not support.",
+            "Carried a new colour palette across every component and page as part of the rebrand.",
+            "Structured the work so future features could be added without another rewrite, with code reviews and Jenkins CI/CD supporting the change."
           ],
           "results": [
             "The system runs in production and is in use today."
@@ -926,7 +932,13 @@
           "facts": {
             "team": "2-4 people",
             "status": "In production and in use"
-          }
+          },
+          "challenges": [
+            "Upgrading in place rather than rebuilding: every change had to land on a system already in daily use.",
+            "Retrofitting state management onto an application that had grown without it means untangling where data actually comes from before it can flow predictably.",
+            "The previous interface was not built for small screens, so responsiveness was a redesign of the layouts rather than a set of media queries.",
+            "The rebrand had to reach every component and page consistently, not just the obvious screens."
+          ]
         }
       },
       {
@@ -952,9 +964,9 @@
         "live": null,
         "slug": "templated-ecommerce-frontend",
         "caseStudy": {
-          "headline": "Built a templated Angular frontend designed to serve multiple storefronts from a single codebase.",
-          "context": "Rather than forking a frontend per storefront, the platform needed one codebase that could be templated per brand.",
-          "goal": "Serve several storefronts from one codebase while each keeps its own branding and workflows.",
+          "headline": "One templated Angular frontend serving different eCommerce platforms, from a real-estate niche to consumer-technology retail.",
+          "context": "Rather than a separate frontend per platform, the work was to build one templated codebase that could be configured per platform. The platforms it served ranged from a real-estate niche to retail of technology goods — very different products sharing the same foundation.",
+          "goal": "Serve several storefronts from one codebase, each with its own branding and its own workflows.",
           "role": "Angular Developer / DevOps Engineer at Singular Logic.",
           "approach": [
             "Built a reusable, templated frontend for eCommerce platforms using custom Angular components.",
@@ -969,7 +981,12 @@
           "facts": {
             "team": "4-6 people",
             "status": "In production and in use"
-          }
+          },
+          "challenges": [
+            "A real-estate listing platform and a technology retail store need different flows from the same foundation, so the templating has to absorb genuine functional differences and not only styling.",
+            "Every abstraction added for reuse is a constraint on the next platform; the line between configurable and hardcoded had to be drawn carefully.",
+            "REST integrations differ per platform, so the data layer had to stay flexible without leaking platform-specific assumptions into shared components."
+          ]
         }
       },
       {
@@ -977,7 +994,7 @@
         "type": "corporate",
         "year": "2023 - 2025",
         "org": "Singular Logic",
-        "description": "Contributed features and fixes to a large-scale ticketing system, working inside an established architecture without disrupting the workflows its users relied on.",
+        "description": "A new ticketing system for a public organisation, built alongside several other companies — where coordination between vendors mattered as much as the code.",
         "tech": [
           "Angular",
           "TypeScript"
@@ -992,15 +1009,14 @@
         "live": null,
         "slug": "ticketing-system",
         "caseStudy": {
-          "headline": "Contributed features and fixes to a large-scale ticketing system inside an established architecture.",
-          "context": "The system was already in production with its own conventions. New work had to fit those conventions rather than introduce a parallel style.",
-          "goal": "Add and improve functionality without disrupting the workflows users already relied on.",
+          "headline": "Built part of a new ticketing system for a public organisation, delivered jointly by several companies.",
+          "context": "A public organisation commissioned a new ticketing system. It was a fresh build rather than a migration, and several companies contributed to it at once, so the work depended on continuous coordination across organisational boundaries.",
+          "goal": "Deliver the frontend work reliably inside a multi-vendor project where interfaces and timing are agreed rather than controlled.",
           "role": "Angular Developer / DevOps Engineer at Singular Logic.",
           "approach": [
-            "Contributed features and improvements to the codebase of a large-scale ticketing system.",
-            "Implemented Angular components and flows consistent with the established architecture of the system.",
-            "Fixed defects and improved existing functionality without disrupting established user workflows.",
-            "Participated in code reviews and collaborated with the core team for smooth integration and stable releases."
+            "Built Angular components and flows for the new system as part of a 10-12 person team.",
+            "Worked to conventions agreed across the participating companies so the pieces fit together.",
+            "Took part in code reviews and coordinated with the other teams to keep integration and releases stable."
           ],
           "results": [
             "The system runs in production and is in use today."
@@ -1008,7 +1024,13 @@
           "facts": {
             "team": "10-12 people",
             "status": "In production and in use"
-          }
+          },
+          "challenges": [
+            "Multiple companies building one product means decisions are negotiated, not assumed; alignment on interfaces and conventions has to happen before code does.",
+            "A new build offers no existing behaviour to copy, so requirements have to be pinned down while the surrounding pieces are still moving.",
+            "Integration points owned by other vendors can change under you, which puts a premium on defensive boundaries and on communication.",
+            "Public-sector delivery carries its own review and acceptance expectations alongside the technical work."
+          ]
         }
       },
       {
@@ -1117,10 +1139,10 @@
         "live": null,
         "slug": "insurance-sales-platform",
         "caseStudy": {
-          "headline": "Lead developer on an online insurance sales product spread across three Angular applications.",
-          "context": "The platform was built from three separate Angular applications through which customers compare policies and buy them.",
-          "goal": "Keep the platform stable and consistent while extending it, across a team and multiple codebases.",
-          "role": "Led the team, as Angular Developer / Team Leader at Cognity.",
+          "headline": "Led the team behind an online insurance sales platform built as three Angular applications.",
+          "context": "Customers compare insurance policies and buy them through the platform, which is built as three separate Angular applications. I led the team responsible for maintaining and extending it.",
+          "goal": "Keep a live sales channel stable and consistent while extending it, across three codebases and a team that included external partners.",
+          "role": "Team lead: code reviews, technical decisions, architecture and direct contact with the client, as Angular Developer / Team Leader at Cognity.",
           "approach": [
             "Led a team maintaining and extending three Angular apps that made up the platform.",
             "Built interfaces for comparing and purchasing insurance policies securely.",
@@ -1133,7 +1155,13 @@
           "facts": {
             "team": "3-5 people",
             "status": "In production and in use"
-          }
+          },
+          "challenges": [
+            "Three applications, one product: consistency in behaviour and interface has to be maintained deliberately, because nothing enforces it across separate codebases.",
+            "Code arriving from external partners has to meet the same bar as the team's own, which makes review a gate rather than a formality.",
+            "Leading while still building: balancing hands-on delivery against reviews, decisions and client conversations.",
+            "It is a live sales channel, so stability during deployment is a business concern, not only a technical one."
+          ]
         }
       },
       {
@@ -1141,11 +1169,12 @@
         "type": "corporate",
         "year": "2022",
         "org": "Cognity",
-        "description": "Frontend leader on the rebuild of an outdated ASPX forms system into a modern Angular UI, following the architect's direction.",
+        "description": "Frontend leader on the rebuild of a bank's internal ASPX forms system into an Angular UI backed by a BFF.",
         "tech": [
           "Angular",
           "Angular Material",
-          "TypeScript"
+          "TypeScript",
+          "BFF"
         ],
         "highlights": [
           "Rebuilt the system from scratch in Angular with the Material component library.",
@@ -1156,8 +1185,8 @@
         "live": null,
         "slug": "bank-system-angular-rebuild",
         "caseStudy": {
-          "headline": "Frontend leader on the rebuild of an outdated ASPX forms system into an Angular UI.",
-          "context": "An internal banking system running on outdated ASPX forms was rebuilt from scratch in Angular with the Material component library, following the architect's direction.",
+          "headline": "Frontend leader on rebuilding a bank's internal system from ASPX forms into Angular with a BFF.",
+          "context": "A bank's internal system ran on outdated ASPX forms. It was rebuilt from scratch as an Angular UI with the Material component library, with a BFF layer introduced between the frontend and the systems behind it, following the architect's direction.",
           "goal": "Turn stakeholder requirements into a modern responsive interface that integrates with the systems already in place.",
           "role": "Frontend leader, as Angular Developer / Team Leader at Cognity.",
           "approach": [
@@ -1171,7 +1200,12 @@
           "facts": {
             "team": "3-5 people",
             "status": "In production and in use"
-          }
+          },
+          "challenges": [
+            "Internal banking tools carry workflows staff use all day; the rebuild had to respect those habits rather than reinvent them.",
+            "Introducing a BFF means deciding what belongs in the frontend and what belongs in middleware, on a system whose logic used to live inside the forms.",
+            "Coordinating other frontend developers while the architecture was still being set by the architect."
+          ]
         }
       },
       {
