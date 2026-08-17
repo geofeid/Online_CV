@@ -658,7 +658,7 @@
     "projects": [
       {
         "name": "Portfolio & CV ecosystem",
-        "type": "product",
+        "type": "personal",
         "year": "2026",
         "description": "This site and my online CV, built as one system: a single content source feeds both, so a text or theme change publishes everywhere without touching either app.",
         "tech": [
@@ -679,7 +679,7 @@
       },
       {
         "name": "CV generator with automated A4 PDF",
-        "type": "product",
+        "type": "personal",
         "year": "2026",
         "description": "A static-site generator that turns one content file into an online CV, a true-A4 print page and a downloadable PDF, so the published PDF can never drift from the site.",
         "tech": [
@@ -699,28 +699,8 @@
         "live": "https://geofeid.github.io/OnlineCV/"
       },
       {
-        "name": "EuroElections 2024 voting count system",
-        "type": "professional",
-        "year": "2024",
-        "org": "Singular Logic",
-        "description": "Led the refactor of a live election-night voting count system from Angular 7 to Angular 18, modernizing a legacy codebase that had to be correct under national attention.",
-        "tech": [
-          "Angular 18",
-          "Angular Signals",
-          "TypeScript",
-          "RxJS"
-        ],
-        "highlights": [
-          "Migrated legacy patterns to standalone components and modern Angular APIs.",
-          "Adopted Signals for state and data flow, improving change-detection efficiency.",
-          "Kept feature parity through incremental migration and regression checks."
-        ],
-        "github": null,
-        "live": null
-      },
-      {
         "name": "eBanking platform modernization",
-        "type": "professional",
+        "type": "corporate",
         "year": "2025",
         "org": "1DataGroup Technologies",
         "description": "Contributing to the redesign of a large-scale eBanking platform, migrating legacy AngularJS functionality to the current Angular ecosystem while the product stays in production.",
@@ -740,8 +720,28 @@
         "live": null
       },
       {
+        "name": "EuroElections 2024 voting count system",
+        "type": "corporate",
+        "year": "2024",
+        "org": "Singular Logic",
+        "description": "Led the refactor of a live election-night voting count system from Angular 7 to Angular 18, modernizing a legacy codebase that had to be correct under national attention.",
+        "tech": [
+          "Angular 18",
+          "Angular Signals",
+          "TypeScript",
+          "RxJS"
+        ],
+        "highlights": [
+          "Migrated legacy patterns to standalone components and modern Angular APIs.",
+          "Adopted Signals for state and data flow, improving change-detection efficiency.",
+          "Kept feature parity through incremental migration and regression checks."
+        ],
+        "github": null,
+        "live": null
+      },
+      {
         "name": "Fuel station CRM: ASPX to Angular",
-        "type": "professional",
+        "type": "corporate",
         "year": "2023",
         "org": "Singular Logic",
         "description": "Rebuilt an ageing ASPX forms CRM as an Angular application from scratch, replicating the workflows its users depended on daily.",
@@ -761,25 +761,42 @@
         "live": null
       },
       {
-        "name": "KIKCIO Crowdfunding",
-        "type": "academy",
-        "year": "2021",
-        "description": "A crowdfunding platform where creators publish projects with funding packages, media and updates, and backers fund them. Team project for the ReGeneration cloud academy.",
+        "name": "Insurance sales platform",
+        "type": "corporate",
+        "year": "2022",
+        "org": "Cognity",
+        "description": "Lead developer on an online insurance sales product built from three separate Angular applications, where customers compare policies and buy them directly.",
         "tech": [
-          "ASP.NET Core 6",
-          "C#",
-          "Entity Framework Core",
-          "SQL Server",
-          "Bootstrap 5",
-          "Azure"
+          "Angular",
+          "TypeScript",
+          "Azure DevOps"
         ],
         "highlights": [
-          "Three-project .NET solution: MVC frontend, Web API and shared data layer with EF Core migrations.",
-          "ASP.NET Core Identity for authentication; deployment through a GitHub Actions pipeline to Azure App Service.",
-          "Built with a team of four during the ReGeneration academy."
+          "Led a team maintaining and extending three Angular apps that made up the platform.",
+          "Built interfaces for comparing and purchasing insurance policies securely.",
+          "Reviewed external partners' code and onboarded new team members to keep quality consistent.",
+          "Managed deployments through Azure DevOps and supported production stability."
         ],
-        "image": null,
-        "github": "https://github.com/geofeid/CrowdFunding",
+        "github": null,
+        "live": null
+      },
+      {
+        "name": "Bank internal system: ASPX to Angular",
+        "type": "corporate",
+        "year": "2022",
+        "org": "Cognity",
+        "description": "Frontend leader on the rebuild of an outdated ASPX forms system into a modern Angular UI, following the architect's direction.",
+        "tech": [
+          "Angular",
+          "Angular Material",
+          "TypeScript"
+        ],
+        "highlights": [
+          "Rebuilt the system from scratch in Angular with the Material component library.",
+          "Worked with stakeholders to turn their requirements into a responsive interface.",
+          "Coordinated the other frontend developers and integrated with the bank's existing systems."
+        ],
+        "github": null,
         "live": null
       },
       {
@@ -798,37 +815,6 @@
         "image": "shots/lechocolat.png",
         "github": "https://github.com/geofeid/leChocolat-",
         "live": "https://geofeid.github.io/LeChocolatDeployed/"
-      },
-      {
-        "name": "Weebly's Bakery",
-        "type": "academy",
-        "year": "2021",
-        "description": "A single-page site for a local bakery: story, product range, team and reviews, laid out entirely with Flexbox and CSS Grid.",
-        "tech": [
-          "HTML5",
-          "CSS3",
-          "Flexbox",
-          "CSS Grid"
-        ],
-        "highlights": [],
-        "image": "shots/bakery.png",
-        "github": "https://github.com/geofeid/Weeblys-Bakery",
-        "live": "https://geofeid.github.io/Weeblys-Bakery/"
-      },
-      {
-        "name": "We-Learn",
-        "type": "academy",
-        "year": "2021",
-        "description": "A three-page site for a language school — landing, about and contact — built responsively on Bootstrap.",
-        "tech": [
-          "HTML5",
-          "CSS3",
-          "Bootstrap 5"
-        ],
-        "highlights": [],
-        "image": "shots/welearn.png",
-        "github": "https://github.com/geofeid/We-Learn",
-        "live": "https://geofeid.github.io/We-Learn/"
       },
       {
         "name": "Tic Tac Toe",
@@ -862,6 +848,59 @@
         "image": null,
         "github": "https://github.com/geofeid/Sprint-18/tree/main/5.1%20Project%201%20Authentication%20with%20Redux%20and%20Redux-Saga/Redux%20Authentication",
         "live": null
+      },
+      {
+        "name": "KIKCIO Crowdfunding",
+        "type": "academy",
+        "year": "2021",
+        "description": "A crowdfunding platform where creators publish projects with funding packages, media and updates, and backers fund them. Team project for the ReGeneration cloud academy.",
+        "tech": [
+          "ASP.NET Core 6",
+          "C#",
+          "Entity Framework Core",
+          "SQL Server",
+          "Bootstrap 5",
+          "Azure"
+        ],
+        "highlights": [
+          "Three-project .NET solution: MVC frontend, Web API and shared data layer with EF Core migrations.",
+          "ASP.NET Core Identity for authentication; deployment through a GitHub Actions pipeline to Azure App Service.",
+          "Built with a team of four during the ReGeneration academy."
+        ],
+        "image": null,
+        "github": "https://github.com/geofeid/CrowdFunding",
+        "live": null
+      },
+      {
+        "name": "Weebly's Bakery",
+        "type": "academy",
+        "year": "2021",
+        "description": "A single-page site for a local bakery: story, product range, team and reviews, laid out entirely with Flexbox and CSS Grid.",
+        "tech": [
+          "HTML5",
+          "CSS3",
+          "Flexbox",
+          "CSS Grid"
+        ],
+        "highlights": [],
+        "image": "shots/bakery.png",
+        "github": "https://github.com/geofeid/Weeblys-Bakery",
+        "live": "https://geofeid.github.io/Weeblys-Bakery/"
+      },
+      {
+        "name": "We-Learn",
+        "type": "academy",
+        "year": "2021",
+        "description": "A three-page site for a language school — landing, about and contact — built responsively on Bootstrap.",
+        "tech": [
+          "HTML5",
+          "CSS3",
+          "Bootstrap 5"
+        ],
+        "highlights": [],
+        "image": "shots/welearn.png",
+        "github": "https://github.com/geofeid/We-Learn",
+        "live": "https://geofeid.github.io/We-Learn/"
       }
     ],
     "blogs": [
