@@ -742,7 +742,7 @@
       {
         "name": "Fuel station CRM: ASPX to Angular",
         "type": "corporate",
-        "year": "2023",
+        "year": "2023 - 2025",
         "org": "Singular Logic",
         "description": "Rebuilt an ageing ASPX forms CRM as an Angular application from scratch, replicating the workflows its users depended on daily.",
         "tech": [
@@ -753,9 +753,95 @@
           "Docker"
         ],
         "highlights": [
-          "NgRx Store and Component Store for predictable state across the app.",
-          "Responsive interface for desktop, tablet and mobile, plus a full rebrand to a new palette.",
-          "E2E testing and Jenkins CI/CD pipelines across environments."
+          "Refactor the ASPX form CRM system into a new Angular-based UI from scratch, incorporating NgRx Store Management and Component Store for enhanced state management, in combination with the PrimeNG library for UI components.",
+          "Ensuring that the new Angular UI replicates key features and maintains user workflow.",
+          "Collaborated with backend developers to ensure seamless integration of the new UI.",
+          "Implemented E2E testing strategies to validate the correctness of the refactored system.",
+          "Utilized Jenkins for automating CI/CD pipelines, streamlining builds across all environments."
+        ],
+        "github": null,
+        "live": null
+      },
+      {
+        "name": "Fuel station internal system upgrade",
+        "type": "corporate",
+        "year": "2023 - 2025",
+        "org": "Singular Logic",
+        "description": "Modernized the internal system used by fuel station operators: new state management, a responsive interface and a full rebrand, delivered through automated pipelines.",
+        "tech": [
+          "Angular",
+          "NgRx",
+          "TypeScript",
+          "Jenkins"
+        ],
+        "highlights": [
+          "Implemented NgRx Store Management and Component Store for enhanced state management in an Angular project, ensuring a predictable data flow between components.",
+          "Designed and implemented a responsive user interface for mobiles and tablets, utilizing Angular's responsive design features.",
+          "Led rebranding efforts by incorporating a new color palette, maintaining brand consistency across all components and pages.",
+          "Conducted thorough code reviews to uphold coding standards, best practices, and ensure maintainable code.",
+          "Utilized Jenkins for automating CI/CD pipelines, streamlining builds across all environments."
+        ],
+        "github": null,
+        "live": null
+      },
+      {
+        "name": "Templated eCommerce platform frontend",
+        "type": "corporate",
+        "year": "2023 - 2025",
+        "org": "Singular Logic",
+        "description": "Built one templated Angular frontend that serves multiple storefronts from a single codebase, each keeping its own branding and workflows.",
+        "tech": [
+          "Angular",
+          "TypeScript",
+          "REST APIs",
+          "SCSS"
+        ],
+        "highlights": [
+          "Built a reusable, templated frontend for eCommerce platforms using custom Angular components.",
+          "Designed the templating so multiple storefronts could be served from the same codebase while keeping brand consistency per platform.",
+          "Integrated REST APIs to support dynamic data, user interactions, and platform-specific workflows.",
+          "Implemented fully responsive layouts for desktop, tablet, and mobile.",
+          "Collaborated with backend developers to ensure seamless integration and stable releases."
+        ],
+        "github": null,
+        "live": null
+      },
+      {
+        "name": "Ticketing system",
+        "type": "corporate",
+        "year": "2023 - 2025",
+        "org": "Singular Logic",
+        "description": "Contributed features and fixes to a large-scale ticketing system, working inside an established architecture without disrupting the workflows its users relied on.",
+        "tech": [
+          "Angular",
+          "TypeScript"
+        ],
+        "highlights": [
+          "Contributed features and improvements to the codebase of a large-scale ticketing system.",
+          "Implemented Angular components and flows consistent with the established architecture of the system.",
+          "Fixed defects and improved existing functionality without disrupting established user workflows.",
+          "Participated in code reviews and collaborated with the core team for smooth integration and stable releases."
+        ],
+        "github": null,
+        "live": null
+      },
+      {
+        "name": "Government travel authorization platform",
+        "type": "corporate",
+        "year": "2023 - 2025",
+        "org": "Singular Logic",
+        "description": "Developed and maintained a government-sector platform for travel authorization requests, built around form-driven flows with strict validation.",
+        "tech": [
+          "Angular",
+          "TypeScript",
+          "Jenkins",
+          "Docker"
+        ],
+        "highlights": [
+          "Developed and maintained Angular application features for a government-sector travel authorization platform.",
+          "Built form-driven flows with robust validation to support authorization requests.",
+          "Implemented responsive, accessible interfaces backed by integrated APIs.",
+          "Utilized Jenkins and Docker CI/CD pipelines for reliable builds and releases."
         ],
         "github": null,
         "live": null
