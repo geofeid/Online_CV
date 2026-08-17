@@ -645,6 +645,7 @@
           "Unit testing, release processes and pipeline work alongside feature delivery."
         ],
         "results": [
+          "Banking journeys are moving onto modern Angular one flow at a time, with the platform staying available to customers throughout.",
           "The system runs in production and is in use today."
         ],
         "facts": {
@@ -744,6 +745,8 @@
           "Implemented E2E testing to validate the refactored system, and Jenkins pipelines to automate builds across environments."
         ],
         "results": [
+          "Two brands are served from one codebase, with their differences expressed as configuration rather than as separate forks.",
+          "The ASPX interface was replaced by an Angular UI with a BFF, while the workflows customers and operators relied on stayed the same.",
           "The system runs in production and is in use today."
         ],
         "facts": {
@@ -793,6 +796,8 @@
           "Structured the work so future features could be added without another rewrite, with code reviews and Jenkins CI/CD supporting the change."
         ],
         "results": [
+          "The programme became usable on mobile and tablet, which the previous interface did not support.",
+          "State flows predictably through NgRx instead of being spread across components, and the new brand palette is applied consistently across every page.",
           "The system runs in production and is in use today."
         ],
         "facts": {
@@ -842,6 +847,7 @@
           "Collaborated with backend developers to ensure seamless integration and stable releases."
         ],
         "results": [
+          "One codebase serves platforms as different as a real-estate niche and technology retail, each with its own branding and workflows.",
           "The system runs in production and is in use today."
         ],
         "facts": {
@@ -885,6 +891,7 @@
           "Took part in code reviews and coordinated with the other teams to keep integration and releases stable."
         ],
         "results": [
+          "Delivered as part of a multi-company project for a public organisation, with the frontend work integrating cleanly into the wider system.",
           "The system runs in production and is in use today."
         ],
         "facts": {
@@ -932,6 +939,7 @@
           "Delivered responsive, accessible interfaces, with Jenkins and Docker pipelines for reliable releases."
         ],
         "results": [
+          "A platform that did not exist before now handles authorization requests end to end, connected to the government services it depends on.",
           "The system runs in production and is in use today."
         ],
         "facts": {
@@ -978,6 +986,7 @@
           "Delivered alongside the client's own developers as part of the wider team."
         ],
         "results": [
+          "The template and component libraries render as Angular at runtime, so what users assemble by drag and drop becomes a working interface.",
           "The platform runs in production and is in use today."
         ],
         "challenges": [
@@ -1022,6 +1031,7 @@
           "Managed deployments through Azure DevOps and supported production stability."
         ],
         "results": [
+          "Three Angular applications were kept consistent and extended as one product, with external partner code held to the same review standard as the team's own.",
           "The system runs in production and is in use today."
         ],
         "facts": {
@@ -1067,6 +1077,7 @@
           "Coordinated the other frontend developers and integrated with the bank's existing systems."
         ],
         "results": [
+          "The ASPX forms interface was replaced by an Angular UI with a BFF between the frontend and the bank's existing systems.",
           "The system runs in production and is in use today."
         ],
         "facts": {
