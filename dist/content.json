@@ -770,10 +770,10 @@
         "live": null,
         "slug": "ebanking-platform-modernization",
         "caseStudy": {
-          "headline": "Contributing to the modernization of a large-scale eBanking platform while it stays in production.",
-          "context": "The platform carries legacy AngularJS functionality that is being moved onto the current Angular ecosystem. The work happens on a product that remains live throughout.",
-          "goal": "Move functionality to the current Angular ecosystem and deliver a design refresh without interrupting the product.",
-          "role": "Angular Developer / Full Stack at 1DataGroup Technologies. This work is ongoing.",
+          "headline": "Moving a large-scale eBanking platform off legacy AngularJS and onto the current Angular ecosystem, while it stays in production.",
+          "context": "The platform covers the journeys an eBanking product is expected to have: payments, transfers, approvals and multi-step transactional flows. A large part of it was written in AngularJS and is being brought onto the current Angular ecosystem, with a design refresh landing alongside. Customers keep using the product throughout.",
+          "goal": "Carry the existing behaviour onto modern Angular without interrupting the product, and deliver the rebrand in the same pass.",
+          "role": "Angular Developer / Full Stack at 1DataGroup Technologies, working primarily on the Angular side and on the .NET BFF that serves it. The work is ongoing.",
           "approach": [
             "Complex banking workflows: payments, transfers, approvals and multi-step transactional journeys.",
             "Figma designs translated into responsive, production-ready interfaces supporting a rebrand.",
@@ -785,7 +785,13 @@
           "facts": {
             "team": "25-30 in the delivery group",
             "status": "In production and in use"
-          }
+          },
+          "challenges": [
+            "AngularJS and modern Angular do not map one to one. Scopes, two-way binding and the old dependency injection style have no direct equivalent, so each screen is re-expressed rather than translated, and the business logic has to survive that rewrite intact.",
+            "The two generations coexist while the migration is in flight, which constrains routing, shared state and the build setup for as long as both are live.",
+            "Banking flows leave no room for approximation. A transfer, an approval or a multi-step journey either behaves exactly as before or it is a defect, so parity has to be demonstrated rather than assumed.",
+            "A rebrand running in parallel means design changes and logic migration have to advance without blocking each other."
+          ]
         }
       },
       {
@@ -809,9 +815,9 @@
         "live": null,
         "slug": "euroelections-2024-upgrade",
         "caseStudy": {
-          "headline": "Led the upgrade of a voting count system from Angular 7 to Angular 18, keeping every feature intact.",
-          "context": "The system had been running on Angular 7. Moving it to Angular 18 meant crossing a long span of framework change on a codebase that had to keep behaving exactly as before.",
-          "goal": "Modernize the codebase and its tooling while preserving feature parity.",
+          "headline": "Led an Angular 7 to 18 upgrade of a voting count system against a date that could not move.",
+          "context": "An election-night counting system is delivered against a fixed date. The count happens that night whatever the state of the software, so there is no option to postpone and finish later. The application had been running on Angular 7.",
+          "goal": "Bring the application onto Angular 18 with its behaviour intact, ready before a deadline that no circumstance could shift.",
           "role": "Led the refactoring and upgrade, as Angular Developer / DevOps Engineer at Singular Logic.",
           "approach": [
             "Migrated legacy patterns to standalone components and modern Angular APIs.",
@@ -819,14 +825,21 @@
             "Kept feature parity through incremental migration and regression checks."
           ],
           "results": [
-            "Feature parity preserved through incremental migration steps and regression checks.",
-            "Project structure and tooling aligned with current Angular standards, improving long-term maintainability.",
+            "Delivered for a fixed election date with feature parity preserved, through incremental migration steps and regression checks.",
+            "Standalone components and Signals replaced the legacy patterns, simplifying state flow and change detection.",
+            "Project structure and tooling aligned with current Angular standards, so the application is back on a supported version with a maintainable upgrade path.",
             "The system runs in production and is in use today."
           ],
           "facts": {
             "team": "8-10 people",
             "status": "In production and in use"
-          }
+          },
+          "challenges": [
+            "Eleven major framework versions in one move: the rendering engine, the module system and a long tail of deprecated APIs all change at once, so there is no small incremental step available.",
+            "Third-party libraries pinned to the old version have to be upgraded or replaced in lockstep, and every replacement is a behavioural risk of its own.",
+            "Major RxJS and TypeScript upgrades ride along with the framework, touching code that has nothing to do with the migration itself.",
+            "The output is published numbers, so a state or rendering bug is not cosmetic — feature parity had to hold under a deadline that could not absorb a slip."
+          ]
         }
       },
       {
@@ -1061,10 +1074,10 @@
             "team": "6-8 people",
             "status": "In production and in use"
           },
-          "headline": "Frontend contributor on an external client's AI-driven low-code platform, working inside their own codebase.",
-          "context": "The client builds an AI low-code platform as their product. The work happened in their repository, next to their own developers, rather than on a system owned by Singular Logic.",
-          "goal": "Add and maintain frontend functionality that fits the product's existing architecture and visual conventions.",
-          "role": "Frontend developer on the client's product team, as Angular Developer / DevOps Engineer at Singular Logic.",
+          "headline": "Built the UI template and component libraries behind a drag-and-drop AI platform, and the layer that renders them as Angular at runtime.",
+          "context": "The client's product lets users assemble applications by dragging and dropping, rather than writing code. What the user composes has to become a working Angular interface when the application runs.",
+          "goal": "Provide template and component libraries that the platform can compose freely, and have them translate into Angular reliably at runtime.",
+          "role": "Frontend developer inside the client's product team, as Angular Developer / DevOps Engineer at Singular Logic.",
           "approach": [
             "Worked inside an external client's own codebase on the frontend of their AI-driven low-code platform.",
             "Built and maintained Angular interfaces styled with LESS, following the conventions already established in the product.",
@@ -1072,6 +1085,11 @@
           ],
           "results": [
             "The platform runs in production and is in use today."
+          ],
+          "challenges": [
+            "A component in a low-code product is configured by people who are not developers, so its options have to be expressive enough for real use cases and narrow enough to stay predictable.",
+            "Templates are rendered at runtime rather than compiled ahead of time, so the definitions have to map onto Angular's rendering model dynamically.",
+            "Any combination a user assembles has to stay visually coherent, which puts the burden on the LESS styling layer and on consistent component contracts rather than on per-screen fixes."
           ]
         },
         "image": null,
