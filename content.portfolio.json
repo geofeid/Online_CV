@@ -1106,7 +1106,8 @@
       "highlights": [],
       "image": "shots/lechocolat.png",
       "github": "https://github.com/geofeid/leChocolat-",
-      "live": "https://geofeid.github.io/LeChocolatDeployed/"
+      "live": "https://geofeid.github.io/LeChocolatDeployed/",
+      "slug": "le-chocolat"
     },
     {
       "name": "Tic Tac Toe",
@@ -1122,7 +1123,8 @@
       "highlights": [],
       "image": null,
       "github": "https://github.com/geofeid/Sprint-19/tree/main/8.2%20Sprint%2019%20Project/Tic_Tac_Toe_game",
-      "live": null
+      "live": null,
+      "slug": "tic-tac-toe"
     },
     {
       "name": "Authentication with Redux",
@@ -1139,7 +1141,8 @@
       "highlights": [],
       "image": null,
       "github": "https://github.com/geofeid/Sprint-18/tree/main/5.1%20Project%201%20Authentication%20with%20Redux%20and%20Redux-Saga/Redux%20Authentication",
-      "live": null
+      "live": null,
+      "slug": "authentication-with-redux"
     },
     {
       "name": "KIKCIO Crowdfunding",
@@ -1161,7 +1164,8 @@
       ],
       "image": null,
       "github": "https://github.com/geofeid/CrowdFunding",
-      "live": null
+      "live": null,
+      "slug": "kikcio-crowdfunding"
     },
     {
       "name": "Weebly's Bakery",
@@ -1177,7 +1181,8 @@
       "highlights": [],
       "image": "shots/bakery.png",
       "github": "https://github.com/geofeid/Weeblys-Bakery",
-      "live": "https://geofeid.github.io/Weeblys-Bakery/"
+      "live": "https://geofeid.github.io/Weeblys-Bakery/",
+      "slug": "weeblys-bakery"
     },
     {
       "name": "We-Learn",
@@ -1192,7 +1197,8 @@
       "highlights": [],
       "image": "shots/welearn.png",
       "github": "https://github.com/geofeid/We-Learn",
-      "live": "https://geofeid.github.io/We-Learn/"
+      "live": "https://geofeid.github.io/We-Learn/",
+      "slug": "we-learn"
     }
   ],
   "blogs": [
