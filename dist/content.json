@@ -768,7 +768,8 @@
           "Forms run through Next.js Server Actions, so the email and CRM integration never appears in the client bundle.",
           "Custom Tailwind palette and self-hosted fonts through next/font, with next/image serving WebP and preloading the hero.",
           "Structured data for both the practice and the FAQ, full Open Graph metadata, and PWA scaffolding.",
-          "No analytics, chat widgets or trackers of any kind, so there is no cookie banner and nothing slowing the page down."
+          "No analytics, chat widgets or trackers of any kind, so there is no cookie banner and nothing slowing the page down.",
+          "Search indexing deliberately disabled at the client's request: the practice is reached through LinkedIn and WhatsApp rather than organic search."
         ],
         "caseStudy": {
           "facts": {
@@ -783,14 +784,16 @@
             "The audience reads the site from ships, so page weight and render speed matter more than usual; every third-party script was a cost the site could not justify.",
             "Two funnels on one page must not compete: the free offer has to be easy to take without cannibalising the paid application.",
             "Handling form submissions without exposing the email or CRM provider to the browser.",
-            "A coaching practice carries a legal line between coaching and therapy that the copy and structure have to respect consistently."
+            "A coaching practice carries a legal line between coaching and therapy that the copy and structure have to respect consistently.",
+            "The client did not want the practice discoverable through search, so the site had to convert visitors who arrive from a direct referral rather than rely on organic traffic."
           ],
           "approach": [
             "Two conversion paths on one site: a free five-day email mini-course as the entry point, and an application form for the paid coaching programme.",
             "Forms run through Next.js Server Actions, so the email and CRM integration never appears in the client bundle.",
             "Custom Tailwind palette and self-hosted fonts through next/font, with next/image serving WebP and preloading the hero.",
             "Structured data for both the practice and the FAQ, full Open Graph metadata, and PWA scaffolding.",
-            "No analytics, chat widgets or trackers of any kind, so there is no cookie banner and nothing slowing the page down."
+            "No analytics, chat widgets or trackers of any kind, so there is no cookie banner and nothing slowing the page down.",
+            "Search indexing deliberately disabled at the client's request: the practice is reached through LinkedIn and WhatsApp rather than organic search."
           ],
           "results": [
             "The site is live and serving both funnels: mini-course signup and coaching application, each with its own confirmation page.",
@@ -938,6 +941,58 @@
           ],
           "results": []
         }
+      },
+      {
+        "name": "Sovereign",
+        "slug": "sovereign",
+        "type": "freelance",
+        "year": "",
+        "inDevelopment": true,
+        "description": "Client project currently in development.",
+        "tech": [],
+        "highlights": [],
+        "image": null,
+        "github": null,
+        "live": null
+      },
+      {
+        "name": "GreekSwedish",
+        "slug": "greekswedish",
+        "type": "freelance",
+        "year": "",
+        "inDevelopment": true,
+        "description": "Client project currently in development.",
+        "tech": [],
+        "highlights": [],
+        "image": null,
+        "github": null,
+        "live": null
+      },
+      {
+        "name": "All Blog Experts",
+        "slug": "all-blog-experts",
+        "type": "freelance",
+        "year": "",
+        "inDevelopment": true,
+        "description": "Client project currently in development.",
+        "tech": [],
+        "highlights": [],
+        "image": null,
+        "github": null,
+        "live": null
+      },
+      {
+        "name": "Healthspot",
+        "slug": "healthspot",
+        "type": "freelance",
+        "year": "",
+        "inDevelopment": true,
+        "description": "Client project currently in development.",
+        "tech": [],
+        "highlights": [],
+        "image": null,
+        "github": null,
+        "live": null
       },
       {
         "name": "eBanking platform modernization",
