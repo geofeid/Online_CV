@@ -943,30 +943,102 @@
         }
       },
       {
-        "name": "Sovereign",
-        "slug": "sovereign",
+        "name": "Real-Time Voice AI Platform",
+        "slug": "realtime-voice-ai",
         "type": "freelance",
-        "year": "",
+        "year": "2026",
         "inDevelopment": true,
-        "description": "Client project currently in development.",
-        "tech": [],
-        "highlights": [],
+        "description": "A real-time conversational voice AI platform designed for low-latency, interruption-aware and safety-controlled voice interactions.",
+        "tech": [
+          "C++17",
+          "TEN Framework",
+          "WebSockets",
+          "TCP",
+          "CMake"
+        ],
         "image": null,
         "github": null,
-        "live": null
+        "live": null,
+        "highlights": [
+          "Core C++ audio primitives: PCM validation, audio frame handling, jitter buffering and fixed-capacity SPSC queues.",
+          "A working TCP/WebSocket listener feeding incoming PCM audio into the real-time processing path.",
+          "Deterministic ASR and TTS test doubles, so the pipeline can be exercised without waiting on model integrations.",
+          "Bounded per-producer media queues built around single-producer, single-consumer ownership.",
+          "An engineering workflow of small tickets, explicit invariants and automated validation, so implementation status is evidence-based."
+        ],
+        "caseStudy": {
+          "facts": {
+            "team": "2 people",
+            "status": "In development"
+          },
+          "headline": "Conversational voice treated as a real-time system rather than a sequential speech pipeline — bounded memory, predictable execution, and interruption handled at the audio layer.",
+          "context": "The project explores how conversational voice AI can operate as a real-time system rather than a conventional sequential speech pipeline. The current implementation focuses on establishing reliable low-level audio transport, bounded concurrency and testable runtime foundations.",
+          "goal": "Build and validate the technical foundations for a responsive real-time voice system, keeping latency, memory ownership, interruption handling and system safety explicit architectural concerns.",
+          "role": "Freelance engagement: designed the system architecture, engineering constraints and validation approach, and contributed to the real-time C++ prototype.",
+          "challenges": [
+            "Designing the audio path around bounded memory and predictable execution needed deliberate ownership, queueing and concurrency decisions rather than generic application patterns.",
+            "Real-time interruption and streaming behaviour has to be coordinated across audio transport, session state and generation boundaries, without letting stale work reach playback.",
+            "Probabilistic model output and deterministic control are separated by design, so actions and critical values pass a validation boundary before they take effect."
+          ],
+          "approach": [
+            "Core C++ audio primitives: PCM validation, audio frame handling, jitter buffering and fixed-capacity SPSC queues.",
+            "A working TCP/WebSocket listener feeding incoming PCM audio into the real-time processing path.",
+            "Deterministic ASR and TTS test doubles, so the pipeline can be exercised without waiting on model integrations.",
+            "Bounded per-producer media queues built around single-producer, single-consumer ownership.",
+            "An engineering workflow of small tickets, explicit invariants and automated validation, so implementation status is evidence-based."
+          ],
+          "results": [
+            "A reproducible local real-time prototype, with unit and end-to-end validation passing at the recorded implementation snapshot.",
+            "Network ingress verified over real loopback, from gateway through to audio processing.",
+            "Deterministic ASR and TTS pipeline behaviour and bounded media-queue operation verified by automated tests."
+          ]
+        }
       },
       {
-        "name": "GreekSwedish",
-        "slug": "greekswedish",
+        "name": "Cross-Border Community Platform",
+        "slug": "cross-border-platform",
         "type": "freelance",
-        "year": "",
+        "year": "2026",
         "inDevelopment": true,
-        "description": "Client project currently in development.",
+        "description": "A responsive digital platform connecting people, culture, business, news and events between Greece and Sweden.",
         "tech": [],
-        "highlights": [],
         "image": null,
         "github": null,
-        "live": null
+        "live": null,
+        "highlights": [
+          "Defined a vertically structured homepage and information hierarchy around the core cross-border proposition.",
+          "Developed the responsive visual direction for the primary public-facing experience across desktop, tablet and mobile.",
+          "Structured navigation and user journeys around news, events, services, about and contact.",
+          "Established a consistent visual language: strong hierarchy, clean typography, restrained colour and cross-border imagery."
+        ],
+        "caseStudy": {
+          "facts": {
+            "team": "Freelance engagement",
+            "status": "In development"
+          },
+          "headline": "A community, culture and business proposition spanning two countries, given one information hierarchy and a responsive design language.",
+          "context": "The platform is positioned as a bridge between Greece and Sweden across community, culture and business. The digital experience brings those areas into a clearer, more cohesive public-facing structure.",
+          "goal": "Create a premium, responsive experience that communicates the cross-border proposition clearly and gives visitors direct paths into content, events, services and contact.",
+          "role": "Freelance engagement: designed the product structure, responsive UI direction and implementation approach.",
+          "challenges": [
+            "Turning a broad community, culture and business proposition into a clear information hierarchy, without the experience collapsing into a generic portal.",
+            "Balancing Scandinavian clarity and restraint with a warmer Mediterranean visual character, while keeping the interface credible and consistent.",
+            "Designing a responsive system that supports several different content and interaction patterns without fragmenting the whole."
+          ],
+          "approach": [
+            "Defined a vertically structured homepage and information hierarchy around the core cross-border proposition.",
+            "Developed the responsive visual direction for the primary public-facing experience across desktop, tablet and mobile.",
+            "Structured navigation and user journeys around news, events, services, about and contact.",
+            "Established a consistent visual language: strong hierarchy, clean typography, restrained colour and cross-border imagery."
+          ],
+          "deliverables": [
+            "UX/UI design direction.",
+            "Responsive page architecture.",
+            "Information architecture.",
+            "Implementation planning."
+          ],
+          "results": []
+        }
       },
       {
         "name": "All Blog Experts",
@@ -982,17 +1054,67 @@
         "live": null
       },
       {
-        "name": "Healthspot",
+        "name": "Health’s Spot",
         "slug": "healthspot",
         "type": "freelance",
-        "year": "",
+        "year": "2026",
         "inDevelopment": true,
-        "description": "Client project currently in development.",
-        "tech": [],
-        "highlights": [],
+        "description": "A fitness tracking and planning platform combining training, cardio, nutrition, recovery and structured workout content.",
+        "tech": [
+          "React",
+          "Vite",
+          "React Router",
+          "Supabase",
+          "Clerk",
+          "Stripe",
+          "Vercel",
+          "Recharts",
+          "jsPDF"
+        ],
+        "techLabel": "The stack I reviewed",
         "image": null,
         "github": null,
-        "live": null
+        "live": null,
+        "highlights": [
+          "Mapped the existing application architecture, routes, modules and external integrations to establish an evidence-based baseline.",
+          "Audited the Strength, Cardio, Nutrition and Recovery workflows, separating calculators, deterministic rules and statistical features from generative AI.",
+          "Defined production acceptance criteria covering identity, user isolation, subscriptions, module persistence, exports and operational quality.",
+          "Sequenced the remediation work so security and data integrity are addressed before any further feature work.",
+          "Established an MVP product model, and criteria for deciding when a feature can be called production-ready."
+        ],
+        "caseStudy": {
+          "facts": {
+            "team": "Advisory engagement",
+            "status": "In development"
+          },
+          "headline": "An audit of an existing fitness product, turned into a production MVP definition: what is genuinely built, what has to be fixed first, and what “ready” actually means.",
+          "context": "The product already existed as a working codebase spanning training, cardio, nutrition and recovery. The engagement started from that code rather than a blank page — establishing what was genuinely implemented, and what only looked implemented.",
+          "goal": "Define a production-ready version of the product with reliable core fitness workflows, secure handling of user data, and clear release criteria.",
+          "role": "Advisory engagement: audited the existing product, defined the production MVP scope, and translated technical risks into prioritised implementation and release criteria. The existing application code is not mine.",
+          "challenges": [
+            "Separating genuinely implemented functionality from prototype, placeholder and incomplete surfaces, without overstating readiness.",
+            "Tracing authentication, authorization, persistence and subscription behaviour across several frontend and backend integration points.",
+            "Turning a broad existing feature set into a smaller, testable MVP with explicit technical and product boundaries.",
+            "Reviewing a large structured workout-content library and identifying its consistency, delivery and maintainability requirements."
+          ],
+          "approach": [
+            "Mapped the existing application architecture, routes, modules and external integrations to establish an evidence-based baseline.",
+            "Audited the Strength, Cardio, Nutrition and Recovery workflows, separating calculators, deterministic rules and statistical features from generative AI.",
+            "Defined production acceptance criteria covering identity, user isolation, subscriptions, module persistence, exports and operational quality.",
+            "Sequenced the remediation work so security and data integrity are addressed before any further feature work.",
+            "Established an MVP product model, and criteria for deciding when a feature can be called production-ready."
+          ],
+          "deliverables": [
+            "Technical product and repository audit.",
+            "A production MVP definition with explicit boundaries.",
+            "Security and authorization review.",
+            "Feature and route assessment across the existing application.",
+            "A prioritised remediation backlog.",
+            "Release acceptance criteria.",
+            "An implementation roadmap."
+          ],
+          "results": []
+        }
       },
       {
         "name": "eBanking platform modernization",
