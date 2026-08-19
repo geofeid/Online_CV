@@ -228,6 +228,16 @@
         "category": "devops"
       },
       {
+        "name": "React JS",
+        "percent": "75%",
+        "category": "frontend"
+      },
+      {
+        "name": "Next.js",
+        "percent": "75%",
+        "category": "frontend"
+      },
+      {
         "name": "Node.JS",
         "percent": "70%",
         "category": "backend"
@@ -248,6 +258,21 @@
         "category": "devops"
       },
       {
+        "name": "React Router",
+        "percent": "70%",
+        "category": "frontend"
+      },
+      {
+        "name": "Zod",
+        "percent": "70%",
+        "category": "frontend"
+      },
+      {
+        "name": "Vercel",
+        "percent": "70%",
+        "category": "devops"
+      },
+      {
         "name": "SQL",
         "percent": "65%",
         "category": "backend"
@@ -259,6 +284,31 @@
       },
       {
         "name": "Docker Compose",
+        "percent": "65%",
+        "category": "devops"
+      },
+      {
+        "name": "TanStack Query",
+        "percent": "65%",
+        "category": "frontend"
+      },
+      {
+        "name": "PWA",
+        "percent": "65%",
+        "category": "frontend"
+      },
+      {
+        "name": "Supabase",
+        "percent": "65%",
+        "category": "backend"
+      },
+      {
+        "name": "Postgres",
+        "percent": "65%",
+        "category": "backend"
+      },
+      {
+        "name": "Vite",
         "percent": "65%",
         "category": "devops"
       },
@@ -275,6 +325,26 @@
       {
         "name": "Bash / Shell",
         "percent": "60%",
+        "category": "devops"
+      },
+      {
+        "name": "Stripe",
+        "percent": "60%",
+        "category": "backend"
+      },
+      {
+        "name": "Clerk",
+        "percent": "60%",
+        "category": "backend"
+      },
+      {
+        "name": "Drizzle ORM",
+        "percent": "60%",
+        "category": "backend"
+      },
+      {
+        "name": "Cloudflare R2",
+        "percent": "55%",
         "category": "devops"
       },
       {
@@ -306,11 +376,6 @@
         "name": "PHP",
         "percent": "35%",
         "category": "backend"
-      },
-      {
-        "name": "React JS",
-        "percent": "30%",
-        "category": "frontend"
       }
     ],
     "timeline": [
