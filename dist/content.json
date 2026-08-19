@@ -137,7 +137,7 @@
       "greeting": "Hi, I'm",
       "name": "Georgios Feidakis",
       "title": "A Senior Software Engineer.",
-      "intro": "I am a software engineer with a passion for web development. I have always been drawn to the front-end side of things, even though I have some understanding in the back-end side of things too. For the past several years, I have focused my learning and practice on Angular, a powerful JavaScript framework for building dynamic, responsive, and scalable web applications."
+      "intro": "I am a software engineer with a passion for web development, drawn to the front end and comfortable enough on the back end to build the services it depends on. Angular is where I have spent the last several years and where I am strongest — it is what I reach for first and what I keep going deeper into. Alongside it I ship React and Next.js work for my own clients."
     },
     "about": {
       "heading": "About me",
