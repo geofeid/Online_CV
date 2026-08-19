@@ -907,17 +907,63 @@
       }
     },
     {
-      "name": "All Blog Experts",
-      "slug": "all-blog-experts",
+      "name": "Premium Culinary Creator Platform",
+      "slug": "culinary-creator-platform",
       "type": "freelance",
-      "year": "",
+      "year": "2026",
       "inDevelopment": true,
-      "description": "Client project currently in development.",
-      "tech": [],
-      "highlights": [],
+      "description": "A subscription platform where culinary creators publish recipes and service proposals, with a ledgered points economy, rankings and Stripe billing.",
+      "tech": [
+        "Next.js",
+        "TypeScript",
+        "Clerk",
+        "Neon Postgres",
+        "Drizzle ORM",
+        "Cloudflare R2",
+        "Stripe",
+        "Tailwind CSS",
+        "Zod",
+        "Vercel"
+      ],
       "image": null,
       "github": null,
-      "live": null
+      "live": null,
+      "highlights": [
+        "Votes are an immutable ledger with a rebuildable aggregate: the vote, the voter's debit, the aggregate update and the credit to the recipe owner all commit in one transaction, or none of them do.",
+        "Subscription entitlements resolve through a single config-driven service, with a database-level invariant that a profile can hold only one active package at a time and package switches preserve history.",
+        "Media lives in a private object store, uploaded and displayed through presigned URLs so files are never public and never pass through the app server.",
+        "Domain logic sits in a service layer with thin API route handlers, so the same backend can serve a mobile client later without a rewrite.",
+        "One responsive app from phone to desktop rather than separate mobile and desktop builds."
+      ],
+      "caseStudy": {
+        "facts": {
+          "team": "Solo",
+          "status": "In development"
+        },
+        "headline": "A creator platform where votes cost real balance — so every rule about money, entitlements and voting had to hold under concurrency, not just in the happy path.",
+        "context": "Culinary creators publish recipes and service proposals to a paying audience. Readers spend a voting balance to back what they like, creators earn from being backed, and what each side may do depends on the package they hold — so the product is a content platform and a small economy at the same time.",
+        "goal": "Ship an engineering MVP where the money paths are provably correct: subscriptions, entitlements, wallets and voting all enforced server-side, with the rules in configuration rather than scattered through the code.",
+        "role": "Freelance engagement: built the platform end to end — data model, service layer, interface, payments and the verification tooling.",
+        "challenges": [
+          "A vote spends balance, so it is a financial transaction, not a click: insufficient balance has to reject cleanly and two simultaneous votes on the same key must not both succeed.",
+          "Entitlements are sold, so what the interface offers and what the server enforces cannot drift apart — every displayed benefit needs a real server-side implementation behind it.",
+          "Billing arrives asynchronously by webhook, which has to be signature-checked, deduplicated and able to revoke access when a payment is disputed.",
+          "A schema this size only stays trustworthy if the migration chain reproduces the deployed database exactly, rather than being patched by hand along the way."
+        ],
+        "approach": [
+          "Votes are an immutable ledger with a rebuildable aggregate: the vote, the voter's debit, the aggregate update and the credit to the recipe owner all commit in one transaction, or none of them do.",
+          "Subscription entitlements resolve through a single config-driven service, with a database-level invariant that a profile can hold only one active package at a time and package switches preserve history.",
+          "Media lives in a private object store, uploaded and displayed through presigned URLs so files are never public and never pass through the app server.",
+          "Domain logic sits in a service layer with thin API route handlers, so the same backend can serve a mobile client later without a rewrite.",
+          "One responsive app from phone to desktop rather than separate mobile and desktop builds."
+        ],
+        "results": [
+          "434 automated tests across 54 files, with typecheck, lint, test and build all green.",
+          "17 standalone verification scripts covering the paths where correctness is money: voting concurrency, wallet ledger, entitlements, the single-active-subscription invariant, webhook signature and dedupe, and reward redemption.",
+          "The migration chain is proven to reproduce the deployed schema exactly, with zero drift.",
+          "183 commits over roughly two weeks, from empty repository to a complete engineering MVP."
+        ]
+      }
     },
     {
       "name": "Health’s Spot",
