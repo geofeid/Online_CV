@@ -218,6 +218,11 @@
         "category": "ai"
       },
       {
+        "name": "RxJS",
+        "percent": "85%",
+        "category": "frontend"
+      },
+      {
         "name": "SCSS",
         "percent": "80%",
         "category": "frontend"
@@ -239,6 +244,11 @@
       },
       {
         "name": "Next.js",
+        "percent": "75%",
+        "category": "frontend"
+      },
+      {
+        "name": "NgRx",
         "percent": "75%",
         "category": "frontend"
       },
@@ -281,6 +291,11 @@
         "name": "AI output validation",
         "percent": "70%",
         "category": "ai"
+      },
+      {
+        "name": "PrimeNG",
+        "percent": "70%",
+        "category": "frontend"
       },
       {
         "name": "SQL",
@@ -416,6 +431,11 @@
         "name": "v0",
         "percent": "55%",
         "category": "ai"
+      },
+      {
+        "name": ".NET BFF",
+        "percent": "55%",
+        "category": "backend"
       },
       {
         "name": "C#",
