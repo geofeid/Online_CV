@@ -3,13 +3,13 @@
     "greeting": "Hi, I'm",
     "name": "Georgios Feidakis",
     "title": "A Senior Software Engineer.",
-    "intro": "I am a software engineer with a passion for web development, drawn to the front end and comfortable enough on the back end to build the services it depends on. Angular is where I have spent the last several years and where I am strongest — it is what I reach for first and what I keep going deeper into. Alongside it I ship React and Next.js work for my own clients."
+    "intro": "I am a software engineer with a passion for web development, drawn to the front end and comfortable enough on the back end to build the services it depends on. Angular is my main subject in enterprise work — where I have spent the last several years and where I am strongest. React and Next.js are what I build with on my own freelance projects."
   },
   "about": {
     "heading": "About me",
     "infoTitle": "Information About me",
     "paragraphs": [
-      "I am a software engineer who is passionate about creating elegant, efficient, and user-friendly web applications. With over 5 years of experience in the industry, I have developed a strong foundation in various programming languages, frameworks, and tools, including HTML / CSS, JS / TS, Angular etc.",
+      "I am a software engineer who is passionate about creating elegant, efficient, and user-friendly web applications. With over 5 years of experience in the industry, I have developed a strong foundation in various programming languages, frameworks, and tools. Angular is my main subject in enterprise work; React and Next.js are what I use for my freelance clients.",
       "I've always loved computers and tinkering with them, which led me to discover my passion for programming and coding. Despite studying Electrical and Electronic Engineering, I never lost sight of this passion and decided to pursue a career in software engineering to combine my academic background with my creative and technical interests.",
       "When I'm not coding, you'll likely find me out on a run or hitting the gym. I believe that regular exercise is not only essential for physical health, but also for mental clarity, stress relief, and overall well-being."
     ],
