@@ -809,6 +809,57 @@
       }
     },
     {
+      "name": "DigiMinds",
+      "slug": "digiminds",
+      "type": "personal",
+      "year": "2025 - 2026",
+      "description": "My own studio brand: a Greek single-page site that turns a visitor into a booked audit call, built as a funnel rather than a brochure.",
+      "tech": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Vercel"
+      ],
+      "image": "shots/digiminds.png",
+      "github": null,
+      "live": "https://digiminds.gr",
+      "highlights": [
+        "One page carrying the whole funnel: proposition, services, process, case studies, testimonials, objections and a single booking action.",
+        "Booking is the only conversion — a free twenty-minute audit call, so the visitor is asked for a decision rather than a form fill.",
+        "Structured data, sitemap and robots generated at build time, with Greek-language metadata throughout.",
+        "Scroll-driven motion with Framer Motion, kept to entry animations so it supports the reading order instead of competing with it.",
+        "A hero variant switch behind an environment flag, so the opening claim can be tested rather than argued about."
+      ],
+      "caseStudy": {
+        "facts": {
+          "team": "Solo",
+          "status": "Live"
+        },
+        "headline": "My own studio's site, built as a conversion path rather than a brochure — one page, one action, and the instrumentation to tell whether it works.",
+        "context": "DigiMinds is my own studio brand for client work: web apps, sites, funnels and automations for the Greek market. The site is its front door, so it has to do the selling that a freelancer otherwise does in a first call.",
+        "goal": "Turn an unfamiliar visitor into a booked audit call, and make the reasons for the booking explicit enough that the call starts warm.",
+        "role": "Personal project: designed, built, deployed and instrumented the whole site.",
+        "challenges": [
+          "A single page has to carry proposition, proof, process and objection handling without becoming a scroll nobody finishes.",
+          "Greek-language SEO needs its own metadata and structured data, not a translation layer over English defaults.",
+          "Motion has to earn its place: enough to make the page feel alive, not so much that it delays the content or hurts the load.",
+          "Claims about results are the easiest thing to inflate on your own site, and the hardest to defend afterwards."
+        ],
+        "approach": [
+          "One page carrying the whole funnel: proposition, services, process, case studies, testimonials, objections and a single booking action.",
+          "Booking is the only conversion — a free twenty-minute audit call, so the visitor is asked for a decision rather than a form fill.",
+          "Structured data, sitemap and robots generated at build time, with Greek-language metadata throughout.",
+          "Scroll-driven motion with Framer Motion, kept to entry animations so it supports the reading order instead of competing with it.",
+          "A hero variant switch behind an environment flag, so the opening claim can be tested rather than argued about."
+        ],
+        "results": [
+          "Live at digiminds.gr, in Greek, as the entry point for client enquiries.",
+          "Every section ends in the same action, so there is one path to measure rather than several competing ones."
+        ]
+      }
+    },
+    {
       "name": "CoachingSeafarers",
       "slug": "coaching-seafarers",
       "type": "freelance",
