@@ -377,6 +377,29 @@
   "timeline": [
     {
       "type": "cert",
+      "start": "2026-07",
+      "date": "07/2026",
+      "title": "Remote Summer School",
+      "org": "Workearly",
+      "summary": "Practical work in AI, communication, productivity and remote collaboration, plus a specialisation pathway applied through hands-on projects. Four skill badges were issued alongside the certification.",
+      "sections": [
+        {
+          "title": "Badges earned",
+          "items": [
+            "Vibe Coder — AI-assisted software development and modern vibe-coding workflows.",
+            "AI Productivity Specialist — using AI tools effectively: structuring prompts, producing professional content and automating everyday tasks.",
+            "Communication & Influence — professional communication, influence, negotiation and personal branding.",
+            "Remote Work Readiness — remote work practices, digital collaboration, productivity management and sustainable remote performance."
+          ]
+        }
+      ],
+      "link": {
+        "label": "Verify on Credly",
+        "url": "https://www.credly.com/users/georgios-feidakis"
+      }
+    },
+    {
+      "type": "cert",
       "start": "2026-03",
       "date": "03/2026",
       "title": "Crash Course: AI for Advanced Marketers",
@@ -727,7 +750,7 @@
     {
       "name": "Portfolio & CV ecosystem",
       "type": "personal",
-      "year": "2023 - 2026",
+      "year": "2023",
       "description": "This site and my online CV, built as one system: a single content source feeds both, so a text or theme change publishes everywhere without touching either app.",
       "tech": [
         "Angular 22",
@@ -769,7 +792,7 @@
     {
       "name": "CV generator with automated A4 PDF",
       "type": "personal",
-      "year": "2022 - 2026",
+      "year": "2022",
       "description": "A static-site generator that turns one content file into an online CV, a true-A4 print page and a downloadable PDF, so the published PDF can never drift from the site.",
       "tech": [
         "Node.js",
