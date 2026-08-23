@@ -451,21 +451,117 @@
       "date": "07/2026",
       "title": "Remote Summer School",
       "org": "Workearly",
-      "summary": "Practical work in AI, communication, productivity and remote collaboration, plus a specialisation pathway applied through hands-on projects. Four skill badges were issued alongside the certification.",
+      "summary": "A four-week remote-work programme: a week each on AI tooling, communication, a chosen specialisation built through real projects, and finding remote work.",
       "sections": [
         {
-          "title": "Badges earned",
+          "title": "What it covered",
           "items": [
-            "Vibe Coder — AI-assisted software development and modern vibe-coding workflows.",
-            "AI Productivity Specialist — using AI tools effectively: structuring prompts, producing professional content and automating everyday tasks.",
-            "Communication & Influence — professional communication, influence, negotiation and personal branding.",
-            "Remote Work Readiness — remote work practices, digital collaboration, productivity management and sustainable remote performance."
+            "Week one, AI Mastery: AI tools as everyday working tools rather than gadgets.",
+            "Week two, Communication & Influence: interviews, written communication, negotiation and influence.",
+            "Week three, specialisation: real projects in a chosen track — Vibe Coding, in my case.",
+            "Week four, Remote Ready: job boards, outreach, and the setup and habits of a productive remote day.",
+            "Four separate certifications issued across the four weeks."
           ]
         }
       ],
       "link": {
         "label": "Verify on Credly",
-        "url": "https://www.credly.com/users/georgios-feidakis"
+        "url": "https://www.credly.com/badges/1d20359d-63e6-40ee-87b0-a6c76d26acda"
+      }
+    },
+    {
+      "type": "cert",
+      "start": "2026-07",
+      "date": "07/2026",
+      "title": "Vibe Coder",
+      "org": "Workearly",
+      "summary": "The Vibe Coding 101 specialisation: describing an application and letting AI write the code, then taking it from prototype to something deployed.",
+      "sections": [
+        {
+          "title": "What it covered",
+          "items": [
+            "Prompt-driven development with Lovable, Cursor and v0.",
+            "Idea to working prototype inside a day.",
+            "Database, authentication and deployment basics.",
+            "Debugging and iterating with AI assistants."
+          ]
+        }
+      ],
+      "link": {
+        "label": "Verify on Credly",
+        "url": "https://www.credly.com/badges/3e6ad7ec-8b34-4a06-be77-f804c4ef5943"
+      }
+    },
+    {
+      "type": "cert",
+      "start": "2026-07",
+      "date": "07/2026",
+      "title": "AI Productivity Specialist",
+      "org": "Workearly",
+      "summary": "Using AI tools as daily working tools: prompt structure, drafting, automation, and knowing which model to reach for.",
+      "sections": [
+        {
+          "title": "What it covered",
+          "items": [
+            "Prompt structure that returns a usable answer the first time.",
+            "Writing emails, reports and content in minutes rather than hours.",
+            "Automating repetitive work: research, summaries and idea generation.",
+            "Choosing between tools: when ChatGPT, when Claude, when Gemini."
+          ]
+        }
+      ],
+      "link": {
+        "label": "Verify on Credly",
+        "url": "https://www.credly.com/badges/e12737dc-35b3-4008-b8ed-e4e401737ec7"
+      }
+    },
+    {
+      "type": "cert",
+      "start": "2026-07",
+      "date": "07/2026",
+      "title": "Communication & Influence",
+      "org": "Workearly",
+      "summary": "Communicating, persuading and presenting, online and in person — including how communication changes in hybrid and async teams.",
+      "sections": [
+        {
+          "title": "What it covered",
+          "items": [
+            "An interview framework for remote and in-person rounds.",
+            "Email structure that gets opened and answered.",
+            "Salary negotiation without the awkwardness.",
+            "A LinkedIn profile and bio written for recruiters.",
+            "Influencing colleagues and managers without pressure.",
+            "Working alongside AI and communicating in hybrid and async teams."
+          ]
+        }
+      ],
+      "link": {
+        "label": "Verify on Credly",
+        "url": "https://www.credly.com/badges/dce2c79d-6999-4437-8fe4-d8408c868e7b"
+      }
+    },
+    {
+      "type": "cert",
+      "start": "2026-07",
+      "date": "07/2026",
+      "title": "Remote Work Readiness",
+      "org": "Workearly",
+      "summary": "Finding remote work or clients, and setting up to do it well: the channels, the pitch, and the routine behind a productive remote day.",
+      "sections": [
+        {
+          "title": "What it covered",
+          "items": [
+            "The remote job boards and networks that actually carry roles.",
+            "CV and LinkedIn optimisation for remote positions.",
+            "Outreach scripts for winning freelance clients.",
+            "Home setup, tools and a routine for a productive remote day.",
+            "Time management, self-discipline and collaboration in distributed teams."
+          ]
+        }
+      ],
+      "link": {
+        "label": "Verify on Credly",
+        "url": "https://www.credly.com/badges/3a38e053-23d8-42a1-b7db-423ea8836421"
       }
     },
     {
