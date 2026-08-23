@@ -89,6 +89,26 @@
       "category": "frontend"
     },
     {
+      "name": "Professional communication",
+      "percent": "85%",
+      "category": "soft"
+    },
+    {
+      "name": "Problem solving",
+      "percent": "85%",
+      "category": "soft"
+    },
+    {
+      "name": "Attention to detail",
+      "percent": "85%",
+      "category": "soft"
+    },
+    {
+      "name": "Work ethic",
+      "percent": "85%",
+      "category": "soft"
+    },
+    {
       "name": "SCSS",
       "percent": "80%",
       "category": "frontend"
@@ -97,6 +117,26 @@
       "name": "LESS",
       "percent": "80%",
       "category": "frontend"
+    },
+    {
+      "name": "Adaptability",
+      "percent": "80%",
+      "category": "soft"
+    },
+    {
+      "name": "Team leadership",
+      "percent": "80%",
+      "category": "soft"
+    },
+    {
+      "name": "Stakeholder collaboration",
+      "percent": "80%",
+      "category": "soft"
+    },
+    {
+      "name": "Remote collaboration",
+      "percent": "80%",
+      "category": "soft"
     },
     {
       "name": "Docker",
@@ -132,6 +172,16 @@
       "name": "Rapid prototyping",
       "percent": "75%",
       "category": "ai"
+    },
+    {
+      "name": "Time management",
+      "percent": "75%",
+      "category": "soft"
+    },
+    {
+      "name": "Mentoring",
+      "percent": "75%",
+      "category": "soft"
     },
     {
       "name": "Node.JS",
@@ -177,6 +227,11 @@
       "name": "PrimeNG",
       "percent": "70%",
       "category": "frontend"
+    },
+    {
+      "name": "Negotiation & influence",
+      "percent": "70%",
+      "category": "soft"
     },
     {
       "name": "SQL",
