@@ -119,6 +119,11 @@
       "category": "frontend"
     },
     {
+      "name": "Angular Material",
+      "percent": "75%",
+      "category": "frontend"
+    },
+    {
       "name": "Node.JS",
       "percent": "70%",
       "category": "backend"
@@ -469,8 +474,8 @@
       "type": "job",
       "date": "04/2023 - 10/2025",
       "title": "Angular Developer / DevOps Engineer",
-      "org": "Singular_Logic A.E",
-      "summary": "Angular development and DevOps across six platforms — fuel management, CRM, elections, eCommerce, ticketing and government travel authorization — including the EuroElections 2024 upgrade from Angular 7 to 18.",
+      "org": "Singular Logic S.A",
+      "summary": "Angular development and DevOps across seven platforms — fuel loyalty, eCommerce, elections, ticketing, government travel authorization and an AI low-code product — including the EuroElections 2024 upgrade from Angular 7 to 18.",
       "sections": [
         {
           "title": "FUEL LOYALTY PROGRAMME: UI AND STATE UPGRADE (2 BRANDS)",
@@ -567,7 +572,7 @@
     {
       "type": "job",
       "date": "02/2022 - 04/2023",
-      "title": "Angular Developer",
+      "title": "Angular Developer / Team Leader",
       "org": "Cognity A.E",
       "summary": "Lead developer on an online insurance sales platform built from three Angular apps, and frontend leader on the refactor of a legacy ASPX banking system into a modern Angular UI.",
       "sections": [
@@ -955,7 +960,7 @@
       "name": "Habitly",
       "slug": "habitly",
       "type": "freelance",
-      "year": "",
+      "year": "2026",
       "inDevelopment": true,
       "description": "A Greek subscription platform that turns a 33-step onboarding quiz into a personalised meal plan with macros, plus an AI assistant for day-to-day questions.",
       "tech": [
@@ -1269,7 +1274,7 @@
       "name": "EuroElections 2024 voting count system",
       "type": "corporate",
       "year": "2024",
-      "org": "Singular Logic",
+      "org": "Singular Logic S.A",
       "description": "Led the refactor of a live election-night voting count system from Angular 7 to Angular 18, modernizing a legacy codebase that had to be correct under national attention.",
       "tech": [
         "Angular 18",
@@ -1317,7 +1322,7 @@
       "name": "Fuel loyalty programme: ASPX to Angular",
       "type": "corporate",
       "year": "2023 - 2025",
-      "org": "Singular Logic",
+      "org": "Singular Logic S.A",
       "description": "Rebuilt two brands of a fuel-station points programme from ASPX forms into an Angular UI backed by a BFF, serving both the customers collecting points and the operators managing them.",
       "tech": [
         "Angular",
@@ -1370,7 +1375,7 @@
       "name": "Fuel loyalty programme: UI and state upgrade",
       "type": "corporate",
       "year": "2023 - 2025",
-      "org": "Singular Logic",
+      "org": "Singular Logic S.A",
       "description": "Upgraded the other two brands of the same points programme with a new interface, proper state management and a responsive layout, without rebuilding the system underneath.",
       "tech": [
         "Angular",
@@ -1421,7 +1426,7 @@
       "name": "Templated eCommerce platform frontend",
       "type": "corporate",
       "year": "2023 - 2025",
-      "org": "Singular Logic",
+      "org": "Singular Logic S.A",
       "description": "Built one templated Angular frontend that serves multiple storefronts from a single codebase, each keeping its own branding and workflows.",
       "tech": [
         "Angular",
@@ -1470,7 +1475,7 @@
       "name": "Ticketing system",
       "type": "corporate",
       "year": "2023 - 2025",
-      "org": "Singular Logic",
+      "org": "Singular Logic S.A",
       "description": "A new ticketing system for a public organisation, built alongside several other companies — where coordination between vendors mattered as much as the code.",
       "tech": [
         "Angular",
@@ -1515,7 +1520,7 @@
       "name": "Government travel authorization platform",
       "type": "corporate",
       "year": "2023 - 2025",
-      "org": "Singular Logic",
+      "org": "Singular Logic S.A",
       "description": "A government-sector travel authorization platform built from scratch, where request flows depend on validation rules and on integration with government services.",
       "tech": [
         "Angular",
@@ -1563,7 +1568,7 @@
       "name": "AI low-code platform",
       "type": "corporate",
       "year": "2023 - 2025",
-      "org": "Singular Logic",
+      "org": "Singular Logic S.A",
       "slug": "ai-low-code-platform",
       "description": "Frontend work on an external client's AI-driven low-code platform, contributing directly inside their product codebase.",
       "tech": [
@@ -1608,7 +1613,7 @@
       "name": "Insurance sales platform",
       "type": "corporate",
       "year": "2022",
-      "org": "Cognity",
+      "org": "Cognity A.E",
       "description": "Lead developer on an online insurance sales product built from three separate Angular applications, where customers compare policies and buy them directly.",
       "tech": [
         "Angular",
@@ -1655,7 +1660,7 @@
       "name": "Bank internal system: ASPX to Angular",
       "type": "corporate",
       "year": "2022",
-      "org": "Cognity",
+      "org": "Cognity A.E",
       "description": "Frontend leader on the rebuild of a bank's internal ASPX forms system into an Angular UI backed by a BFF.",
       "tech": [
         "Angular",
