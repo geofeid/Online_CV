@@ -74,7 +74,7 @@
       "category": "devops"
     },
     {
-      "name": "Prompting",
+      "name": "Prompt Engineering",
       "percent": "85%",
       "category": "ai"
     },
@@ -122,6 +122,16 @@
       "name": "Angular Material",
       "percent": "75%",
       "category": "frontend"
+    },
+    {
+      "name": "Vibe coding",
+      "percent": "75%",
+      "category": "ai"
+    },
+    {
+      "name": "Rapid prototyping",
+      "percent": "75%",
+      "category": "ai"
     },
     {
       "name": "Node.JS",
@@ -225,6 +235,11 @@
     },
     {
       "name": "GitHub Copilot",
+      "percent": "65%",
+      "category": "ai"
+    },
+    {
+      "name": "AI for workflow automation",
       "percent": "65%",
       "category": "ai"
     },
