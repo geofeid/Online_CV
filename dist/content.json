@@ -218,9 +218,9 @@
         "category": "frontend"
       },
       {
-        "name": "MS Office",
+        "name": "AI-assisted development",
         "percent": "80%",
-        "category": "other"
+        "category": "ai"
       },
       {
         "name": "Docker",
@@ -236,6 +236,11 @@
         "name": "Next.js",
         "percent": "75%",
         "category": "frontend"
+      },
+      {
+        "name": "Prompt & context engineering",
+        "percent": "75%",
+        "category": "ai"
       },
       {
         "name": "Node.JS",
@@ -271,6 +276,11 @@
         "name": "Vercel",
         "percent": "70%",
         "category": "devops"
+      },
+      {
+        "name": "Structured AI output & validation",
+        "percent": "70%",
+        "category": "ai"
       },
       {
         "name": "SQL",
@@ -313,6 +323,16 @@
         "category": "devops"
       },
       {
+        "name": "Agentic workflows & tool use",
+        "percent": "65%",
+        "category": "ai"
+      },
+      {
+        "name": "LLM API integration",
+        "percent": "65%",
+        "category": "ai"
+      },
+      {
         "name": "NPM / NVM",
         "percent": "60%",
         "category": "devops"
@@ -348,6 +368,21 @@
         "category": "devops"
       },
       {
+        "name": "Payload CMS",
+        "percent": "55%",
+        "category": "cms"
+      },
+      {
+        "name": "Model Context Protocol",
+        "percent": "55%",
+        "category": "ai"
+      },
+      {
+        "name": "Real-time voice AI",
+        "percent": "55%",
+        "category": "ai"
+      },
+      {
         "name": "C#",
         "percent": "50%",
         "category": "backend"
@@ -355,12 +390,22 @@
       {
         "name": "Kentico",
         "percent": "50%",
-        "category": "other"
+        "category": "cms"
+      },
+      {
+        "name": "Storyblok",
+        "percent": "50%",
+        "category": "cms"
       },
       {
         "name": "Kubernetes",
         "percent": "45%",
         "category": "devops"
+      },
+      {
+        "name": "GrandNode",
+        "percent": "45%",
+        "category": "cms"
       },
       {
         "name": "MVC / Factory",
@@ -370,7 +415,7 @@
       {
         "name": "Figma",
         "percent": "40%",
-        "category": "other"
+        "category": "frontend"
       },
       {
         "name": "PHP",
