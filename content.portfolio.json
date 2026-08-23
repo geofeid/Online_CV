@@ -74,6 +74,16 @@
       "category": "devops"
     },
     {
+      "name": "Prompting",
+      "percent": "85%",
+      "category": "ai"
+    },
+    {
+      "name": "Claude Code",
+      "percent": "85%",
+      "category": "ai"
+    },
+    {
       "name": "SCSS",
       "percent": "80%",
       "category": "frontend"
@@ -82,11 +92,6 @@
       "name": "LESS",
       "percent": "80%",
       "category": "frontend"
-    },
-    {
-      "name": "AI-assisted development",
-      "percent": "80%",
-      "category": "ai"
     },
     {
       "name": "Docker",
@@ -102,11 +107,6 @@
       "name": "Next.js",
       "percent": "75%",
       "category": "frontend"
-    },
-    {
-      "name": "Prompt & context engineering",
-      "percent": "75%",
-      "category": "ai"
     },
     {
       "name": "Node.JS",
@@ -144,7 +144,7 @@
       "category": "devops"
     },
     {
-      "name": "Structured AI output & validation",
+      "name": "AI output validation",
       "percent": "70%",
       "category": "ai"
     },
@@ -189,12 +189,17 @@
       "category": "devops"
     },
     {
-      "name": "Agentic workflows & tool use",
+      "name": "AI agents",
       "percent": "65%",
       "category": "ai"
     },
     {
       "name": "LLM API integration",
+      "percent": "65%",
+      "category": "ai"
+    },
+    {
+      "name": "Agent skills",
       "percent": "65%",
       "category": "ai"
     },
@@ -229,6 +234,11 @@
       "category": "backend"
     },
     {
+      "name": "Lovable",
+      "percent": "60%",
+      "category": "ai"
+    },
+    {
       "name": "Cloudflare R2",
       "percent": "55%",
       "category": "devops"
@@ -239,12 +249,27 @@
       "category": "cms"
     },
     {
-      "name": "Model Context Protocol",
+      "name": "MCP",
       "percent": "55%",
       "category": "ai"
     },
     {
       "name": "Real-time voice AI",
+      "percent": "55%",
+      "category": "ai"
+    },
+    {
+      "name": "WordPress REST API",
+      "percent": "55%",
+      "category": "cms"
+    },
+    {
+      "name": "Bolt",
+      "percent": "55%",
+      "category": "ai"
+    },
+    {
+      "name": "Replit",
       "percent": "55%",
       "category": "ai"
     },
@@ -262,6 +287,21 @@
       "name": "Storyblok",
       "percent": "50%",
       "category": "cms"
+    },
+    {
+      "name": "Directus",
+      "percent": "50%",
+      "category": "cms"
+    },
+    {
+      "name": "RAG",
+      "percent": "50%",
+      "category": "ai"
+    },
+    {
+      "name": "Emergent",
+      "percent": "50%",
+      "category": "ai"
     },
     {
       "name": "Kubernetes",
