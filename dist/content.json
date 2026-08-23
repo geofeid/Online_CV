@@ -338,6 +338,11 @@
         "category": "ai"
       },
       {
+        "name": "GitHub Copilot",
+        "percent": "65%",
+        "category": "ai"
+      },
+      {
         "name": "NPM / NVM",
         "percent": "60%",
         "category": "devops"
@@ -408,6 +413,11 @@
         "category": "ai"
       },
       {
+        "name": "v0",
+        "percent": "55%",
+        "category": "ai"
+      },
+      {
         "name": "C#",
         "percent": "50%",
         "category": "backend"
@@ -438,6 +448,11 @@
         "category": "ai"
       },
       {
+        "name": "Google AI Studio",
+        "percent": "50%",
+        "category": "ai"
+      },
+      {
         "name": "Kubernetes",
         "percent": "45%",
         "category": "devops"
@@ -446,6 +461,11 @@
         "name": "GrandNode",
         "percent": "45%",
         "category": "cms"
+      },
+      {
+        "name": "Base44",
+        "percent": "45%",
+        "category": "ai"
       },
       {
         "name": "MVC / Factory",
