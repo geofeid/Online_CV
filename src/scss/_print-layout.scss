@@ -236,7 +236,7 @@ $sidebar-width: 70mm;
     border-left: 2px solid map.get(variables.$colors, secondary);
     padding-left: 0.75rem;
     position: relative;
-    padding-bottom: 1rem;
+    padding-bottom: 0.8rem;
 
     p {
       font-size: 0.75rem;
@@ -362,7 +362,7 @@ $sidebar-width: 70mm;
   .tl-content {
     border-left: 2px solid map.get(variables.$colors, secondary) !important;
     padding-left: 0.75rem !important;
-    padding-bottom: 1rem !important;
+    padding-bottom: 0.8rem !important;
 
     p {
       font-size: 0.75rem !important;
