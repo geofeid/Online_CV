@@ -209,6 +209,11 @@ $sidebar-width: 70mm;
     letter-spacing: 0.3px;
   }
 
+  .tl-title-2:empty,
+  .para:empty {
+    display: none;
+  }
+
   .tl-title-2 {
     font-size: 0.8rem;
     color: map.get(variables.$colors, accent);
