@@ -967,7 +967,8 @@ body {
     letter-spacing: 0.3px;
   }
   .tl-title-2:empty,
-  .para:empty {
+  .para:empty,
+  .is-online-only {
     display: none;
   }
   .tl-title-2 {

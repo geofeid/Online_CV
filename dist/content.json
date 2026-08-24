@@ -130,7 +130,19 @@
     "CERT5_DATES": "Mar 2020 - May 2020",
     "CERT5_TITLE1": "Web Dev Course (104 hrs)",
     "CERT5_DESC1": "HTML, CSS, JavaScript, Bootstrap and Angular.",
-    "CERT5_DESC2": "Awarded as Most <b>Helpful</b>, <b>Committed</b>, and <b>Driven</b>."
+    "CERT5_DESC2": "Awarded as Most <b>Helpful</b>, <b>Committed</b>, and <b>Driven</b>.",
+    "CERT6_PROVIDER": "Workearly",
+    "CERT6_DATES": "Jul 2026",
+    "CERT6_TITLE1": "Remote Summer School",
+    "CERT6_DESC1": "Four-week programme: AI, communication, a specialisation and remote work.",
+    "CERT6_TITLE2": "Vibe Coder",
+    "CERT6_DESC2": "Prompt-driven development with Lovable, Cursor and v0; idea to prototype.",
+    "CERT6_TITLE3": "AI Productivity Specialist",
+    "CERT6_DESC3": "Prompt structure, AI-assisted drafting, automation of repetitive work.",
+    "CERT6_TITLE4": "Communication & Influence",
+    "CERT6_DESC4": "Interviews, written communication, negotiation and influence.",
+    "CERT6_TITLE5": "Remote Work Readiness",
+    "CERT6_DESC5": "Remote job channels, outreach and a productive remote setup."
   },
   "portfolio": {
     "home": {
