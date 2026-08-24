@@ -533,6 +533,9 @@ body {
   color: #2D9CDB;
   margin-bottom: 5px;
 }
+.right-main-content .timeline .tl-title-2:not(:first-child) {
+  margin-top: 1rem;
+}
 .right-main-content .timeline .tl-title-2::before {
   content: "";
   position: absolute;
@@ -973,6 +976,11 @@ body {
   }
   .tl-title-2 {
     font-size: 0.8rem;
+  }
+  .tl-title-2:not(:first-child) {
+    margin-top: 0.45rem;
+  }
+  .tl-title-2 {
     color: #2D9CDB;
     text-transform: uppercase;
     margin-bottom: 0.2rem;

@@ -327,6 +327,11 @@
       font-size: map.get(variables.$font-sizes, md);
       color: map.get(variables.$colors, accent);
       margin-bottom: 5px;
+
+      // Second and later entries under one provider get a little air.
+      &:not(:first-child) {
+        margin-top: 1rem;
+      }
       &::before {
         content: "";
         position: absolute;

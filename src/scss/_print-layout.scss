@@ -217,6 +217,11 @@ $sidebar-width: 70mm;
 
   .tl-title-2 {
     font-size: 0.8rem;
+
+    &:not(:first-child) {
+      margin-top: 0.45rem;
+    }
+
     color: map.get(variables.$colors, accent);
     text-transform: uppercase;
     margin-bottom: 0.2rem;

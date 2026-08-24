@@ -246,6 +246,11 @@ body {
 
 .tl-title-2 {
   font-size: 0.8rem;
+}
+.tl-title-2:not(:first-child) {
+  margin-top: 0.45rem;
+}
+.tl-title-2 {
   color: #2D9CDB;
   text-transform: uppercase;
   margin-bottom: 0.2rem;
