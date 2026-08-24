@@ -18,7 +18,7 @@ $sidebar-width: 70mm;
 
   body {
     font-size: 0.75rem;
-    line-height: 1.4rem;
+    line-height: 1.3rem;
   }
 
   .main-content {
@@ -189,11 +189,11 @@ $sidebar-width: 70mm;
     margin-bottom: 0.7rem;
     color: map.get(variables.$colors, text-muted);
     font-size: 0.75rem;
-    line-height: 1.4rem;
+    line-height: 1.3rem;
   }
 
   .exp {
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.3rem;
   }
 
   .timeline {
@@ -236,13 +236,13 @@ $sidebar-width: 70mm;
     border-left: 2px solid map.get(variables.$colors, secondary);
     padding-left: 0.75rem;
     position: relative;
-    padding-bottom: 1.3rem;
+    padding-bottom: 1rem;
 
     p {
       font-size: 0.75rem;
       color: map.get(variables.$colors, text-muted);
-      line-height: 1.4rem;
-      margin-bottom: 0.4rem;
+      line-height: 1.3rem;
+      margin-bottom: 0.3rem;
     }
   }
 
@@ -362,18 +362,18 @@ $sidebar-width: 70mm;
   .tl-content {
     border-left: 2px solid map.get(variables.$colors, secondary) !important;
     padding-left: 0.75rem !important;
-    padding-bottom: 1.3rem !important;
+    padding-bottom: 1rem !important;
 
     p {
       font-size: 0.75rem !important;
-      line-height: 1.4rem !important;
-      margin-bottom: 0.4rem !important;
+      line-height: 1.3rem !important;
+      margin-bottom: 0.3rem !important;
     }
   }
 
   .para {
     font-size: 0.75rem !important;
-    line-height: 1.4rem !important;
+    line-height: 1.3rem !important;
   }
 }
 

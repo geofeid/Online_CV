@@ -14,7 +14,7 @@ html {
 
 body {
   font-size: 0.75rem;
-  line-height: 1.4rem;
+  line-height: 1.3rem;
 }
 
 .main-content {
@@ -218,11 +218,11 @@ body {
   margin-bottom: 0.7rem;
   color: #718096;
   font-size: 0.75rem;
-  line-height: 1.4rem;
+  line-height: 1.3rem;
 }
 
 .exp {
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.3rem;
 }
 
 .timeline {
@@ -264,13 +264,13 @@ body {
   border-left: 2px solid #ccc;
   padding-left: 0.75rem;
   position: relative;
-  padding-bottom: 1.3rem;
+  padding-bottom: 1rem;
 }
 .tl-content p {
   font-size: 0.75rem;
   color: #718096;
-  line-height: 1.4rem;
-  margin-bottom: 0.4rem;
+  line-height: 1.3rem;
+  margin-bottom: 0.3rem;
 }
 
 .link {
