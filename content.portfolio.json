@@ -1053,53 +1053,51 @@
       "slug": "coaching-seafarers",
       "type": "freelance",
       "year": "2026",
-      "description": "Marketing site and lead funnel for a maritime leadership coach, built on Next.js with server-side form handling and no third-party tracking.",
+      "description": "A lead funnel for a maritime leadership coach: a free five-day email course that filters and warms senior officers before they apply for one-to-one coaching.",
       "tech": [
-        "Next.js 16",
-        "React 19",
+        "Next.js",
+        "React",
+        "TypeScript",
         "Tailwind CSS",
-        "Server Actions",
         "Vercel"
       ],
       "image": "shots/coachingseafarers.png",
       "github": null,
       "live": "https://www.coachingseafarers.com/",
       "highlights": [
-        "Two conversion paths on one site: a free five-day email mini-course as the entry point, and an application form for the paid coaching programme.",
-        "Forms run through Next.js Server Actions, so the email and CRM integration never appears in the client bundle.",
-        "Custom Tailwind palette and self-hosted fonts through next/font, with next/image serving WebP and preloading the hero.",
-        "Structured data for both the practice and the FAQ, full Open Graph metadata, and PWA scaffolding.",
-        "No analytics, chat widgets or trackers of any kind, so there is no cookie banner and nothing slowing the page down.",
-        "Search indexing deliberately disabled at the client's request: the practice is reached through LinkedIn and WhatsApp rather than organic search."
+        "A free five-day email course as the entry point — one lesson a day, each a usable tool rather than a teaser for the paid programme.",
+        "A qualification section that says plainly who the coaching is not for, so unsuitable enquiries filter themselves out before a call is booked.",
+        "Six concrete outcomes named on the page — command presence, team leadership, communication, decision making, career clarity, resilience — instead of adjectives.",
+        "The coaching programme laid out as four stages, so a visitor can see the shape of the commitment before applying.",
+        "Two ways to make contact: a structured application for the programme, and WhatsApp for everything else.",
+        "Deliberately kept out of search results at the client's request, so the site works as a destination for people he sends there."
       ],
       "caseStudy": {
         "facts": {
-          "team": "Freelance engagement",
+          "team": "Solo",
           "status": "Live"
         },
-        "headline": "A lead funnel for a maritime coaching practice: free mini-course in, coaching applications out, with no tracking scripts in between.",
-        "context": "A Master Mariner running a coaching practice for senior deck officers needed a site that could qualify the right clients rather than collect everyone. The audience is at sea, often on poor connections.",
-        "goal": "Turn visitors into two clearly separated funnels — a free mini-course for people exploring, and a gated application for people ready to commit — on a site that loads fast anywhere.",
-        "role": "Freelance engagement: built and delivered the site.",
+        "headline": "A coach's site whose job is not to impress everyone — it is to find the few officers who are ready, and turn the rest away early.",
+        "context": "The client is a Master Mariner and DP instructor who coaches senior deck officers on leadership, promotion and the move ashore. His audience is small, specific and sceptical of anything that sounds like motivational speaking.",
+        "goal": "Turn a visitor into either a subscriber or an application, and make the coaching concrete enough that the first call starts from substance rather than explanation.",
+        "role": "Freelance engagement: built and delivered the site and the funnel.",
         "challenges": [
-          "The audience reads the site from ships, so page weight and render speed matter more than usual; every third-party script was a cost the site could not justify.",
-          "Two funnels on one page must not compete: the free offer has to be easy to take without cannibalising the paid application.",
-          "Handling form submissions without exposing the email or CRM provider to the browser.",
-          "A coaching practice carries a legal line between coaching and therapy that the copy and structure have to respect consistently.",
-          "The client did not want the practice discoverable through search, so the site had to convert visitors who arrive from a direct referral rather than rely on organic traffic."
+          "Coaching is an intangible product, so the page has to make the work visible before anyone will pay for it.",
+          "The audience is niche and highly practical: anything that reads as corporate jargon loses them in a sentence.",
+          "The wrong enquiries cost the client more than no enquiries, because every one becomes a call.",
+          "The service is professional coaching, not therapy, and the site has to draw that line clearly without sounding defensive."
         ],
         "approach": [
-          "Two conversion paths on one site: a free five-day email mini-course as the entry point, and an application form for the paid coaching programme.",
-          "Forms run through Next.js Server Actions, so the email and CRM integration never appears in the client bundle.",
-          "Custom Tailwind palette and self-hosted fonts through next/font, with next/image serving WebP and preloading the hero.",
-          "Structured data for both the practice and the FAQ, full Open Graph metadata, and PWA scaffolding.",
-          "No analytics, chat widgets or trackers of any kind, so there is no cookie banner and nothing slowing the page down.",
-          "Search indexing deliberately disabled at the client's request: the practice is reached through LinkedIn and WhatsApp rather than organic search."
+          "A free five-day email course as the entry point — one lesson a day, each a usable tool rather than a teaser for the paid programme.",
+          "A qualification section that says plainly who the coaching is not for, so unsuitable enquiries filter themselves out before a call is booked.",
+          "Six concrete outcomes named on the page — command presence, team leadership, communication, decision making, career clarity, resilience — instead of adjectives.",
+          "The coaching programme laid out as four stages, so a visitor can see the shape of the commitment before applying.",
+          "Two ways to make contact: a structured application for the programme, and WhatsApp for everything else.",
+          "Deliberately kept out of search results at the client's request, so the site works as a destination for people he sends there."
         ],
         "results": [
-          "The site is live and serving both funnels: mini-course signup and coaching application, each with its own confirmation page.",
-          "Zero third-party scripts, so no cookie banner is needed and there is nothing between the visitor and the content.",
-          "Statically prerendered and served from Vercel's edge, with the hero image preloaded as WebP."
+          "Live, with the free course as the entry point and a structured application as the path into paid coaching.",
+          "The page states who the coaching is not for, so the filtering happens before the client's time is spent."
         ]
       }
     },
@@ -1108,45 +1106,50 @@
       "slug": "mentorly-platform",
       "type": "freelance",
       "year": "2025 - 2026",
-      "description": "A platform where creators, coaches and consultants build and sell digital products — ebooks, courses, prompt packs and consultations — from one account.",
+      "description": "An all-in-one platform where creators, coaches and consultants build and sell digital products — ebooks, courses, consultations, services and AI agents — from one account.",
       "tech": [
         "React",
         "Vite",
+        "TypeScript",
         "Supabase",
-        "React Router",
-        "TanStack Query"
+        "TanStack Query",
+        "React Router"
       ],
       "image": "shots/mentorly.png",
       "github": null,
       "live": "https://platform.mentorly.gr/",
       "highlights": [
-        "Product creation for several distinct types: ebook, mini-course, video course, prompt pack, consultation and service.",
-        "AI-assisted product generation, so a seller can go from a prompt to a draft offer.",
-        "Around 120 client-side routes covering authoring, catalogue, checkout and seller dashboards.",
-        "Supabase for data and authentication, with TanStack Query handling server state on the client."
+        "Six genuinely different product types behind one authoring flow: ebook, course, video course, consultation, service offer and AI agent.",
+        "AI generation from a short brief — outlines, copy and lessons — so a seller starts from a draft rather than an empty page.",
+        "Bookings that carry calendar, video call and payment in a single flow, rather than three tools stitched together.",
+        "Checkout in multiple currencies with payouts to the seller's bank, and analytics on revenue, conversion and retention.",
+        "A marketplace so sellers can be found by buyers already looking, instead of relying only on their own audience."
       ],
       "caseStudy": {
         "facts": {
           "team": "Freelance engagement",
           "status": "Live"
         },
-        "headline": "One account where a creator can build, launch and sell digital products, replacing a stack of separate tools.",
-        "context": "Creators selling digital products usually stitch together a website builder, a course tool, a payment link and a scheduling app. Mentorly puts authoring, selling and delivery in one place.",
-        "goal": "Support several genuinely different product types — a downloadable ebook, a structured course, a bookable consultation — without the interface fragmenting into separate products.",
+        "headline": "Six different businesses — an ebook, a course, a booked call, an AI agent — authored through one interface without it fragmenting into six products.",
+        "context": "Creators, coaches and consultants sell very different things, and normally need a different tool for each: one for courses, one for bookings, one for payments, one for the landing page. The platform sets out to be the single account behind all of them.",
+        "goal": "Let a seller go from an idea to a live, paid offer in one sitting, whichever kind of product they are selling.",
         "role": "Freelance engagement: built and delivered the platform.",
         "challenges": [
-          "Different product types need different authoring flows and different delivery mechanics, but a seller should experience one coherent product.",
-          "A single-page application of this size needs its routes and data fetching split carefully, or the first load pays for the entire catalogue of features.",
-          "Auth, storage and data all run through Supabase, so access rules have to be right at the data layer rather than only in the UI."
+          "Each product type needs its own authoring flow and its own delivery mechanics, while the seller has to experience one coherent product.",
+          "A single-page application of this size has to split its routes and data fetching carefully, or the first load pays for the entire catalogue of features.",
+          "Auth, storage and data all run through one backend, so access rules have to be right at the data layer rather than only in the interface.",
+          "AI generation has to leave the seller in control of the result, not hand them something they have to undo."
         ],
         "approach": [
-          "Product creation for several distinct types: ebook, mini-course, video course, prompt pack, consultation and service.",
-          "AI-assisted product generation, so a seller can go from a prompt to a draft offer.",
-          "Around 120 client-side routes covering authoring, catalogue, checkout and seller dashboards.",
-          "Supabase for data and authentication, with TanStack Query handling server state on the client."
+          "Six genuinely different product types behind one authoring flow: ebook, course, video course, consultation, service offer and AI agent.",
+          "AI generation from a short brief — outlines, copy and lessons — so a seller starts from a draft rather than an empty page.",
+          "Bookings that carry calendar, video call and payment in a single flow, rather than three tools stitched together.",
+          "Checkout in multiple currencies with payouts to the seller's bank, and analytics on revenue, conversion and retention.",
+          "A marketplace so sellers can be found by buyers already looking, instead of relying only on their own audience."
         ],
         "results": [
-          "The platform is live, with seller signup, product authoring, checkout and dashboards in production."
+          "Live, with seller signup, product authoring, checkout and dashboards in production.",
+          "One account covers products that would otherwise need separate tools for courses, bookings, payments and the landing page."
         ]
       }
     },
