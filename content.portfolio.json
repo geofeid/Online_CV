@@ -9,10 +9,9 @@
     "heading": "About me",
     "infoTitle": "Information About me",
     "paragraphs": [
-      "I build and modernise enterprise web applications, mostly in Angular. Over the past five years that has meant banking, government and retail: an eBanking platform migrating off legacy AngularJS, a national election-night voting system upgraded from Angular 7 to 18, loyalty and eCommerce platforms rebuilt from ASPX forms into Angular. The brief is usually the same — take something that already carries real users and real money, and modernise it without stopping it.",
-      "I work across the stack when the frontend needs it: .NET BFF services, Node.js, REST APIs and SQL, shipped through Azure DevOps, Jenkins and Docker. I have led a team and mentored junior developers, and I care about the parts nobody notices while they work — state that scales, pipelines that do not surprise anyone, and interfaces that survive contact with real users.",
-      "Alongside that I take on my own clients and build my own products in React and Next.js: booking sites, subscription platforms, a real-time voice AI system, and DigiMinds, my own studio. That is where I try things a couple of years before the enterprise world adopts them — most recently building with AI assistants as a daily tool rather than a novelty.",
-      "I came to software from Electrical and Electronic Engineering, which is probably why I like systems more than screens. Away from the keyboard you will find me running or at the gym — same principle as the work: consistency beats intensity."
+      "I am a software engineer who is passionate about creating elegant, efficient, and user-friendly web applications. With over 5 years of experience in the industry, I have developed a strong foundation in various programming languages, frameworks, and tools. Angular is my main subject in enterprise work; React and Next.js are what I use for my freelance clients.",
+      "I've always loved computers and tinkering with them, which led me to discover my passion for programming and coding. Despite studying Electrical and Electronic Engineering, I never lost sight of this passion and decided to pursue a career in software engineering to combine my academic background with my creative and technical interests.",
+      "When I'm not coding, you'll likely find me out on a run or hitting the gym. I believe that regular exercise is not only essential for physical health, but also for mental clarity, stress relief, and overall well-being."
     ],
     "stats": [
       {
