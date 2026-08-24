@@ -13,7 +13,7 @@ $sidebar-width: 70mm;
 
 @mixin layout {
   html {
-    font-size: 13px;
+    font-size: 13.4px;
   }
 
   body {
@@ -131,7 +131,7 @@ $sidebar-width: 70mm;
 
   .tech-skills-section ul li {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     margin-bottom: 0.3rem;
     padding: 0;
   }
