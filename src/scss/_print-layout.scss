@@ -6,14 +6,14 @@
 // - main.scss includes it inside @media print (Ctrl+P on the online page)
 //
 // Design reference is the original 950px print sheet; A4 at 96dpi is 794px wide,
-// so the rem base is scaled by 794/950 (16px -> 13.4px) and all rem values keep
-// their original meaning at true 210mm width. No browser shrink-to-fit involved.
+// so the rem base is scaled from the 950px reference (16px -> 13px, a little
+// under 794/950) so the sheet holds on one page on any renderer. No shrink-to-fit.
 
 $sidebar-width: 70mm;
 
 @mixin layout {
   html {
-    font-size: 13.4px;
+    font-size: 13px;
   }
 
   body {

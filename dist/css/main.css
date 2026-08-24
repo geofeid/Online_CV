@@ -772,7 +772,7 @@ body {
 
 @media print {
   html {
-    font-size: 13.4px;
+    font-size: 13px;
   }
   body {
     font-size: 0.75rem;
