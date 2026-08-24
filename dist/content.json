@@ -1301,44 +1301,51 @@
         "slug": "panousos-boats",
         "type": "freelance",
         "year": "2026",
-        "description": "Booking site for a licence-free boat rental business on Salamina, with a passcode-protected route guide app behind it for customers who have booked.",
+        "description": "A sea guide for a licence-free boat rental business on Salamina: an interactive chart with points of interest and coastal safety zones, installable on a phone and gated behind an owner-issued code.",
         "tech": [
           "Next.js",
-          "React",
+          "TypeScript",
+          "Mapbox GL",
+          "Postgres",
+          "Drizzle ORM",
+          "Tailwind CSS",
           "PWA"
         ],
         "image": "shots/panousos.png",
         "github": null,
         "live": "https://panousos-boats.com/",
         "highlights": [
-          "Single-page booking site in Greek: destinations around the island, the fleet, the story and direct contact.",
-          "Six named destinations presented as a carousel, so customers can picture the trip before they book.",
-          "A separate installable route guide app, gated behind a passcode, for customers who have taken a boat out.",
-          "Built as a PWA so the guide can be added to a phone's home screen."
+          "An interactive chart of the island with points of interest and marked starting points, all managed by the owner from an admin panel.",
+          "A permanent coastal safety band drawn 200 metres out from the shoreline, always on rather than a layer someone has to remember to enable.",
+          "Customer access through an entry code the owner can change at any time, without a developer in the loop.",
+          "Installable as a progressive web app, so the guide is on the phone before the boat leaves the dock.",
+          "Map styles trimmed to the ones customers actually use, after the extra options proved to be noise on a small screen."
         ],
         "caseStudy": {
           "facts": {
-            "team": "Freelance engagement",
+            "team": "Solo",
             "status": "Live"
           },
-          "headline": "A booking site for licence-free boat rentals, with a private installable route guide for customers once they are on the water.",
-          "context": "The business rents small boats that need no licence, on Salamina. Customers are day trippers who want to know where they can actually go before they commit, and then need guidance once they are out at sea.",
-          "goal": "Convert visitors into bookings with the destinations doing the selling, and give paying customers something useful on the water afterwards.",
-          "role": "Freelance engagement: built and delivered the site and the guide.",
+          "headline": "A guide that has to work on a phone, in sunlight, on the water — where the nearest support is back at the dock.",
+          "context": "The business rents small boats that need no licence, on Salamina. The customers are day trippers, often first-timers, and once they are out at sea nobody is there to answer questions about where they can go or which waters to stay out of.",
+          "goal": "Give paying customers a guide they can trust on the water, and give the owner full control of what it shows without needing a developer.",
+          "role": "Freelance engagement: designed and built the application and its admin panel.",
           "challenges": [
-            "The product is a day out, not a boat, so the site had to sell places rather than specifications.",
-            "The route guide is for customers only, which means a gate that is simple enough for a holidaymaker on a phone at the dock.",
-            "Guidance is consumed at sea, where connectivity is unreliable — hence an installable app rather than a web page to load on the spot."
+            "The guide is used at sea on a phone, where connectivity is unreliable and nobody is going to load a web page mid-trip.",
+            "Safety information cannot depend on the customer switching a layer on — it has to be visible whether or not anyone looks for it.",
+            "The owner runs the business alone, so changing a point of interest or the access code cannot require a developer.",
+            "Everything competes for a small screen in bright light, which turned out to mean removing features rather than adding them."
           ],
           "approach": [
-            "Single-page booking site in Greek: destinations around the island, the fleet, the story and direct contact.",
-            "Six named destinations presented as a carousel, so customers can picture the trip before they book.",
-            "A separate installable route guide app, gated behind a passcode, for customers who have taken a boat out.",
-            "Built as a PWA so the guide can be added to a phone's home screen."
+            "An interactive chart of the island with points of interest and marked starting points, all managed by the owner from an admin panel.",
+            "A permanent coastal safety band drawn 200 metres out from the shoreline, always on rather than a layer someone has to remember to enable.",
+            "Customer access through an entry code the owner can change at any time, without a developer in the loop.",
+            "Installable as a progressive web app, so the guide is on the phone before the boat leaves the dock.",
+            "Map styles trimmed to the ones customers actually use, after the extra options proved to be noise on a small screen."
           ],
           "results": [
-            "The booking site is live in Greek, with destinations, fleet and direct contact including phone and a booking call to action.",
-            "The route guide ships as an installable PWA behind a passcode, separate from the public site."
+            "Live, with the owner managing points of interest, starting points and the customer access code from the admin panel.",
+            "The coastal safety band is permanent, so the boundary is on the map whether or not the customer thinks to look for it."
           ]
         }
       },
