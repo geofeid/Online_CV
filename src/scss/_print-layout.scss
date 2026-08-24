@@ -53,7 +53,7 @@ $sidebar-width: 70mm;
 
   .profile {
     text-align: center;
-    margin-bottom: 1.2rem;
+    margin-bottom: 0.9rem;
     border-bottom: none;
   }
 
@@ -236,7 +236,7 @@ $sidebar-width: 70mm;
     border-left: 2px solid map.get(variables.$colors, secondary);
     padding-left: 0.75rem;
     position: relative;
-    padding-bottom: 0.8rem;
+    padding-bottom: 0.6rem;
 
     p {
       font-size: 0.75rem;
@@ -362,7 +362,7 @@ $sidebar-width: 70mm;
   .tl-content {
     border-left: 2px solid map.get(variables.$colors, secondary) !important;
     padding-left: 0.75rem !important;
-    padding-bottom: 0.8rem !important;
+    padding-bottom: 0.6rem !important;
 
     p {
       font-size: 0.75rem !important;

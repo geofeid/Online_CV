@@ -806,7 +806,7 @@ body {
   }
   .profile {
     text-align: center;
-    margin-bottom: 1.2rem;
+    margin-bottom: 0.9rem;
     border-bottom: none;
   }
   .image img {
@@ -991,7 +991,7 @@ body {
     border-left: 2px solid #ccc;
     padding-left: 0.75rem;
     position: relative;
-    padding-bottom: 0.8rem;
+    padding-bottom: 0.6rem;
   }
   .tl-content p {
     font-size: 0.75rem;
@@ -1108,7 +1108,7 @@ body {
   .tl-content {
     border-left: 2px solid #ccc !important;
     padding-left: 0.75rem !important;
-    padding-bottom: 0.8rem !important;
+    padding-bottom: 0.6rem !important;
   }
   .tl-content p {
     font-size: 0.75rem !important;
