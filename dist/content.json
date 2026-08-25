@@ -1356,47 +1356,58 @@
         "name": "Habitly",
         "slug": "habitly",
         "type": "freelance",
-        "year": "2025 - 2026",
+        "year": "2026",
         "inDevelopment": true,
-        "description": "A Greek subscription platform that turns a 33-step onboarding quiz into a personalised meal plan with macros, plus an AI assistant for day-to-day questions.",
+        "description": "A Greek-language AI nutrition and habit coaching product: a personalised meal plan with macros, photo-based food logging and an assistant, built so the model never owns the numbers.",
         "tech": [
           "React",
           "Vite",
+          "TypeScript",
           "Supabase",
-          "Radix UI",
+          "Stripe",
           "TanStack Query",
-          "PWA"
+          "Tailwind CSS",
+          "Radix UI",
+          "Zod"
         ],
         "image": "shots/habitly.png",
         "github": null,
         "live": null,
         "highlights": [
-          "A 33-step onboarding quiz covering goals, schedule, preferences and restrictions, positioned as under two minutes to start.",
-          "Generated meal plans with per-meal protein, carbohydrate and fat breakdowns across a seven-day structure.",
-          "An AI assistant for nutrition questions, alongside a dashboard, the plan view and subscription checkout.",
-          "Built as an installable PWA on React and Supabase, with routes split per page."
+          "Nine AI specialists behind one product — intake, macros, meal planning, plan finalising, a health advisor, a photo-based food recogniser, a progress tracker and a chat companion — each with a strict input and output schema.",
+          "A hard boundary between the model and the truth: AI drafts blueprints and recipes, while the numbers and safety rules come from a deterministic catalogue compiled from a source ledger.",
+          "Shared memory derived only from real events in the app; assistant output is never treated as evidence about the user.",
+          "Validators that check without mutating, and a repair step that runs before anything is regenerated — so a bad plan is corrected rather than rerolled.",
+          "Subscriptions, admin operations, privacy requests and model-usage accounting all run as server-side functions rather than in the client."
         ],
         "caseStudy": {
           "facts": {
             "team": "Freelance engagement",
             "status": "In development"
           },
-          "headline": "A personalised nutrition platform: a quiz becomes a meal plan with macros, with an AI assistant attached.",
-          "context": "Off-the-shelf diet plans ignore the shape of someone's day. The product asks about goals, schedule and restrictions first, then produces a plan that fits around them.",
-          "goal": "Take a person from a free quiz to a personalised, macro-aware plan quickly enough that they do not abandon the process.",
-          "role": "Freelance engagement: building the platform.",
+          "headline": "The AI writes the meal plan. It never owns the numbers — those come from a compiled catalogue, because a wrong macro is a health claim, not a typo.",
+          "context": "A nutrition and habit product for the Greek market: an onboarding questionnaire turns into a personalised plan with macros, meals and daily habits, with photo-based food logging and an assistant for day-to-day questions.",
+          "goal": "Make a personal plan feel generated for you, while keeping every number and safety rule out of the model's hands.",
+          "role": "Freelance engagement: built the product and its agent architecture.",
           "challenges": [
-            "A 33-step quiz is a lot to ask before anyone has seen value, so the flow has to stay light and show progress throughout.",
-            "Generated plans have to respect restrictions and preferences exactly — a plan that ignores an allergy is worse than no plan.",
-            "Nutrition data is personal, so storage and access rules carry real weight."
+            "Nutrition figures carry real consequences, so anything a language model produces has to be treated as a draft rather than a fact.",
+            "A plan that fails validation is worse than useless if the fix is to generate a new one — the user loses what they already agreed to.",
+            "Photo-based food logging arrives as whatever the phone produces, including formats a browser will not decode on its own.",
+            "Several specialists contribute to one plan, so context has to be scoped per stage or the whole history leaks into every call.",
+            "Subscriptions, privacy requests and model costs all need to be auditable, which rules out doing them in the client."
           ],
           "approach": [
-            "A 33-step onboarding quiz covering goals, schedule, preferences and restrictions, positioned as under two minutes to start.",
-            "Generated meal plans with per-meal protein, carbohydrate and fat breakdowns across a seven-day structure.",
-            "An AI assistant for nutrition questions, alongside a dashboard, the plan view and subscription checkout.",
-            "Built as an installable PWA on React and Supabase, with routes split per page."
+            "Nine AI specialists behind one product — intake, macros, meal planning, plan finalising, a health advisor, a photo-based food recogniser, a progress tracker and a chat companion — each with a strict input and output schema.",
+            "A hard boundary between the model and the truth: AI drafts blueprints and recipes, while the numbers and safety rules come from a deterministic catalogue compiled from a source ledger.",
+            "Shared memory derived only from real events in the app; assistant output is never treated as evidence about the user.",
+            "Validators that check without mutating, and a repair step that runs before anything is regenerated — so a bad plan is corrected rather than rerolled.",
+            "Subscriptions, admin operations, privacy requests and model-usage accounting all run as server-side functions rather than in the client."
           ],
-          "results": []
+          "results": [
+            "Nine specialists and their deterministic stage handlers in place, each with a schema at its boundary.",
+            "A compiled nutrition catalogue is deployed and active, separating numeric truth from generated content.",
+            "1,659 commits between February and August 2026, with 283 database migrations and 71 server-side functions."
+          ]
         }
       },
       {
