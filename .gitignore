@@ -2,3 +2,5 @@ node_modules/
 src/html/preview.html
 src/html/.preview-reload.txt
 src/html/css/
+src/html/fonts/
+dist/*.pdf

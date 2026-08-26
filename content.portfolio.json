@@ -59,6 +59,26 @@
       "category": "frontend"
     },
     {
+      "name": "Angular Signals",
+      "percent": "90%",
+      "category": "frontend"
+    },
+    {
+      "name": "Angular CLI",
+      "percent": "90%",
+      "category": "frontend"
+    },
+    {
+      "name": "Responsive Web Design",
+      "percent": "90%",
+      "category": "frontend"
+    },
+    {
+      "name": "CSS Flexbox",
+      "percent": "90%",
+      "category": "frontend"
+    },
+    {
       "name": "javascript",
       "percent": "85%",
       "category": "frontend"
@@ -69,44 +89,29 @@
       "category": "frontend"
     },
     {
-      "name": "Git",
-      "percent": "85%",
-      "category": "devops"
-    },
-    {
-      "name": "Prompt Engineering",
-      "percent": "85%",
-      "category": "ai"
-    },
-    {
-      "name": "Claude Code",
-      "percent": "85%",
-      "category": "ai"
-    },
-    {
       "name": "RxJS",
       "percent": "85%",
       "category": "frontend"
     },
     {
-      "name": "Professional communication",
+      "name": "CSS Grid Layout",
       "percent": "85%",
-      "category": "soft"
+      "category": "frontend"
     },
     {
-      "name": "Problem solving",
+      "name": "Document Object Model (DOM)",
       "percent": "85%",
-      "category": "soft"
+      "category": "frontend"
     },
     {
-      "name": "Attention to detail",
+      "name": "Chrome DevTools",
       "percent": "85%",
-      "category": "soft"
+      "category": "frontend"
     },
     {
-      "name": "Work ethic",
+      "name": "State Management",
       "percent": "85%",
-      "category": "soft"
+      "category": "frontend"
     },
     {
       "name": "SCSS",
@@ -117,31 +122,6 @@
       "name": "LESS",
       "percent": "80%",
       "category": "frontend"
-    },
-    {
-      "name": "Adaptability",
-      "percent": "80%",
-      "category": "soft"
-    },
-    {
-      "name": "Team leadership",
-      "percent": "80%",
-      "category": "soft"
-    },
-    {
-      "name": "Stakeholder collaboration",
-      "percent": "80%",
-      "category": "soft"
-    },
-    {
-      "name": "Remote collaboration",
-      "percent": "80%",
-      "category": "soft"
-    },
-    {
-      "name": "Docker",
-      "percent": "75%",
-      "category": "devops"
     },
     {
       "name": "React JS",
@@ -164,46 +144,6 @@
       "category": "frontend"
     },
     {
-      "name": "Vibe coding",
-      "percent": "75%",
-      "category": "ai"
-    },
-    {
-      "name": "Rapid prototyping",
-      "percent": "75%",
-      "category": "ai"
-    },
-    {
-      "name": "Time management",
-      "percent": "75%",
-      "category": "soft"
-    },
-    {
-      "name": "Mentoring",
-      "percent": "75%",
-      "category": "soft"
-    },
-    {
-      "name": "Node.JS",
-      "percent": "70%",
-      "category": "backend"
-    },
-    {
-      "name": "Rest Apis",
-      "percent": "70%",
-      "category": "backend"
-    },
-    {
-      "name": "Jenkins",
-      "percent": "70%",
-      "category": "devops"
-    },
-    {
-      "name": "CI/CD Pipelines",
-      "percent": "70%",
-      "category": "devops"
-    },
-    {
       "name": "React Router",
       "percent": "70%",
       "category": "frontend"
@@ -214,39 +154,9 @@
       "category": "frontend"
     },
     {
-      "name": "Vercel",
-      "percent": "70%",
-      "category": "devops"
-    },
-    {
-      "name": "AI output validation",
-      "percent": "70%",
-      "category": "ai"
-    },
-    {
       "name": "PrimeNG",
       "percent": "70%",
       "category": "frontend"
-    },
-    {
-      "name": "Negotiation & influence",
-      "percent": "70%",
-      "category": "soft"
-    },
-    {
-      "name": "SQL",
-      "percent": "65%",
-      "category": "backend"
-    },
-    {
-      "name": "Azure DevOps",
-      "percent": "65%",
-      "category": "devops"
-    },
-    {
-      "name": "Docker Compose",
-      "percent": "65%",
-      "category": "devops"
     },
     {
       "name": "TanStack Query",
@@ -259,6 +169,36 @@
       "category": "frontend"
     },
     {
+      "name": "AngularJS",
+      "percent": "65%",
+      "category": "frontend"
+    },
+    {
+      "name": "Figma",
+      "percent": "40%",
+      "category": "frontend"
+    },
+    {
+      "name": "Node.JS",
+      "percent": "70%",
+      "category": "backend"
+    },
+    {
+      "name": "Rest Apis",
+      "percent": "70%",
+      "category": "backend"
+    },
+    {
+      "name": "Node Express",
+      "percent": "70%",
+      "category": "backend"
+    },
+    {
+      "name": "SQL",
+      "percent": "65%",
+      "category": "backend"
+    },
+    {
       "name": "Supabase",
       "percent": "65%",
       "category": "backend"
@@ -269,9 +209,194 @@
       "category": "backend"
     },
     {
+      "name": "Stripe",
+      "percent": "60%",
+      "category": "backend"
+    },
+    {
+      "name": "Clerk",
+      "percent": "60%",
+      "category": "backend"
+    },
+    {
+      "name": "Drizzle ORM",
+      "percent": "60%",
+      "category": "backend"
+    },
+    {
+      "name": ".NET BFF",
+      "percent": "55%",
+      "category": "backend"
+    },
+    {
+      "name": "C#",
+      "percent": "50%",
+      "category": "backend"
+    },
+    {
+      "name": "MVC / Factory",
+      "percent": "40%",
+      "category": "backend"
+    },
+    {
+      "name": "PHP",
+      "percent": "35%",
+      "category": "backend"
+    },
+    {
+      "name": "Git",
+      "percent": "85%",
+      "category": "devops"
+    },
+    {
+      "name": "Docker",
+      "percent": "75%",
+      "category": "devops"
+    },
+    {
+      "name": "DevOps",
+      "percent": "75%",
+      "category": "devops"
+    },
+    {
+      "name": "Containerization",
+      "percent": "75%",
+      "category": "devops"
+    },
+    {
+      "name": "Jenkins",
+      "percent": "70%",
+      "category": "devops"
+    },
+    {
+      "name": "CI/CD Pipelines",
+      "percent": "70%",
+      "category": "devops"
+    },
+    {
+      "name": "Vercel",
+      "percent": "70%",
+      "category": "devops"
+    },
+    {
+      "name": "Automation Scripting",
+      "percent": "70%",
+      "category": "devops"
+    },
+    {
+      "name": "Azure DevOps",
+      "percent": "65%",
+      "category": "devops"
+    },
+    {
+      "name": "Docker Compose",
+      "percent": "65%",
+      "category": "devops"
+    },
+    {
       "name": "Vite",
       "percent": "65%",
       "category": "devops"
+    },
+    {
+      "name": "Security in CI/CD Pipelines",
+      "percent": "65%",
+      "category": "devops"
+    },
+    {
+      "name": "NPM / NVM",
+      "percent": "60%",
+      "category": "devops"
+    },
+    {
+      "name": "GitHub Actions",
+      "percent": "60%",
+      "category": "devops"
+    },
+    {
+      "name": "Bash / Shell",
+      "percent": "60%",
+      "category": "devops"
+    },
+    {
+      "name": "Microservices Architecture",
+      "percent": "60%",
+      "category": "devops"
+    },
+    {
+      "name": "Cloudflare R2",
+      "percent": "55%",
+      "category": "devops"
+    },
+    {
+      "name": "Orchestration & Scaling",
+      "percent": "55%",
+      "category": "devops"
+    },
+    {
+      "name": "Kubernetes",
+      "percent": "45%",
+      "category": "devops"
+    },
+    {
+      "name": "Payload CMS",
+      "percent": "55%",
+      "category": "cms"
+    },
+    {
+      "name": "WordPress REST API",
+      "percent": "55%",
+      "category": "cms"
+    },
+    {
+      "name": "Kentico",
+      "percent": "50%",
+      "category": "cms"
+    },
+    {
+      "name": "Storyblok",
+      "percent": "50%",
+      "category": "cms"
+    },
+    {
+      "name": "Directus",
+      "percent": "50%",
+      "category": "cms"
+    },
+    {
+      "name": "GrandNode",
+      "percent": "45%",
+      "category": "cms"
+    },
+    {
+      "name": "Prompt Engineering",
+      "percent": "85%",
+      "category": "ai"
+    },
+    {
+      "name": "Claude Code",
+      "percent": "85%",
+      "category": "ai"
+    },
+    {
+      "name": "Artificial Intelligence (AI)",
+      "percent": "85%",
+      "category": "ai"
+    },
+    {
+      "name": "Vibe coding",
+      "percent": "75%",
+      "category": "ai"
+    },
+    {
+      "name": "Rapid prototyping",
+      "percent": "75%",
+      "category": "ai"
+    },
+    {
+      "name": "AI output validation",
+      "percent": "70%",
+      "category": "ai"
     },
     {
       "name": "AI agents",
@@ -299,49 +424,9 @@
       "category": "ai"
     },
     {
-      "name": "NPM / NVM",
-      "percent": "60%",
-      "category": "devops"
-    },
-    {
-      "name": "GitHub Actions",
-      "percent": "60%",
-      "category": "devops"
-    },
-    {
-      "name": "Bash / Shell",
-      "percent": "60%",
-      "category": "devops"
-    },
-    {
-      "name": "Stripe",
-      "percent": "60%",
-      "category": "backend"
-    },
-    {
-      "name": "Clerk",
-      "percent": "60%",
-      "category": "backend"
-    },
-    {
-      "name": "Drizzle ORM",
-      "percent": "60%",
-      "category": "backend"
-    },
-    {
       "name": "Lovable",
       "percent": "60%",
       "category": "ai"
-    },
-    {
-      "name": "Cloudflare R2",
-      "percent": "55%",
-      "category": "devops"
-    },
-    {
-      "name": "Payload CMS",
-      "percent": "55%",
-      "category": "cms"
     },
     {
       "name": "MCP",
@@ -352,11 +437,6 @@
       "name": "Real-time voice AI",
       "percent": "55%",
       "category": "ai"
-    },
-    {
-      "name": "WordPress REST API",
-      "percent": "55%",
-      "category": "cms"
     },
     {
       "name": "Bolt",
@@ -374,31 +454,6 @@
       "category": "ai"
     },
     {
-      "name": ".NET BFF",
-      "percent": "55%",
-      "category": "backend"
-    },
-    {
-      "name": "C#",
-      "percent": "50%",
-      "category": "backend"
-    },
-    {
-      "name": "Kentico",
-      "percent": "50%",
-      "category": "cms"
-    },
-    {
-      "name": "Storyblok",
-      "percent": "50%",
-      "category": "cms"
-    },
-    {
-      "name": "Directus",
-      "percent": "50%",
-      "category": "cms"
-    },
-    {
       "name": "RAG",
       "percent": "50%",
       "category": "ai"
@@ -414,34 +469,124 @@
       "category": "ai"
     },
     {
-      "name": "Kubernetes",
-      "percent": "45%",
-      "category": "devops"
-    },
-    {
-      "name": "GrandNode",
-      "percent": "45%",
-      "category": "cms"
-    },
-    {
       "name": "Base44",
       "percent": "45%",
       "category": "ai"
     },
     {
-      "name": "MVC / Factory",
-      "percent": "40%",
-      "category": "backend"
+      "name": "Technical SEO",
+      "percent": "70%",
+      "category": "growth"
     },
     {
-      "name": "Figma",
-      "percent": "40%",
-      "category": "frontend"
+      "name": "Conversion optimization",
+      "percent": "65%",
+      "category": "growth"
     },
     {
-      "name": "PHP",
-      "percent": "35%",
-      "category": "backend"
+      "name": "Funnel optimization",
+      "percent": "65%",
+      "category": "growth"
+    },
+    {
+      "name": "Schema markup",
+      "percent": "65%",
+      "category": "growth"
+    },
+    {
+      "name": "Professional communication",
+      "percent": "85%",
+      "category": "soft"
+    },
+    {
+      "name": "Problem solving",
+      "percent": "85%",
+      "category": "soft"
+    },
+    {
+      "name": "Attention to detail",
+      "percent": "85%",
+      "category": "soft"
+    },
+    {
+      "name": "Work ethic",
+      "percent": "85%",
+      "category": "soft"
+    },
+    {
+      "name": "Teamwork",
+      "percent": "85%",
+      "category": "soft"
+    },
+    {
+      "name": "Code Review",
+      "percent": "85%",
+      "category": "soft"
+    },
+    {
+      "name": "Learning Agility",
+      "percent": "85%",
+      "category": "soft"
+    },
+    {
+      "name": "Adaptability",
+      "percent": "80%",
+      "category": "soft"
+    },
+    {
+      "name": "Team leadership",
+      "percent": "80%",
+      "category": "soft"
+    },
+    {
+      "name": "Stakeholder collaboration",
+      "percent": "80%",
+      "category": "soft"
+    },
+    {
+      "name": "Remote collaboration",
+      "percent": "80%",
+      "category": "soft"
+    },
+    {
+      "name": "Creativity",
+      "percent": "80%",
+      "category": "soft"
+    },
+    {
+      "name": "Time management",
+      "percent": "75%",
+      "category": "soft"
+    },
+    {
+      "name": "Mentoring",
+      "percent": "75%",
+      "category": "soft"
+    },
+    {
+      "name": "Emotional intelligence",
+      "percent": "75%",
+      "category": "soft"
+    },
+    {
+      "name": "Negotiation & influence",
+      "percent": "70%",
+      "category": "soft"
+    },
+    {
+      "name": "Conflict mitigation",
+      "percent": "70%",
+      "category": "soft"
+    },
+    {
+      "name": "Project management",
+      "percent": "70%",
+      "category": "soft"
+    },
+    {
+      "name": "Public speaking",
+      "percent": "65%",
+      "category": "soft"
     }
   ],
   "timeline": [

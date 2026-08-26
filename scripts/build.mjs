@@ -333,6 +333,8 @@ export async function build({ pdf = false } = {}) {
   fs.writeFileSync(path.join(srcHtml, "preview.html"), addPreviewLiveReloadScript(onlineHtml));
   fs.writeFileSync(path.join(srcHtml, ".preview-reload.txt"), String(Date.now()));
   fs.copyFileSync(path.join(cssDist, "main.css"), path.join(srcHtmlCss, "main.css"));
+  // preview.html loads that copy, so it needs the fonts at the same ../fonts/ offset.
+  fs.cpSync(path.join(root, "src", "fonts"), path.join(srcHtml, "fonts"), { recursive: true });
 
   console.log("Copying assets...");
   for (const entry of fs.readdirSync(srcHtml, { withFileTypes: true })) {
@@ -340,6 +342,9 @@ export async function build({ pdf = false } = {}) {
       fs.copyFileSync(path.join(srcHtml, entry.name), path.join(dist, entry.name));
     }
   }
+  // Self-hosted Poppins: the headless Chrome that renders the PDF has no network,
+  // so these must ship with the sheet or it falls back to Helvetica and reflows.
+  fs.cpSync(path.join(root, "src", "fonts"), path.join(dist, "fonts"), { recursive: true });
 
   // Ecosystem outputs: shared design tokens + superset content consumed by the portfolio app.
   console.log("Writing content.json + tokens.css...");
