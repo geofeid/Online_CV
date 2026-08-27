@@ -70,6 +70,112 @@
   src: url(../fonts/poppins-600-latin.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+@font-face {
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url(../fonts/fa-solid-900.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(../fonts/fa-regular-400.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Font Awesome 6 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(../fonts/fa-brands-400.woff2) format("woff2");
+}
+.fa-solid,
+.fas,
+.fa-regular,
+.far,
+.fa-brands,
+.fab {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+}
+
+.fa-solid,
+.fas {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
+
+.fa-regular,
+.far {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 400;
+}
+
+.fa-brands,
+.fab {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+}
+
+.fa-phone::before {
+  content: "\f095";
+}
+
+.fa-envelope::before {
+  content: "\f0e0";
+}
+
+.fa-linkedin::before {
+  content: "\f08c";
+}
+
+.fa-github::before {
+  content: "\f09b";
+}
+
+.fa-globe::before {
+  content: "\f0ac";
+}
+
+.fa-file::before {
+  content: "\f15b";
+}
+
+.fa-location-dot::before {
+  content: "\f3c5";
+}
+
+.fa-person-walking::before {
+  content: "\f554";
+}
+
+.fa-plane::before {
+  content: "\f072";
+}
+
+.fa-magnifying-glass::before {
+  content: "\f002";
+}
+
+.fa-hands-praying::before {
+  content: "\f684";
+}
+
+.fa-book-open-reader::before {
+  content: "\f5da";
+}
+
+.fa-handshake::before {
+  content: "\f2b5";
+}
+
 * {
   padding: 0;
   margin: 0;

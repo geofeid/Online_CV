@@ -1,0 +1,75 @@
+// Font Awesome 6.7.2, self-hosted for the same reason as Poppins: the headless
+// Chrome that renders the PDF has no network, so a CDN link renders the icons as
+// empty boxes locally while CI gets the real ones. Only the thirteen glyphs the
+// sheet actually uses are declared.
+
+@font-face {
+  font-family: 'Font Awesome 6 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url(../fonts/fa-solid-900.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Font Awesome 6 Free';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(../fonts/fa-regular-400.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Font Awesome 6 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(../fonts/fa-brands-400.woff2) format('woff2');
+}
+
+.fa-solid,
+.fas,
+.fa-regular,
+.far,
+.fa-brands,
+.fab {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+}
+
+.fa-solid,
+.fas {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+}
+
+.fa-regular,
+.far {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+
+.fa-brands,
+.fab {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+
+.fa-phone::before { content: "\f095"; }  // solid
+.fa-envelope::before { content: "\f0e0"; }  // regular
+.fa-linkedin::before { content: "\f08c"; }  // brands
+.fa-github::before { content: "\f09b"; }  // brands
+.fa-globe::before { content: "\f0ac"; }  // solid
+.fa-file::before { content: "\f15b"; }  // solid
+.fa-location-dot::before { content: "\f3c5"; }  // solid
+.fa-person-walking::before { content: "\f554"; }  // solid
+.fa-plane::before { content: "\f072"; }  // solid
+.fa-magnifying-glass::before { content: "\f002"; }  // solid
+.fa-hands-praying::before { content: "\f684"; }  // solid
+.fa-book-open-reader::before { content: "\f5da"; }  // solid
+.fa-handshake::before { content: "\f2b5"; }  // solid
