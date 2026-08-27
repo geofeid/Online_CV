@@ -654,13 +654,13 @@ body {
 .progress-bar .ang2-progress {
   width: 90%;
 }
-.progress-bar .html_css-progress {
-  width: 90%;
-}
 .progress-bar .js_ts-progress {
   width: 85%;
 }
-.progress-bar .tail_bs-progress {
+.progress-bar .html_bs-progress {
+  width: 90%;
+}
+.progress-bar .css_tail-progress {
   width: 90%;
 }
 .progress-bar .scss_less-progress {
@@ -977,13 +977,13 @@ body {
   .ang2-progress {
     width: 90%;
   }
-  .html_css-progress {
-    width: 90%;
-  }
   .js_ts-progress {
     width: 85%;
   }
-  .tail_bs-progress {
+  .html_bs-progress {
+    width: 90%;
+  }
+  .css_tail-progress {
     width: 90%;
   }
   .scss_less-progress {

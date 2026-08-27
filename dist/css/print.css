@@ -225,15 +225,15 @@ body {
   width: 90%;
 }
 
-.html_css-progress {
-  width: 90%;
-}
-
 .js_ts-progress {
   width: 85%;
 }
 
-.tail_bs-progress {
+.html_bs-progress {
+  width: 90%;
+}
+
+.css_tail-progress {
   width: 90%;
 }
 
