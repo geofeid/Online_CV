@@ -233,11 +233,7 @@ body {
   width: 85%;
 }
 
-.bs-progress {
-  width: 90%;
-}
-
-.tail-progress {
+.tail_bs-progress {
   width: 90%;
 }
 
@@ -266,6 +262,10 @@ body {
 }
 
 .prompt-progress {
+  width: 85%;
+}
+
+.agents-progress {
   width: 60%;
 }
 
