@@ -651,14 +651,14 @@ body {
   }
 }
 
+.progress-bar .ang2-progress {
+  width: 90%;
+}
 .progress-bar .html_css-progress {
   width: 90%;
 }
 .progress-bar .js_ts-progress {
   width: 85%;
-}
-.progress-bar .ang2-progress {
-  width: 90%;
 }
 .progress-bar .bs-progress {
   width: 90%;
@@ -675,11 +675,17 @@ body {
 .progress-bar .rest-progress {
   width: 70%;
 }
-.progress-bar .az_jen-progress {
-  width: 60%;
+.progress-bar .azdo-progress {
+  width: 65%;
+}
+.progress-bar .docker_jen-progress {
+  width: 70%;
 }
 .progress-bar .be-progress {
   width: 50%;
+}
+.progress-bar .prompt-progress {
+  width: 60%;
 }
 
 .skill-title {
@@ -968,14 +974,14 @@ body {
     background-color: #2D9CDB;
     border-radius: 3px;
   }
+  .ang2-progress {
+    width: 90%;
+  }
   .html_css-progress {
     width: 90%;
   }
   .js_ts-progress {
     width: 85%;
-  }
-  .ang2-progress {
-    width: 90%;
   }
   .bs-progress {
     width: 90%;
@@ -992,11 +998,17 @@ body {
   .rest-progress {
     width: 70%;
   }
-  .az_jen-progress {
-    width: 60%;
+  .azdo-progress {
+    width: 65%;
+  }
+  .docker_jen-progress {
+    width: 70%;
   }
   .be-progress {
     width: 50%;
+  }
+  .prompt-progress {
+    width: 60%;
   }
   .skill-title {
     text-transform: uppercase;

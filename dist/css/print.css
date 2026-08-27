@@ -221,16 +221,16 @@ body {
   border-radius: 3px;
 }
 
+.ang2-progress {
+  width: 90%;
+}
+
 .html_css-progress {
   width: 90%;
 }
 
 .js_ts-progress {
   width: 85%;
-}
-
-.ang2-progress {
-  width: 90%;
 }
 
 .bs-progress {
@@ -253,12 +253,20 @@ body {
   width: 70%;
 }
 
-.az_jen-progress {
-  width: 60%;
+.azdo-progress {
+  width: 65%;
+}
+
+.docker_jen-progress {
+  width: 70%;
 }
 
 .be-progress {
   width: 50%;
+}
+
+.prompt-progress {
+  width: 60%;
 }
 
 .skill-title {

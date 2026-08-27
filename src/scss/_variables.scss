@@ -53,16 +53,18 @@ $breakpoints: (
 
 // Progress bar widths
 $progress-widths: (
+  ang2: 90%,
   html_css: 90%,
   js_ts: 85%,
-  ang2: 90%,
   bs: 90%,
   tail: 90%,
   scss_less: 80%,
   node: 70%,
   rest: 70%,
-  az_jen: 60%,
-  be: 50%
+  azdo: 65%,
+  docker_jen: 70%,
+  be: 50%,
+  prompt: 60%
 );
 
 // Right title after widths
