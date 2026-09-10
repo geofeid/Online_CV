@@ -42,23 +42,30 @@ Online_CV/dist/
 
 ## 2. Current state per repo
 
-All four are clean and pushed **except one commit**:
+*Updated 2026-09-10.* All four are clean and pushed.
 
 ```
-Online_CV       d276931  clean, pushed
+Online_CV       6cf0fd0  clean, pushed
 portfolio-v2    aa6def5  clean, pushed
-digiminds-next  9e9f07b  clean, ONE UNPUSHED COMMIT  ← awaiting a deploy decision
+digiminds-next  aa89512  clean, pushed — master, note the branch below
 OnlineCV        f3a91e1  clean, pushed, retired
 ```
 
-### The unpushed commit
+**digiminds-next is on `master`, not `main`.** An earlier version of this file
+said `main` and was wrong.
 
-`digiminds-next 9e9f07b` — adds English, brings the real case studies in-house.
-It was deliberately not pushed: pushing triggers a Vercel deploy of the live
-business site and changes its URL structure. Push when ready:
+### The parked branch
+
+`origin/reposition-software` carries the copy rewrite that moves the site from
+website-building to software. It typechecks and builds, and is deliberately not
+merged: which of four hero candidates ships is still an open choice.
+
+**Read `digiminds-next/docs/POSITIONING.md` before touching that branch.** It
+holds the four candidates, what each gives up, the Greek market research behind
+them, and the decisions that should not be re-litigated.
 
 ```bash
-cd digiminds-next && git push origin main
+cd digiminds-next && git checkout reposition-software
 ```
 
 ---
@@ -70,6 +77,30 @@ git clone https://github.com/geofeid/Online_CV.git
 git clone https://github.com/geofeid/portfolio.git portfolio-v2
 git clone https://github.com/geofeid/digiminds-next.git
 ```
+
+### What git does NOT carry
+
+Four things live outside the repos and have to be recreated:
+
+- **`digiminds-next/.mcp.json`** — the Vercel MCP connector, kept out of the repo
+  through `.git/info/exclude`, which is itself local. Recreate with
+  `claude mcp add --scope project --transport http vercel https://mcp.vercel.com`,
+  then `claude mcp login vercel` in an interactive terminal. Its OAuth token is
+  local too. Note the connector **cannot change domain settings** — its only
+  domain tools buy domains. It is for build logs, runtime errors and analytics.
+- **`~/.claude.json`** — holds the per-project approval that lets a `.mcp.json`
+  server load at all (`enabledMcpjsonServers`).
+- **`~/.claude/projects/<project>/memory/`** — the memory files. They do not
+  leave this machine; copy them or let the handoff documents rebuild them.
+- **`.env.local`** — see below.
+
+### Read these two first
+
+- `Online_CV/HANDOFF.md` — this file: the system, the build constraints, the
+  hard-won limits.
+- `digiminds-next/docs/POSITIONING.md` — what the site says and why. The offer
+  analysis, the Greek market research, the four hero candidates, and the voice
+  rules that were settled the hard way.
 
 ### Node versions matter
 
@@ -247,6 +278,10 @@ Featured on the home page: **Panousos Boats · Habitly · Mentorly**.
 ## 7. Voice and positioning rules
 
 These were decided deliberately and reversed once already. Do not re-litigate.
+
+> **Superseded for digiminds.gr as of 2026-09-10.** The studio no longer positions
+> as a website builder. See `digiminds-next/docs/POSITIONING.md` section 8 for the
+> rules that replace these on that site. The LinkedIn and CV rules below still hold.
 
 - **Angular is the enterprise subject** everywhere. React and Next.js are the
   freelance stack. Recruiters are targeted for Angular front-end only.
