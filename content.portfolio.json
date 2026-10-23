@@ -1067,7 +1067,7 @@
           "title": "SELECTED CLIENT WORK",
           "items": [
             "Panousos Boats — a progressive web app for a boat rental business: an interactive chart with GPS guidance, points of interest and a permanent coastal safety zone, gated behind an owner-issued access code.",
-            "Mentorly — a platform where creators, coaches and consultants build and sell digital products: ebooks, courses, consultations and AI agents.",
+            "Mentorly → Duperbot — a creator platform for selling digital products, turned into an AI agent that writes the product, the sales page and the ads, then launches the offer and runs the campaigns.",
             "Habitly — a Greek AI nutrition product where the model drafts plans and recipes while a compiled catalogue owns the numbers.",
             "CoachingSeafarers — maritime coaching: a marketing site and lead funnel built around a five-day email course, with a qualification step that filters unsuitable enquiries before a call is booked.",
             "Health’s Spot, a premium culinary creator platform and a cross-border community platform — health and fitness, hospitality, and community media.",
@@ -1276,54 +1276,58 @@
       }
     },
     {
-      "name": "Mentorly",
+      "name": "Mentorly → Duperbot",
       "slug": "mentorly-platform",
       "type": "freelance",
       "year": "2025 - 2026",
-      "description": "An all-in-one platform where creators, coaches and consultants build and sell digital products — ebooks, courses, consultations, services and AI agents — from one account.",
+      "description": "Started as Mentorly, one account for creators and coaches to sell ebooks, courses and consultations. Turned into Duperbot, an AI agent that writes the product, the sales page and the ads, launches them and keeps the campaigns running.",
       "tech": [
         "React",
         "Vite",
         "TypeScript",
         "Supabase",
+        "Stripe",
         "TanStack Query",
         "React Router"
       ],
-      "image": "shots/mentorly.png",
+      "image": "shots/duperbot.png",
       "github": null,
-      "live": "https://platform.mentorly.gr/",
+      "live": "https://duperbot.com/",
       "highlights": [
-        "Six genuinely different product types behind one authoring flow: ebook, course, video course, consultation, service offer and AI agent.",
-        "AI generation from a short brief — outlines, copy and lessons — so a seller starts from a draft rather than an empty page.",
-        "Bookings that carry calendar, video call and payment in a single flow, rather than three tools stitched together.",
-        "Checkout in multiple currencies with payouts to the seller's bank, and analytics on revenue, conversion and retention.",
-        "A marketplace so sellers can be found by buyers already looking, instead of relying only on their own audience."
+        "Mentorly: six kinds of digital product, from ebooks to booked calls, sold from one account.",
+        "Duperbot: one sentence in, and the agent writes the product, the sales page with checkout and the ad creatives.",
+        "After launch it keeps working: runs the Meta ads, tests new hooks, posts content and logs every change it makes."
       ],
       "caseStudy": {
         "facts": {
           "team": "Freelance engagement",
           "status": "Live"
         },
-        "headline": "Six different businesses — an ebook, a course, a booked call, an AI agent — authored through one interface without it fragmenting into six products.",
-        "context": "Creators, coaches and consultants sell very different things, and normally need a different tool for each: one for courses, one for bookings, one for payments, one for the landing page. The platform sets out to be the single account behind all of them.",
-        "goal": "Let a seller go from an idea to a live, paid offer in one sitting, whichever kind of product they are selling.",
-        "role": "Freelance engagement: built and delivered the platform.",
+        "headline": "From tools a seller operates to an agent that works for the seller, built on the same platform instead of starting over.",
+        "context": "Creators, coaches and consultants sell very different things, and normally need a different tool for each: one for courses, one for bookings, one for payments, one for the landing page. Mentorly became the single account behind all of them. That solved the tools, not the work: the seller still had to write the product, build the page and run the ads alone.",
+        "goal": "First, let a seller go from an idea to a live, paid offer in one sitting, whichever kind of product they sell. Then, with Duperbot, take the building off their hands: the seller describes the idea in one sentence, and the agent builds the offer, launches it and keeps tuning the ads.",
+        "role": "Freelance engagement: built Mentorly, then turned it into Duperbot.",
         "challenges": [
           "Each product type needs its own authoring flow and its own delivery mechanics, while the seller has to experience one coherent product.",
           "A single-page application of this size has to split its routes and data fetching carefully, or the first load pays for the entire catalogue of features.",
           "Auth, storage and data all run through one backend, so access rules have to be right at the data layer rather than only in the interface.",
-          "AI generation has to leave the seller in control of the result, not hand them something they have to undo."
+          "AI generation has to leave the seller in control of the result, not hand them something they have to undo.",
+          "When an agent spends the seller's money on ads, every change it makes has to be visible, along with the reason for it.",
+          "Every task the agent runs costs money, so usage has to be metered and charged in a way the seller can follow.",
+          "The change happened on a product already in use: what worked could not break while the platform changed what it is."
         ],
         "approach": [
-          "Six genuinely different product types behind one authoring flow: ebook, course, video course, consultation, service offer and AI agent.",
-          "AI generation from a short brief — outlines, copy and lessons — so a seller starts from a draft rather than an empty page.",
-          "Bookings that carry calendar, video call and payment in a single flow, rather than three tools stitched together.",
-          "Checkout in multiple currencies with payouts to the seller's bank, and analytics on revenue, conversion and retention.",
-          "A marketplace so sellers can be found by buyers already looking, instead of relying only on their own audience."
+          "Mentorly: six product types behind one authoring flow (ebook, course, video course, consultation, service offer and AI agent), with AI that turns a short brief into a first draft.",
+          "Mentorly: bookings that carry calendar, video call and payment in one flow, checkout in multiple currencies with payouts to the seller's bank, and a marketplace where buyers find sellers.",
+          "Duperbot: one sentence is enough, whether it is a skill, a problem the seller can solve, existing content or a plain prompt. The agent writes and designs the product, the sales page with checkout and the first ad creatives, and the seller can edit any of it.",
+          "Duperbot: launch in one click, with the domain, Stripe checkout, Meta Pixel and email connected.",
+          "Duperbot: after launch the agent keeps working. It runs the Meta ads and moves budget to what sells, tests new hooks, posts content, emails new buyers and logs every change with its reason.",
+          "Duperbot: one plan with monthly credits that the agent spends as it works, topped up in one click."
         ],
         "results": [
-          "Live, with seller signup, product authoring, checkout and dashboards in production.",
-          "One account covers products that would otherwise need separate tools for courses, bookings, payments and the landing page."
+          "Live at duperbot.com. The Mentorly domains now redirect there.",
+          "One account still covers what would otherwise need separate tools: the product, the sales page, checkout, ads and email.",
+          "Duperbot was built on Mentorly's platform, not rewritten from scratch."
         ]
       }
     },
